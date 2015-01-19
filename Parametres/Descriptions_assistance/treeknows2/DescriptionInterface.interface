@@ -1,0 +1,1088 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Interface>
+  <fenetre id="27" type="Window" texte="Connexion" typeAjoute="fenêtre" descriptionAjoutee="la fenetre Connexion">
+    <composant id="28" type="ComboBox" texte="" typeAjoute="liste déroulante" descriptionAjoutee="la liste déroulante " />
+    <composant id="29" type="Text" texte="Pseudo :">
+      <composant id="30" type="TextBlock" texte="Pseudo :" />
+    </composant>
+    <composant id="31" type="Text" texte="Mot de passe :">
+      <composant id="32" type="TextBlock" texte="Mot de passe :" />
+    </composant>
+    <composant id="33" type="TextBox" texte="">
+      <composant id="34" type="ScrollBar" texte="" />
+      <composant id="35" type="ScrollBar" texte="" />
+    </composant>
+    <composant id="36" type="TextBox" texte="">
+      <composant id="37" type="ScrollBar" texte="" />
+      <composant id="38" type="ScrollBar" texte="" />
+    </composant>
+    <composant id="39" type="Button" texte="Se connecter" typeAjoute="bouton" descriptionAjoutee="le bouton Se connecter">
+      <composant id="40" type="Image" texte="" />
+      <composant id="41" type="TextBlock" texte="Se connecter" />
+    </composant>
+    <composant id="42" type="Button" texte="S'inscrire" typeAjoute="bouton" descriptionAjoutee="le bouton S'inscrire">
+      <composant id="43" type="Image" texte="" />
+      <composant id="44" type="TextBlock" texte="S'inscrire" />
+    </composant>
+    <composant id="45" type="Button" texte="Jouer en mode invité" typeAjoute="bouton" descriptionAjoutee="le bouton Jouer en mode invité">
+      <composant id="46" type="Image" texte="" />
+      <composant id="47" type="TextBlock" texte="Jouer en mode invité" />
+    </composant>
+    <composant id="48" type="Button" texte="Annuler" typeAjoute="bouton" descriptionAjoutee="le bouton Annuler">
+      <composant id="49" type="Image" texte="" />
+      <composant id="50" type="TextBlock" texte="Annuler" />
+    </composant>
+  </fenetre>
+  <fenetre id="2196" type="Window" texte="MainWindow" typeAjoute="fenêtre" descriptionAjoutee="la fenetre MainWindow">
+    <composant id="2197" type="Button" texte="Jeu" typeAjoute="bouton" descriptionAjoutee="le bouton Jeu">
+      <composant id="2198" type="Image" texte="" />
+      <composant id="2199" type="TextBlock" texte="Jeu" />
+    </composant>
+    <composant id="2200" type="Button" texte="Simulateur" typeAjoute="bouton" descriptionAjoutee="le bouton Simulateur">
+      <composant id="2201" type="Image" texte="" />
+      <composant id="2202" type="TextBlock" texte="Simulateur" />
+    </composant>
+    <composant id="2203" type="Button" texte="Objectifs" typeAjoute="bouton" descriptionAjoutee="le bouton Objectifs">
+      <composant id="2204" type="Image" texte="" />
+      <composant id="2205" type="TextBlock" texte="Objectifs" />
+    </composant>
+    <composant id="2206" type="Text" texte="Objectif">
+      <composant id="2207" type="TextBlock" texte="Objectif" />
+    </composant>
+    <composant id="2208" type="Button" texte="Cours2" typeAjoute="bouton" descriptionAjoutee="le bouton Cours2">
+      <composant id="2209" type="Image" texte="" />
+      <composant id="2210" type="TextBlock" texte="Cours2" />
+    </composant>
+    <composant id="2211" type="Button" texte="Sortir" typeAjoute="bouton" descriptionAjoutee="le bouton Sortir">
+      <composant id="2212" type="Image" texte="" />
+      <composant id="2213" type="TextBlock" texte="Sortir" />
+    </composant>
+    <composant id="2214" type="ComboBox" texte="" typeAjoute="liste déroulante" descriptionAjoutee="la liste déroulante " />
+    <composant id="2215" type="Button" texte="Cours1" typeAjoute="bouton" descriptionAjoutee="le bouton Cours1">
+      <composant id="2216" type="Image" texte="" />
+      <composant id="2217" type="TextBlock" texte="Cours1" />
+    </composant>
+    <composant id="2218" type="Button" texte="Cours3" typeAjoute="bouton" descriptionAjoutee="le bouton Cours3">
+      <composant id="2219" type="Image" texte="" />
+      <composant id="2220" type="TextBlock" texte="Cours3" />
+    </composant>
+    <composant id="2221" type="Button" texte="S'enregistrer" typeAjoute="bouton" descriptionAjoutee="le bouton S'enregistrer">
+      <composant id="2222" type="Image" texte="" />
+      <composant id="2223" type="TextBlock" texte="S'enregistrer" />
+    </composant>
+  </fenetre>
+  <fenetre id="3426" type="Window" texte="Simulateur" typeAjoute="fenêtre" descriptionAjoutee="la fenetre Simulateur">
+    <composant id="3427" type="Text" texte="ldonnee">
+      <composant id="3428" type="TextBlock" texte="Données" />
+    </composant>
+    <composant id="3429" type="Text" texte="lstock">
+      <composant id="3430" type="TextBlock" texte="Stocks" />
+    </composant>
+    <composant id="3431" type="Text" texte="" />
+    <composant id="3432" type="Text" texte="" />
+    <composant id="3433" type="Text" texte="" />
+    <composant id="3434" type="Text" texte="" />
+    <composant id="3435" type="Text" texte="" />
+    <composant id="3436" type="Text" texte="" />
+    <composant id="3437" type="Text" texte="" />
+    <composant id="3438" type="Text" texte="" />
+    <composant id="3439" type="Text" texte="" />
+    <composant id="3440" type="Text" texte="" />
+    <composant id="3441" type="Text" texte="" />
+    <composant id="3442" type="Text" texte="" />
+    <composant id="3443" type="Text" texte="" />
+    <composant id="3444" type="Text" texte="" />
+    <composant id="3445" type="Text" texte="" />
+    <composant id="3446" type="Text" texte="" />
+    <composant id="3447" type="Text" texte="" />
+    <composant id="3448" type="Text" texte="" />
+    <composant id="3449" type="Text" texte="" />
+    <composant id="3450" type="Text" texte="" />
+    <composant id="3451" type="Text" texte="" />
+    <composant id="3452" type="Text" texte="" />
+    <composant id="3453" type="Text" texte="" />
+    <composant id="3454" type="Text" texte="" />
+    <composant id="3455" type="Text" texte="" />
+    <composant id="3456" type="Text" texte="" />
+    <composant id="3457" type="Text" texte="" />
+    <composant id="3458" type="Text" texte="" />
+    <composant id="3459" type="Text" texte="" />
+    <composant id="3460" type="Text" texte="" />
+    <composant id="3461" type="Text" texte="" />
+    <composant id="3462" type="Text" texte="" />
+    <composant id="3463" type="Text" texte="" />
+    <composant id="3464" type="Text" texte="" />
+    <composant id="3465" type="Text" texte="" />
+    <composant id="3466" type="Text" texte="" />
+    <composant id="3467" type="Text" texte="" />
+    <composant id="3468" type="Text" texte="" />
+    <composant id="3469" type="Text" texte="" />
+    <composant id="3470" type="Text" texte="" />
+    <composant id="3471" type="Text" texte="" />
+    <composant id="3472" type="Text" texte="" />
+    <composant id="3473" type="Text" texte="" />
+    <composant id="3474" type="Text" texte="" />
+    <composant id="3475" type="Text" texte="" />
+    <composant id="3476" type="Text" texte="" />
+    <composant id="3477" type="Text" texte="" />
+    <composant id="3478" type="Text" texte="" />
+    <composant id="3479" type="Text" texte="" />
+    <composant id="3480" type="Text" texte="" />
+    <composant id="3481" type="Text" texte="" />
+    <composant id="3482" type="Text" texte="" />
+    <composant id="3483" type="Text" texte="" />
+    <composant id="3484" type="Text" texte="" />
+    <composant id="3485" type="Text" texte="" />
+    <composant id="3486" type="Text" texte="" />
+    <composant id="3487" type="Text" texte="" />
+    <composant id="3488" type="Text" texte="" />
+    <composant id="3489" type="Text" texte="" />
+    <composant id="3490" type="Text" texte="" />
+    <composant id="3491" type="Text" texte="" />
+    <composant id="3492" type="Text" texte="" />
+    <composant id="3493" type="Text" texte="" />
+    <composant id="3494" type="Text" texte="" />
+    <composant id="3495" type="Text" texte="" />
+    <composant id="3496" type="Text" texte="" />
+    <composant id="3497" type="Text" texte="" />
+    <composant id="3498" type="Text" texte="" />
+    <composant id="3499" type="Text" texte="" />
+    <composant id="3500" type="Text" texte="" />
+    <composant id="3501" type="Text" texte="" />
+    <composant id="3502" type="Text" texte="" />
+    <composant id="3503" type="Text" texte="" />
+    <composant id="3504" type="Text" texte="" />
+    <composant id="3505" type="Text" texte="" />
+    <composant id="3506" type="Text" texte="" />
+    <composant id="3507" type="Text" texte="" />
+    <composant id="3508" type="Text" texte="" />
+    <composant id="3509" type="Text" texte="" />
+    <composant id="3510" type="Text" texte="" />
+    <composant id="3511" type="Text" texte="" />
+    <composant id="3512" type="Text" texte="" />
+    <composant id="3513" type="Text" texte="" />
+    <composant id="3514" type="Text" texte="" />
+    <composant id="3515" type="Text" texte="" />
+    <composant id="3516" type="Text" texte="" />
+    <composant id="3517" type="Text" texte="" />
+    <composant id="3518" type="Text" texte="" />
+    <composant id="3519" type="Text" texte="" />
+    <composant id="3520" type="Text" texte="" />
+    <composant id="3521" type="Text" texte="" />
+    <composant id="3522" type="Text" texte="" />
+    <composant id="3523" type="Text" texte="" />
+    <composant id="3524" type="Text" texte="" />
+    <composant id="3525" type="Text" texte="" />
+    <composant id="3526" type="Text" texte="" />
+    <composant id="3527" type="Text" texte="" />
+    <composant id="3528" type="Text" texte="" />
+    <composant id="3529" type="Text" texte="" />
+    <composant id="3530" type="Text" texte="" />
+    <composant id="3531" type="Text" texte="" />
+    <composant id="3532" type="Text" texte="" />
+    <composant id="3533" type="Text" texte="" />
+    <composant id="3534" type="Text" texte="" />
+    <composant id="3535" type="Text" texte="" />
+    <composant id="3536" type="Text" texte="" />
+    <composant id="3537" type="Text" texte="" />
+    <composant id="3538" type="Text" texte="" />
+    <composant id="3539" type="Text" texte="" />
+    <composant id="3540" type="Text" texte="" />
+    <composant id="3541" type="Text" texte="" />
+    <composant id="3542" type="Text" texte="" />
+    <composant id="3543" type="Text" texte="" />
+    <composant id="3544" type="Text" texte="" />
+    <composant id="3545" type="Text" texte="" />
+    <composant id="3546" type="Text" texte="" />
+    <composant id="3547" type="Text" texte="" />
+    <composant id="3548" type="Text" texte="" />
+    <composant id="3549" type="Text" texte="" />
+    <composant id="3550" type="Text" texte="" />
+    <composant id="3551" type="Text" texte="" />
+    <composant id="3552" type="Text" texte="" />
+    <composant id="3553" type="Text" texte="" />
+    <composant id="3554" type="Text" texte="" />
+    <composant id="3555" type="Text" texte="" />
+    <composant id="3556" type="Text" texte="" />
+    <composant id="3557" type="Text" texte="" />
+    <composant id="3558" type="Text" texte="" />
+    <composant id="3559" type="Text" texte="" />
+    <composant id="3560" type="Text" texte="" />
+    <composant id="3561" type="Text" texte="connifere">
+      <composant id="3562" type="Image" texte="" />
+    </composant>
+    <composant id="3563" type="Text" texte="" />
+    <composant id="3564" type="Text" texte="" />
+    <composant id="3565" type="Text" texte="" />
+    <composant id="3566" type="Text" texte="" />
+    <composant id="3567" type="Text" texte="" />
+    <composant id="3568" type="Text" texte="" />
+    <composant id="3569" type="Text" texte="" />
+    <composant id="3570" type="Text" texte="" />
+    <composant id="3571" type="Text" texte="" />
+    <composant id="3572" type="Text" texte="" />
+    <composant id="3573" type="Text" texte="" />
+    <composant id="3574" type="Text" texte="" />
+    <composant id="3575" type="Text" texte="" />
+    <composant id="3576" type="Text" texte="" />
+    <composant id="3577" type="Text" texte="" />
+    <composant id="3578" type="Text" texte="" />
+    <composant id="3579" type="Text" texte="" />
+    <composant id="3580" type="Text" texte="" />
+    <composant id="3581" type="Text" texte="" />
+    <composant id="3582" type="Text" texte="" />
+    <composant id="3583" type="Text" texte="" />
+    <composant id="3584" type="Text" texte="" />
+    <composant id="3585" type="Text" texte="" />
+    <composant id="3586" type="Text" texte="feuillu">
+      <composant id="3587" type="Image" texte="" />
+    </composant>
+    <composant id="3588" type="Text" texte="maison">
+      <composant id="3589" type="Image" texte="" />
+    </composant>
+    <composant id="3590" type="Text" texte="sapin">
+      <composant id="3591" type="Image" texte="" />
+    </composant>
+    <composant id="3592" type="Text" texte="" />
+    <composant id="3593" type="Text" texte="" />
+    <composant id="3594" type="Text" texte="" />
+    <composant id="3595" type="Text" texte="" />
+    <composant id="3596" type="Text" texte="" />
+    <composant id="3597" type="Text" texte="" />
+    <composant id="3598" type="Text" texte="" />
+    <composant id="3599" type="Text" texte="" />
+    <composant id="3600" type="Text" texte="" />
+    <composant id="3601" type="Text" texte="" />
+    <composant id="3602" type="Text" texte="" />
+    <composant id="3603" type="Text" texte="" />
+    <composant id="3604" type="Text" texte="" />
+    <composant id="3605" type="Text" texte="" />
+    <composant id="3606" type="Text" texte="" />
+    <composant id="3607" type="Text" texte="" />
+    <composant id="3608" type="Text" texte="" />
+    <composant id="3609" type="Text" texte="" />
+    <composant id="3610" type="Text" texte="" />
+    <composant id="3611" type="Text" texte="" />
+    <composant id="3612" type="Text" texte="" />
+    <composant id="3613" type="Text" texte="" />
+    <composant id="3614" type="Text" texte="" />
+    <composant id="3615" type="Text" texte="" />
+    <composant id="3616" type="Text" texte="" />
+    <composant id="3617" type="Text" texte="" />
+    <composant id="3618" type="Text" texte="" />
+    <composant id="3619" type="Text" texte="" />
+    <composant id="3620" type="Text" texte="" />
+    <composant id="3621" type="Text" texte="" />
+    <composant id="3622" type="Text" texte="" />
+    <composant id="3623" type="Text" texte="" />
+    <composant id="3624" type="Text" texte="" />
+    <composant id="3625" type="Text" texte="" />
+    <composant id="3626" type="Text" texte="" />
+    <composant id="3627" type="Text" texte="" />
+    <composant id="3628" type="Text" texte="" />
+    <composant id="3629" type="Text" texte="" />
+    <composant id="3630" type="Text" texte="" />
+    <composant id="3631" type="Text" texte="" />
+    <composant id="3632" type="Text" texte="" />
+    <composant id="3633" type="Text" texte="" />
+    <composant id="3634" type="Text" texte="" />
+    <composant id="3635" type="Text" texte="" />
+    <composant id="3636" type="Text" texte="" />
+    <composant id="3637" type="Text" texte="" />
+    <composant id="3638" type="Text" texte="" />
+    <composant id="3639" type="Text" texte="" />
+    <composant id="3640" type="Text" texte="" />
+    <composant id="3641" type="Text" texte="" />
+    <composant id="3642" type="Text" texte="" />
+    <composant id="3643" type="Text" texte="" />
+    <composant id="3644" type="Text" texte="" />
+    <composant id="3645" type="Text" texte="" />
+    <composant id="3646" type="Text" texte="" />
+    <composant id="3647" type="Text" texte="" />
+    <composant id="3648" type="Text" texte="" />
+    <composant id="3649" type="Text" texte="" />
+    <composant id="3650" type="Text" texte="" />
+    <composant id="3651" type="Text" texte="" />
+    <composant id="3652" type="Text" texte="" />
+    <composant id="3653" type="Text" texte="" />
+    <composant id="3654" type="Text" texte="" />
+    <composant id="3655" type="Text" texte="" />
+    <composant id="3656" type="Text" texte="" />
+    <composant id="3657" type="Text" texte="" />
+    <composant id="3658" type="Text" texte="" />
+    <composant id="3659" type="Text" texte="" />
+    <composant id="3660" type="Text" texte="" />
+    <composant id="3661" type="Text" texte="" />
+    <composant id="3662" type="Text" texte="" />
+    <composant id="3663" type="Text" texte="" />
+    <composant id="3664" type="Text" texte="" />
+    <composant id="3665" type="Text" texte="" />
+    <composant id="3666" type="Text" texte="" />
+    <composant id="3667" type="Text" texte="" />
+    <composant id="3668" type="Text" texte="" />
+    <composant id="3669" type="Text" texte="" />
+    <composant id="3670" type="Text" texte="" />
+    <composant id="3671" type="Text" texte="" />
+    <composant id="3672" type="Text" texte="" />
+    <composant id="3673" type="Text" texte="" />
+    <composant id="3674" type="Text" texte="" />
+    <composant id="3675" type="Text" texte="" />
+    <composant id="3676" type="Text" texte="" />
+    <composant id="3677" type="Text" texte="" />
+    <composant id="3678" type="Text" texte="" />
+    <composant id="3679" type="Text" texte="" />
+    <composant id="3680" type="Text" texte="" />
+    <composant id="3681" type="Text" texte="" />
+    <composant id="3682" type="Text" texte="" />
+    <composant id="3683" type="Text" texte="" />
+    <composant id="3684" type="Text" texte="" />
+    <composant id="3685" type="Text" texte="" />
+    <composant id="3686" type="Text" texte="" />
+    <composant id="3687" type="Text" texte="" />
+    <composant id="3688" type="Text" texte="" />
+    <composant id="3689" type="Text" texte="" />
+    <composant id="3690" type="Text" texte="" />
+    <composant id="3691" type="Text" texte="" />
+    <composant id="3692" type="Text" texte="" />
+    <composant id="3693" type="Text" texte="" />
+    <composant id="3694" type="Text" texte="" />
+    <composant id="3695" type="Text" texte="" />
+    <composant id="3696" type="Text" texte="" />
+    <composant id="3697" type="Text" texte="" />
+    <composant id="3698" type="Text" texte="" />
+    <composant id="3699" type="Text" texte="" />
+    <composant id="3700" type="Text" texte="" />
+    <composant id="3701" type="Text" texte="" />
+    <composant id="3702" type="Text" texte="" />
+    <composant id="3703" type="Text" texte="" />
+    <composant id="3704" type="Text" texte="" />
+    <composant id="3705" type="Text" texte="" />
+    <composant id="3706" type="Text" texte="" />
+    <composant id="3707" type="Text" texte="" />
+    <composant id="3708" type="Text" texte="" />
+    <composant id="3709" type="Text" texte="" />
+    <composant id="3710" type="Text" texte="" />
+    <composant id="3711" type="Text" texte="" />
+    <composant id="3712" type="Text" texte="" />
+    <composant id="3713" type="Text" texte="" />
+    <composant id="3714" type="Text" texte="" />
+    <composant id="3715" type="Text" texte="" />
+    <composant id="3716" type="Text" texte="" />
+    <composant id="3717" type="Text" texte="" />
+    <composant id="3718" type="Text" texte="" />
+    <composant id="3719" type="Text" texte="" />
+    <composant id="3720" type="Text" texte="" />
+    <composant id="3721" type="Text" texte="" />
+    <composant id="3722" type="Text" texte="" />
+    <composant id="3723" type="Text" texte="" />
+    <composant id="3724" type="Text" texte="" />
+    <composant id="3725" type="Text" texte="" />
+    <composant id="3726" type="Text" texte="" />
+    <composant id="3727" type="Text" texte="" />
+    <composant id="3728" type="Text" texte="" />
+    <composant id="3729" type="Text" texte="" />
+    <composant id="3730" type="Text" texte="" />
+    <composant id="3731" type="Text" texte="" />
+    <composant id="3732" type="Text" texte="" />
+    <composant id="3733" type="Text" texte="" />
+    <composant id="3734" type="Text" texte="" />
+    <composant id="3735" type="Text" texte="" />
+    <composant id="3736" type="Text" texte="" />
+    <composant id="3737" type="Text" texte="" />
+    <composant id="3738" type="Text" texte="" />
+    <composant id="3739" type="Text" texte="" />
+    <composant id="3740" type="Text" texte="" />
+    <composant id="3741" type="Text" texte="" />
+    <composant id="3742" type="Text" texte="" />
+    <composant id="3743" type="Text" texte="" />
+    <composant id="3744" type="Text" texte="" />
+    <composant id="3745" type="Text" texte="" />
+    <composant id="3746" type="Text" texte="" />
+    <composant id="3747" type="Text" texte="" />
+    <composant id="3748" type="Text" texte="" />
+    <composant id="3749" type="Text" texte="" />
+    <composant id="3750" type="Text" texte="" />
+    <composant id="3751" type="Text" texte="" />
+    <composant id="3752" type="Text" texte="" />
+    <composant id="3753" type="Text" texte="" />
+    <composant id="3754" type="Text" texte="" />
+    <composant id="3755" type="Text" texte="" />
+    <composant id="3756" type="Text" texte="" />
+    <composant id="3757" type="Text" texte="" />
+    <composant id="3758" type="Text" texte="" />
+    <composant id="3759" type="Text" texte="" />
+    <composant id="3760" type="Text" texte="" />
+    <composant id="3761" type="Text" texte="" />
+    <composant id="3762" type="Text" texte="" />
+    <composant id="3763" type="Text" texte="" />
+    <composant id="3764" type="Text" texte="" />
+    <composant id="3765" type="Text" texte="" />
+    <composant id="3766" type="Text" texte="" />
+    <composant id="3767" type="Text" texte="" />
+    <composant id="3768" type="Text" texte="" />
+    <composant id="3769" type="Text" texte="" />
+    <composant id="3770" type="Text" texte="" />
+    <composant id="3771" type="Text" texte="" />
+    <composant id="3772" type="Text" texte="" />
+    <composant id="3773" type="Text" texte="" />
+    <composant id="3774" type="Text" texte="" />
+    <composant id="3775" type="Text" texte="" />
+    <composant id="3776" type="Text" texte="" />
+    <composant id="3777" type="Text" texte="" />
+    <composant id="3778" type="Text" texte="" />
+    <composant id="3779" type="Text" texte="" />
+    <composant id="3780" type="Text" texte="" />
+    <composant id="3781" type="Text" texte="" />
+    <composant id="3782" type="Text" texte="" />
+    <composant id="3783" type="Text" texte="" />
+    <composant id="3784" type="Text" texte="" />
+    <composant id="3785" type="Text" texte="" />
+    <composant id="3786" type="Text" texte="" />
+    <composant id="3787" type="Text" texte="" />
+    <composant id="3788" type="Text" texte="" />
+    <composant id="3789" type="Text" texte="" />
+    <composant id="3790" type="Text" texte="" />
+    <composant id="3791" type="Text" texte="" />
+    <composant id="3792" type="Text" texte="" />
+    <composant id="3793" type="Text" texte="" />
+    <composant id="3794" type="Text" texte="" />
+    <composant id="3795" type="Text" texte="" />
+    <composant id="3796" type="Text" texte="" />
+    <composant id="3797" type="Text" texte="" />
+    <composant id="3798" type="Text" texte="" />
+    <composant id="3799" type="Text" texte="" />
+    <composant id="3800" type="Text" texte="" />
+    <composant id="3801" type="Text" texte="" />
+    <composant id="3802" type="Text" texte="" />
+    <composant id="3803" type="Text" texte="" />
+    <composant id="3804" type="Text" texte="" />
+    <composant id="3805" type="Text" texte="" />
+    <composant id="3806" type="Text" texte="" />
+    <composant id="3807" type="Text" texte="" />
+    <composant id="3808" type="Text" texte="" />
+    <composant id="3809" type="Text" texte="" />
+    <composant id="3810" type="Text" texte="" />
+    <composant id="3811" type="Text" texte="" />
+    <composant id="3812" type="Text" texte="" />
+    <composant id="3813" type="Text" texte="" />
+    <composant id="3814" type="Text" texte="" />
+    <composant id="3815" type="Text" texte="" />
+    <composant id="3816" type="Text" texte="" />
+    <composant id="3817" type="Text" texte="" />
+    <composant id="3818" type="Text" texte="" />
+    <composant id="3819" type="Text" texte="" />
+    <composant id="3820" type="Text" texte="" />
+    <composant id="3821" type="Text" texte="" />
+    <composant id="3822" type="Text" texte="" />
+    <composant id="3823" type="Text" texte="" />
+    <composant id="3824" type="Text" texte="" />
+    <composant id="3825" type="Text" texte="" />
+    <composant id="3826" type="Text" texte="" />
+    <composant id="3827" type="Text" texte="" />
+    <composant id="3828" type="Text" texte="" />
+    <composant id="3829" type="Text" texte="" />
+    <composant id="3830" type="Text" texte="" />
+    <composant id="3831" type="Text" texte="" />
+    <composant id="3832" type="Text" texte="" />
+    <composant id="3833" type="Text" texte="" />
+    <composant id="3834" type="Text" texte="" />
+    <composant id="3835" type="Text" texte="" />
+    <composant id="3836" type="Text" texte="" />
+    <composant id="3837" type="Text" texte="" />
+    <composant id="3838" type="Text" texte="" />
+    <composant id="3839" type="Text" texte="" />
+    <composant id="3840" type="Text" texte="" />
+    <composant id="3841" type="Text" texte="" />
+    <composant id="3842" type="Text" texte="" />
+    <composant id="3843" type="Text" texte="" />
+    <composant id="3844" type="Text" texte="" />
+    <composant id="3845" type="Text" texte="" />
+    <composant id="3846" type="Text" texte="" />
+    <composant id="3847" type="Text" texte="" />
+    <composant id="3848" type="Text" texte="" />
+    <composant id="3849" type="Text" texte="" />
+    <composant id="3850" type="Text" texte="" />
+    <composant id="3851" type="Text" texte="" />
+    <composant id="3852" type="Text" texte="" />
+    <composant id="3853" type="Text" texte="" />
+    <composant id="3854" type="Text" texte="" />
+    <composant id="3855" type="Text" texte="" />
+    <composant id="3856" type="Text" texte="" />
+    <composant id="3857" type="Text" texte="" />
+    <composant id="3858" type="Text" texte="" />
+    <composant id="3859" type="Text" texte="" />
+    <composant id="3860" type="Text" texte="" />
+    <composant id="3861" type="Text" texte="" />
+    <composant id="3862" type="Text" texte="" />
+    <composant id="3863" type="Text" texte="" />
+    <composant id="3864" type="Text" texte="" />
+    <composant id="3865" type="Text" texte="" />
+    <composant id="3866" type="Text" texte="" />
+    <composant id="3867" type="Text" texte="" />
+    <composant id="3868" type="Text" texte="" />
+    <composant id="3869" type="Text" texte="" />
+    <composant id="3870" type="Text" texte="" />
+    <composant id="3871" type="Text" texte="" />
+    <composant id="3872" type="Text" texte="" />
+    <composant id="3873" type="Text" texte="" />
+    <composant id="3874" type="Text" texte="" />
+    <composant id="3875" type="Text" texte="" />
+    <composant id="3876" type="Text" texte="" />
+    <composant id="3877" type="Text" texte="" />
+    <composant id="3878" type="Text" texte="" />
+    <composant id="3879" type="Text" texte="" />
+    <composant id="3880" type="Text" texte="" />
+    <composant id="3881" type="Text" texte="" />
+    <composant id="3882" type="Text" texte="" />
+    <composant id="3883" type="Text" texte="" />
+    <composant id="3884" type="Text" texte="" />
+    <composant id="3885" type="Text" texte="" />
+    <composant id="3886" type="Text" texte="" />
+    <composant id="3887" type="Text" texte="" />
+    <composant id="3888" type="Text" texte="" />
+    <composant id="3889" type="Text" texte="" />
+    <composant id="3890" type="Text" texte="" />
+    <composant id="3891" type="Text" texte="" />
+    <composant id="3892" type="Text" texte="" />
+    <composant id="3893" type="Text" texte="" />
+    <composant id="3894" type="Text" texte="" />
+    <composant id="3895" type="Text" texte="" />
+    <composant id="3896" type="Text" texte="" />
+    <composant id="3897" type="Text" texte="" />
+    <composant id="3898" type="Text" texte="" />
+    <composant id="3899" type="Text" texte="" />
+    <composant id="3900" type="Text" texte="" />
+    <composant id="3901" type="Text" texte="" />
+    <composant id="3902" type="Text" texte="" />
+    <composant id="3903" type="Text" texte="" />
+    <composant id="3904" type="Text" texte="" />
+    <composant id="3905" type="Text" texte="" />
+    <composant id="3906" type="Text" texte="" />
+    <composant id="3907" type="Text" texte="" />
+    <composant id="3908" type="Text" texte="" />
+    <composant id="3909" type="Text" texte="" />
+    <composant id="3910" type="Text" texte="" />
+    <composant id="3911" type="Text" texte="" />
+    <composant id="3912" type="Text" texte="" />
+    <composant id="3913" type="Text" texte="" />
+    <composant id="3914" type="Text" texte="" />
+    <composant id="3915" type="Text" texte="" />
+    <composant id="3916" type="Text" texte="" />
+    <composant id="3917" type="Text" texte="" />
+    <composant id="3918" type="Text" texte="" />
+    <composant id="3919" type="Text" texte="" />
+    <composant id="3920" type="Text" texte="" />
+    <composant id="3921" type="Text" texte="" />
+    <composant id="3922" type="Text" texte="" />
+    <composant id="3923" type="Text" texte="" />
+    <composant id="3924" type="Text" texte="" />
+    <composant id="3925" type="Text" texte="" />
+    <composant id="3926" type="Text" texte="" />
+    <composant id="3927" type="Text" texte="" />
+    <composant id="3928" type="Text" texte="" />
+    <composant id="3929" type="Text" texte="" />
+    <composant id="3930" type="Text" texte="" />
+    <composant id="3931" type="Text" texte="" />
+    <composant id="3932" type="Text" texte="" />
+    <composant id="3933" type="Text" texte="" />
+    <composant id="3934" type="Text" texte="" />
+    <composant id="3935" type="Text" texte="" />
+    <composant id="3936" type="Text" texte="" />
+    <composant id="3937" type="Text" texte="" />
+    <composant id="3938" type="Text" texte="" />
+    <composant id="3939" type="Text" texte="" />
+    <composant id="3940" type="Text" texte="" />
+    <composant id="3941" type="Text" texte="" />
+    <composant id="3942" type="Text" texte="" />
+    <composant id="3943" type="Text" texte="" />
+    <composant id="3944" type="Text" texte="" />
+    <composant id="3945" type="Text" texte="" />
+    <composant id="3946" type="Text" texte="" />
+    <composant id="3947" type="Text" texte="" />
+    <composant id="3948" type="Text" texte="" />
+    <composant id="3949" type="Text" texte="" />
+    <composant id="3950" type="Text" texte="" />
+    <composant id="3951" type="Text" texte="" />
+    <composant id="3952" type="Text" texte="" />
+    <composant id="3953" type="Text" texte="" />
+    <composant id="3954" type="Text" texte="" />
+    <composant id="3955" type="Text" texte="" />
+    <composant id="3956" type="Text" texte="" />
+    <composant id="3957" type="Text" texte="" />
+    <composant id="3958" type="Text" texte="" />
+    <composant id="3959" type="Text" texte="" />
+    <composant id="3960" type="Text" texte="" />
+    <composant id="3961" type="Text" texte="" />
+    <composant id="3962" type="Text" texte="" />
+    <composant id="3963" type="Text" texte="" />
+    <composant id="3964" type="Text" texte="" />
+    <composant id="3965" type="Text" texte="" />
+    <composant id="3966" type="Text" texte="" />
+    <composant id="3967" type="Text" texte="" />
+    <composant id="3968" type="Text" texte="" />
+    <composant id="3969" type="Text" texte="" />
+    <composant id="3970" type="Text" texte="" />
+    <composant id="3971" type="Text" texte="" />
+    <composant id="3972" type="Text" texte="" />
+    <composant id="3973" type="Text" texte="" />
+    <composant id="3974" type="Text" texte="" />
+    <composant id="3975" type="Text" texte="" />
+    <composant id="3976" type="Text" texte="" />
+    <composant id="3977" type="Text" texte="" />
+    <composant id="3978" type="Text" texte="" />
+    <composant id="3979" type="Text" texte="" />
+    <composant id="3980" type="Text" texte="" />
+    <composant id="3981" type="Text" texte="" />
+    <composant id="3982" type="Text" texte="" />
+    <composant id="3983" type="Text" texte="" />
+    <composant id="3984" type="Text" texte="" />
+    <composant id="3985" type="Text" texte="" />
+    <composant id="3986" type="Text" texte="" />
+    <composant id="3987" type="Text" texte="" />
+    <composant id="3988" type="Text" texte="" />
+    <composant id="3989" type="Text" texte="" />
+    <composant id="3990" type="Text" texte="" />
+    <composant id="3991" type="Text" texte="" />
+    <composant id="3992" type="Text" texte="" />
+    <composant id="3993" type="Text" texte="" />
+    <composant id="3994" type="Text" texte="" />
+    <composant id="3995" type="Text" texte="" />
+    <composant id="3996" type="Text" texte="" />
+    <composant id="3997" type="Text" texte="" />
+    <composant id="3998" type="Text" texte="" />
+    <composant id="3999" type="Text" texte="" />
+    <composant id="4000" type="Text" texte="" />
+    <composant id="4001" type="Text" texte="" />
+    <composant id="4002" type="Text" texte="" />
+    <composant id="4003" type="Text" texte="" />
+    <composant id="4004" type="Text" texte="" />
+    <composant id="4005" type="Text" texte="" />
+    <composant id="4006" type="Text" texte="" />
+    <composant id="4007" type="Text" texte="" />
+    <composant id="4008" type="Text" texte="" />
+    <composant id="4009" type="Text" texte="" />
+    <composant id="4010" type="Text" texte="" />
+    <composant id="4011" type="Text" texte="" />
+    <composant id="4012" type="Text" texte="" />
+    <composant id="4013" type="Text" texte="" />
+    <composant id="4014" type="Text" texte="" />
+    <composant id="4015" type="Text" texte="" />
+    <composant id="4016" type="Text" texte="" />
+    <composant id="4017" type="Text" texte="" />
+    <composant id="4018" type="Text" texte="" />
+    <composant id="4019" type="Text" texte="" />
+    <composant id="4020" type="Text" texte="" />
+    <composant id="4021" type="Text" texte="" />
+    <composant id="4022" type="Text" texte="" />
+    <composant id="4023" type="Text" texte="" />
+    <composant id="4024" type="Text" texte="" />
+    <composant id="4025" type="Text" texte="" />
+    <composant id="4026" type="Text" texte="" />
+    <composant id="4027" type="Text" texte="" />
+    <composant id="4028" type="Text" texte="" />
+    <composant id="4029" type="Text" texte="" />
+    <composant id="4030" type="Text" texte="" />
+    <composant id="4031" type="Text" texte="" />
+    <composant id="4032" type="Text" texte="" />
+    <composant id="4033" type="Text" texte="" />
+    <composant id="4034" type="Text" texte="" />
+    <composant id="4035" type="Text" texte="" />
+    <composant id="4036" type="Text" texte="" />
+    <composant id="4037" type="Text" texte="" />
+    <composant id="4038" type="Text" texte="" />
+    <composant id="4039" type="Text" texte="" />
+    <composant id="4040" type="Text" texte="" />
+    <composant id="4041" type="Text" texte="" />
+    <composant id="4042" type="Text" texte="" />
+    <composant id="4043" type="Text" texte="" />
+    <composant id="4044" type="Text" texte="" />
+    <composant id="4045" type="Text" texte="" />
+    <composant id="4046" type="Text" texte="" />
+    <composant id="4047" type="Text" texte="" />
+    <composant id="4048" type="Text" texte="" />
+    <composant id="4049" type="Text" texte="" />
+    <composant id="4050" type="Text" texte="" />
+    <composant id="4051" type="Text" texte="" />
+    <composant id="4052" type="Text" texte="" />
+    <composant id="4053" type="Text" texte="" />
+    <composant id="4054" type="Text" texte="" />
+    <composant id="4055" type="Text" texte="" />
+    <composant id="4056" type="Text" texte="" />
+    <composant id="4057" type="Text" texte="" />
+    <composant id="4058" type="Text" texte="" />
+    <composant id="4059" type="Text" texte="" />
+    <composant id="4060" type="Button" texte="baccueil" typeAjoute="bouton" descriptionAjoutee="le bouton baccueil">
+      <composant id="4061" type="Image" texte="" />
+      <composant id="4062" type="TextBlock" texte="Accueil" />
+    </composant>
+    <composant id="4063" type="Button" texte="bparametres" typeAjoute="bouton" descriptionAjoutee="le bouton bparametres">
+      <composant id="4064" type="Image" texte="" />
+      <composant id="4065" type="TextBlock" texte="Paramètres" />
+    </composant>
+    <composant id="4066" type="Button" texte="brestart" typeAjoute="bouton" descriptionAjoutee="le bouton brestart">
+      <composant id="4067" type="Image" texte="" />
+      <composant id="4068" type="TextBlock" texte="Relancer" />
+    </composant>
+    <composant id="4069" type="TextBlock" texte="infoArbre" />
+    <composant id="4070" type="Text" texte="l_faune">
+      <composant id="4071" type="TextBlock" texte="12" />
+    </composant>
+    <composant id="4072" type="Text" texte="lfaune_texte">
+      <composant id="4073" type="TextBlock" texte="% faune" />
+    </composant>
+    <composant id="4074" type="Text" texte="l_co2">
+      <composant id="4075" type="TextBlock" texte="2" />
+    </composant>
+    <composant id="4076" type="Text" texte="lco2_texte">
+      <composant id="4077" type="TextBlock" texte="% CO²" />
+    </composant>
+    <composant id="4078" type="Text" texte="l_o2">
+      <composant id="4079" type="TextBlock" texte="9.5" />
+    </composant>
+    <composant id="4080" type="Text" texte="lo2_texte">
+      <composant id="4081" type="TextBlock" texte="% O²" />
+    </composant>
+    <composant id="4082" type="Text" texte="l_arbre1">
+      <composant id="4083" type="TextBlock" texte="0" />
+    </composant>
+    <composant id="4084" type="Text" texte="l_arbre1_image">
+      <composant id="4085" type="Image" texte="" />
+    </composant>
+    <composant id="4086" type="Text" texte="l_arbre2">
+      <composant id="4087" type="TextBlock" texte="0" />
+    </composant>
+    <composant id="4088" type="Text" texte="l_arbre2_image">
+      <composant id="4089" type="Image" texte="" />
+    </composant>
+    <composant id="4090" type="Text" texte="rondins3">
+      <composant id="4091" type="TextBlock" texte="0" />
+    </composant>
+    <composant id="4092" type="Text" texte="l_arbre3_image">
+      <composant id="4093" type="Image" texte="" />
+    </composant>
+    <composant id="4094" type="Text" texte="l_crayon">
+      <composant id="4095" type="TextBlock" texte="0" />
+    </composant>
+    <composant id="4096" type="Text" texte="l_crayon_image">
+      <composant id="4097" type="Image" texte="" />
+    </composant>
+    <composant id="4098" type="Text" texte="l_livre">
+      <composant id="4099" type="TextBlock" texte="0" />
+    </composant>
+    <composant id="4100" type="Text" texte="livres">
+      <composant id="4101" type="Image" texte="" />
+    </composant>
+    <composant id="4102" type="Text" texte="maisonstext">
+      <composant id="4103" type="TextBlock" texte="1/1" />
+    </composant>
+    <composant id="4104" type="Text" texte="l_maison_image">
+      <composant id="4105" type="Image" texte="" />
+    </composant>
+    <composant id="4106" type="Text" texte="l_chaise">
+      <composant id="4107" type="TextBlock" texte="0" />
+    </composant>
+    <composant id="4108" type="Text" texte="l_chaise_image">
+      <composant id="4109" type="Image" texte="" />
+    </composant>
+    <composant id="4110" type="Text" texte="l_table">
+      <composant id="4111" type="TextBlock" texte="0" />
+    </composant>
+    <composant id="4112" type="Text" texte="l_table_image">
+      <composant id="4113" type="Image" texte="" />
+    </composant>
+    <composant id="4114" type="Text" texte="nbHumains">
+      <composant id="4115" type="TextBlock" texte="112" />
+    </composant>
+    <composant id="4116" type="Text" texte="l_chauffage_image">
+      <composant id="4117" type="Image" texte="" />
+    </composant>
+    <composant id="4118" type="Text" texte="lhumain">
+      <composant id="4119" type="TextBlock" texte="Nombre d'habitant" />
+    </composant>
+    <composant id="4120" type="Text" texte="b_arbre1">
+      <composant id="4121" type="Image" texte="" />
+    </composant>
+    <composant id="4122" type="Text" texte="b_arbre2">
+      <composant id="4123" type="Image" texte="" />
+    </composant>
+    <composant id="4124" type="Text" texte="b_arbre3">
+      <composant id="4125" type="Image" texte="Arbre 3" />
+    </composant>
+    <composant id="4126" type="Text" texte="1">
+      <composant id="4127" type="TextBlock" texte="1" />
+    </composant>
+    <composant id="4128" type="Text" texte="1">
+      <composant id="4129" type="TextBlock" texte="1" />
+    </composant>
+    <composant id="4130" type="Text" texte="1">
+      <composant id="4131" type="TextBlock" texte="1" />
+    </composant>
+    <composant id="4132" type="Text" texte="">
+      <composant id="4133" type="Image" texte="couper" />
+    </composant>
+    <composant id="4134" type="Text" texte="b_construire">
+      <composant id="4135" type="Image" texte="" />
+    </composant>
+    <composant id="4136" type="Slider" texte="vitesse">
+      <composant id="4137" type="RepeatButton" texte="" />
+      <composant id="4138" type="RepeatButton" texte="" />
+      <composant id="4139" type="Thumb" texte="" />
+    </composant>
+    <composant id="4140" type="Text" texte="lvitesse">
+      <composant id="4141" type="TextBlock" texte="1an(s) / min" />
+    </composant>
+    <composant id="4142" type="Text" texte="date">
+      <composant id="4143" type="TextBlock" texte="08/07/2014" />
+    </composant>
+    <composant id="4144" type="Text" texte="lconstruction">
+      <composant id="4145" type="TextBlock" texte="Objets produits" />
+    </composant>
+    <composant id="4146" type="Text" texte="lplante">
+      <composant id="4147" type="TextBlock" texte="A planter" />
+    </composant>
+    <composant id="4148" type="Text" texte="lmaisonConst">
+      <composant id="4149" type="TextBlock" texte="A construire" />
+    </composant>
+  </fenetre>
+  <fenetre id="5380" type="Window" texte="ParametreSimu" typeAjoute="fenêtre" descriptionAjoutee="la fenetre ParametreSimu">
+    <composant id="5381" type="Text" texte="Paramètres">
+      <composant id="5382" type="TextBlock" texte="Paramètres" />
+    </composant>
+    <composant id="5383" type="Text" texte="Cochez les données que vous voulez utiliser">
+      <composant id="5384" type="TextBlock" texte="Cochez les données que vous voulez utiliser" />
+    </composant>
+    <composant id="5385" type="CheckBox" texte="" />
+    <composant id="5386" type="CheckBox" texte="" />
+    <composant id="5387" type="CheckBox" texte="" />
+    <composant id="5388" type="CheckBox" texte="" />
+    <composant id="5389" type="CheckBox" texte="" />
+    <composant id="5390" type="CheckBox" texte="" />
+    <composant id="5391" type="CheckBox" texte="" />
+    <composant id="5392" type="CheckBox" texte="" />
+    <composant id="5393" type="CheckBox" texte="" />
+    <composant id="5394" type="CheckBox" texte="" />
+    <composant id="5395" type="CheckBox" texte="" />
+    <composant id="5396" type="Text" texte="Données">
+      <composant id="5397" type="TextBlock" texte="Données" />
+    </composant>
+    <composant id="5398" type="Text" texte="Faune">
+      <composant id="5399" type="TextBlock" texte="Faune" />
+    </composant>
+    <composant id="5400" type="Text" texte="CO2">
+      <composant id="5401" type="TextBlock" texte="CO2" />
+    </composant>
+    <composant id="5402" type="Text" texte="O2">
+      <composant id="5403" type="TextBlock" texte="O2" />
+    </composant>
+    <composant id="5404" type="Text" texte="Construction">
+      <composant id="5405" type="TextBlock" texte="Construction" />
+    </composant>
+    <composant id="5406" type="Text" texte="">
+      <composant id="5407" type="Image" texte="" />
+    </composant>
+    <composant id="5408" type="Text" texte="">
+      <composant id="5409" type="Image" texte="" />
+    </composant>
+    <composant id="5410" type="Text" texte="">
+      <composant id="5411" type="Image" texte="" />
+    </composant>
+    <composant id="5412" type="Text" texte="">
+      <composant id="5413" type="Image" texte="" />
+    </composant>
+    <composant id="5414" type="Text" texte="">
+      <composant id="5415" type="Image" texte="" />
+    </composant>
+    <composant id="5416" type="Text" texte="">
+      <composant id="5417" type="Image" texte="" />
+    </composant>
+    <composant id="5418" type="Button" texte="Valider" typeAjoute="bouton" descriptionAjoutee="le bouton Valider">
+      <composant id="5419" type="Image" texte="" />
+      <composant id="5420" type="TextBlock" texte="Valider" />
+    </composant>
+    <composant id="5421" type="Button" texte="Annuler" typeAjoute="bouton" descriptionAjoutee="le bouton Annuler">
+      <composant id="5422" type="Image" texte="" />
+      <composant id="5423" type="TextBlock" texte="Annuler" />
+    </composant>
+  </fenetre>
+  <fenetre id="7378" type="Window" texte="Construction" typeAjoute="fenêtre" descriptionAjoutee="la fenetre Construction">
+    <composant id="7379" type="Image" texte="" />
+    <composant id="7380" type="Image" texte="" />
+    <composant id="7381" type="Image" texte="" />
+    <composant id="7382" type="Text" texte="0">
+      <composant id="7383" type="TextBlock" texte="0" />
+    </composant>
+    <composant id="7384" type="Text" texte="0">
+      <composant id="7385" type="TextBlock" texte="0" />
+    </composant>
+    <composant id="7386" type="Text" texte="0">
+      <composant id="7387" type="TextBlock" texte="0" />
+    </composant>
+    <composant id="7388" type="Text" texte=" -  0">
+      <composant id="7389" type="TextBlock" texte=" -  0" />
+    </composant>
+    <composant id="7390" type="Text" texte=" -  0">
+      <composant id="7391" type="TextBlock" texte=" -  0" />
+    </composant>
+    <composant id="7392" type="Text" texte=" -  0">
+      <composant id="7393" type="TextBlock" texte=" -  0" />
+    </composant>
+    <composant id="7394" type="Text" texte=" =   0">
+      <composant id="7395" type="TextBlock" texte=" =   0" />
+    </composant>
+    <composant id="7396" type="Text" texte=" =   0">
+      <composant id="7397" type="TextBlock" texte=" =   0" />
+    </composant>
+    <composant id="7398" type="Text" texte=" =   0">
+      <composant id="7399" type="TextBlock" texte=" =   0" />
+    </composant>
+    <composant id="7400" type="Image" texte="" />
+    <composant id="7401" type="Image" texte="" />
+    <composant id="7402" type="Image" texte="" />
+    <composant id="7403" type="Text" texte="Quantité">
+      <composant id="7404" type="TextBlock" texte="Quantité" />
+    </composant>
+    <composant id="7405" type="Text" texte="1">
+      <composant id="7406" type="TextBlock" texte="1" />
+    </composant>
+    <composant id="7407" type="Text" texte="0">
+      <composant id="7408" type="TextBlock" texte="0" />
+    </composant>
+    <composant id="7409" type="Text" texte="0">
+      <composant id="7410" type="TextBlock" texte="0" />
+    </composant>
+    <composant id="7411" type="Text" texte="0">
+      <composant id="7412" type="TextBlock" texte="0" />
+    </composant>
+    <composant id="7413" type="Text" texte="1">
+      <composant id="7414" type="TextBlock" texte="1" />
+    </composant>
+    <composant id="7415" type="Text" texte="0">
+      <composant id="7416" type="TextBlock" texte="0" />
+    </composant>
+    <composant id="7417" type="Text" texte="0">
+      <composant id="7418" type="TextBlock" texte="0" />
+    </composant>
+    <composant id="7419" type="Text" texte="2">
+      <composant id="7420" type="TextBlock" texte="2" />
+    </composant>
+    <composant id="7421" type="Text" texte="0">
+      <composant id="7422" type="TextBlock" texte="0" />
+    </composant>
+    <composant id="7423" type="Text" texte="0">
+      <composant id="7424" type="TextBlock" texte="0" />
+    </composant>
+    <composant id="7425" type="Text" texte="0">
+      <composant id="7426" type="TextBlock" texte="0" />
+    </composant>
+    <composant id="7427" type="Text" texte="1">
+      <composant id="7428" type="TextBlock" texte="1" />
+    </composant>
+    <composant id="7429" type="Text" texte="10">
+      <composant id="7430" type="TextBlock" texte="10" />
+    </composant>
+    <composant id="7431" type="Text" texte="5">
+      <composant id="7432" type="TextBlock" texte="5" />
+    </composant>
+    <composant id="7433" type="Text" texte="10">
+      <composant id="7434" type="TextBlock" texte="10" />
+    </composant>
+    <composant id="7435" type="Text" texte="1000">
+      <composant id="7436" type="TextBlock" texte="1000" />
+    </composant>
+    <composant id="7437" type="Text" texte="4">
+      <composant id="7438" type="TextBlock" texte="4" />
+    </composant>
+    <composant id="7439" type="Text" texte="1">
+      <composant id="7440" type="TextBlock" texte="1" />
+    </composant>
+    <composant id="7441" type="Text" texte="100">
+      <composant id="7442" type="TextBlock" texte="100" />
+    </composant>
+    <composant id="7443" type="Text" texte="1">
+      <composant id="7444" type="TextBlock" texte="1" />
+    </composant>
+    <composant id="7445" type="Image" texte="" />
+    <composant id="7446" type="Image" texte="" />
+    <composant id="7447" type="Image" texte="" />
+    <composant id="7448" type="Image" texte="" />
+    <composant id="7449" type="Image" texte="" />
+    <composant id="7450" type="Button" texte="" typeAjoute="bouton" descriptionAjoutee="le bouton ">
+      <composant id="7451" type="Image" texte="" />
+    </composant>
+    <composant id="7452" type="TextBox" texte="">
+      <composant id="7453" type="ScrollBar" texte="" />
+      <composant id="7454" type="ScrollBar" texte="" />
+    </composant>
+    <composant id="7455" type="Button" texte="" typeAjoute="bouton" descriptionAjoutee="le bouton ">
+      <composant id="7456" type="Image" texte="" />
+    </composant>
+    <composant id="7457" type="Button" texte="" typeAjoute="bouton" descriptionAjoutee="le bouton ">
+      <composant id="7458" type="Image" texte="" />
+    </composant>
+    <composant id="7459" type="TextBox" texte="">
+      <composant id="7460" type="ScrollBar" texte="" />
+      <composant id="7461" type="ScrollBar" texte="" />
+    </composant>
+    <composant id="7462" type="Button" texte="" typeAjoute="bouton" descriptionAjoutee="le bouton ">
+      <composant id="7463" type="Image" texte="" />
+    </composant>
+    <composant id="7464" type="Button" texte="" typeAjoute="bouton" descriptionAjoutee="le bouton ">
+      <composant id="7465" type="Image" texte="" />
+    </composant>
+    <composant id="7466" type="TextBox" texte="">
+      <composant id="7467" type="ScrollBar" texte="" />
+      <composant id="7468" type="ScrollBar" texte="" />
+    </composant>
+    <composant id="7469" type="Button" texte="" typeAjoute="bouton" descriptionAjoutee="le bouton ">
+      <composant id="7470" type="Image" texte="" />
+    </composant>
+    <composant id="7471" type="Button" texte="" typeAjoute="bouton" descriptionAjoutee="le bouton ">
+      <composant id="7472" type="Image" texte="" />
+    </composant>
+    <composant id="7473" type="TextBox" texte="">
+      <composant id="7474" type="ScrollBar" texte="" />
+      <composant id="7475" type="ScrollBar" texte="" />
+    </composant>
+    <composant id="7476" type="Button" texte="" typeAjoute="bouton" descriptionAjoutee="le bouton ">
+      <composant id="7477" type="Image" texte="" />
+    </composant>
+    <composant id="7478" type="Button" texte="" typeAjoute="bouton" descriptionAjoutee="le bouton ">
+      <composant id="7479" type="Image" texte="" />
+    </composant>
+    <composant id="7480" type="TextBox" texte="">
+      <composant id="7481" type="ScrollBar" texte="" />
+      <composant id="7482" type="ScrollBar" texte="" />
+    </composant>
+    <composant id="7483" type="Button" texte="" typeAjoute="bouton" descriptionAjoutee="le bouton ">
+      <composant id="7484" type="Image" texte="" />
+    </composant>
+    <composant id="7485" type="TextBlock" texte="" />
+    <composant id="7486" type="Text" texte="Total">
+      <composant id="7487" type="TextBlock" texte="Total" />
+    </composant>
+    <composant id="7488" type="Text" texte="0">
+      <composant id="7489" type="TextBlock" texte="0" />
+    </composant>
+    <composant id="7490" type="Text" texte="0">
+      <composant id="7491" type="TextBlock" texte="0" />
+    </composant>
+    <composant id="7492" type="Text" texte="0">
+      <composant id="7493" type="TextBlock" texte="0" />
+    </composant>
+    <composant id="7494" type="Text" texte="0">
+      <composant id="7495" type="TextBlock" texte="0" />
+    </composant>
+    <composant id="7496" type="Text" texte="0">
+      <composant id="7497" type="TextBlock" texte="0" />
+    </composant>
+    <composant id="7498" type="Button" texte="Construire" typeAjoute="bouton" descriptionAjoutee="le bouton Construire">
+      <composant id="7499" type="Image" texte="" />
+      <composant id="7500" type="TextBlock" texte="Construire" />
+    </composant>
+    <composant id="7501" type="Button" texte="Annuler" typeAjoute="bouton" descriptionAjoutee="le bouton Annuler">
+      <composant id="7502" type="Image" texte="" />
+      <composant id="7503" type="TextBlock" texte="Annuler" />
+    </composant>
+  </fenetre>
+</Interface>
+

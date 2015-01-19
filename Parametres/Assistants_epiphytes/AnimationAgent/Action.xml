@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<action id="A2" type="animation" agent="DoubleAgent.Control" personnage="Merlin">
+  <sousaction type="deplacement" position_x="0600" position_y="0400" vitesse="" />
+  <sousaction type="parole" vitesse="100">
+    <texte>salut</texte>
+  </sousaction>
+</action>
+

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE systemes SYSTEM "DTD_Lecteur.dtd">
+<systemes>
+    <windows>
+        <lecteur>
+            <nom>Windows media player</nom>
+            <chemin>:/Program Files (x86)/Windows Media Player/wmplayer.exe</chemin>
+        </lecteur>
+        <lecteur>
+            <nom>Quicktime</nom>
+            <chemin>:/Program Files (x86)/QuickTime/QuickTimePlayer.exe</chemin>
+        </lecteur>
+        <lecteur>
+            <nom>VLC</nom>
+            <chemin>:/Program Files (x86)/VideoLAN/VLC/vlc.exe</chemin>
+        </lecteur>
+        <lecteur>
+            <nom>KM Player</nom>
+            <chemin>:/Program Files (x86)/The KMPlayer/KMPlayer.exe</chemin>
+        </lecteur>     
+    </windows>
+    <linux>
+        <lecteur>
+            <nom>Totem</nom>
+            <chemin>totem</chemin>
+        </lecteur>
+        <lecteur>
+            <nom>VLC</nom>
+            <chemin>vlc</chemin>
+        </lecteur>
+        <lecteur>
+            <nom>Xine player</nom>
+            <chemin>xine</chemin>
+        </lecteur>
+    </linux>
+    <mac>
+	<lecteur>
+            <nom>Quicktime</nom>
+            <chemin>QuickTime Player</chemin>
+        </lecteur>
+        <lecteur>
+            <nom>VLC</nom>
+            <chemin>vlc</chemin>
+        </lecteur>
+        <lecteur>
+            <nom>DivX</nom>
+            <chemin>DivX Plus Player</chemin>
+        </lecteur>
+        <lecteur>
+            <nom>Nice player</nom>
+            <chemin>NicePlayer</chemin>
+        </lecteur>
+        <lecteur>
+            <nom>Elmedia Player</nom>
+            <chemin>Elmedia Player</chemin>
+        </lecteur>	 
+    </mac>
+</systemes>

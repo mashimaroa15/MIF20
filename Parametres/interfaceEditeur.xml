@@ -1,0 +1,1924 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<interface>
+	<Communs>
+		<BtRetour>
+         	<fr>Retour</fr>
+         	<en>Return</en>
+      	</BtRetour>	
+		<BtAnnuler>
+         	<fr>Annuler</fr>
+         	<en>Cancel</en>
+      	</BtAnnuler>
+		<BtSuivant>
+			<fr>Suivant</fr>
+         	<en>Next</en>
+		</BtSuivant>
+		<BtTerminer>
+			<fr>Terminer</fr>
+         	<en>Terminate</en>
+		</BtTerminer>
+		<BtSauver>
+			<fr>Sauver</fr>
+         	<en>Save</en>
+		</BtSauver>
+		<BtValider>
+			<fr>Valider</fr>
+         	<en>Validate</en>
+		</BtValider>
+		<BtApercu>
+			<fr>Aperçu</fr>
+         	<en>Glimpse</en>
+		</BtApercu>
+		<Titre>
+         	<fr>Editeur d'assistance</fr>
+         	<en>Assistance editor</en>
+      	</Titre>
+		<tooltip1BtAfficherDescriptionInterface>
+         	<fr>Afficher la totalité de la description de l'interface</fr>
+         	<en>Display all the description of the interface</en>
+      	</tooltip1BtAfficherDescriptionInterface>
+		<tooltip2BtAfficherDescriptionInterface>
+         	<fr>Afficher la version réduite de la description de l'interface"</fr>
+         	<en>Display the short version of the description of the interface</en>
+      	</tooltip2BtAfficherDescriptionInterface>
+		<tootltipBtModifierDescriptionInterface>
+         	<fr>Modifier la description de l'interface</fr>
+         	<en>Modify the description of the interface</en>
+      	</tootltipBtModifierDescriptionInterface>
+		<itemSecondes>
+         	<fr>secondes</fr>
+         	<en>seconds</en>
+      	</itemSecondes>
+		<itemMinutes>
+         	<fr>minutes</fr>
+         	<en>minuts</en>
+      	</itemMinutes>
+		<itemHeures>
+         	<fr>heures</fr>
+         	<en>hours</en>
+      	</itemHeures>
+		<itemJours>
+         	<fr>jours</fr>
+         	<en>days</en>
+      	</itemJours>
+		<itemSeances>
+         	<fr>séances</fr>
+         	<en>sessions</en>
+      	</itemSeances>
+		<stringCliquerSur>
+         	<fr>Cliquer sur </fr>
+         	<en>Clik on </en>
+      	</stringCliquerSur>
+		<stringComposantIdentifiant>
+         	<fr>composant d'identifiant </fr>
+         	<en>component of identifier </en>
+      	</stringComposantIdentifiant>
+		<stringSelectionner>
+         	<fr>Sélectionner le </fr>
+         	<en>Select the </en>
+      	</stringSelectionner>
+		<stringDeselectionner>
+         	<fr>Désélectionner le </fr>
+         	<en>Deselect the </en>
+      	</stringDeselectionner>
+		<stringPasserA>
+         	<fr>Passer à </fr>
+         	<en>Set to </en>
+      	</stringPasserA>
+		<stringValeurDu>
+         	<fr>la valeur du </fr>
+         	<en>the value of the </en>
+      	</stringValeurDu>
+		<stringValeurDe>
+         	<fr>la valeur de </fr>
+         	<en>the value of the </en>
+      	</stringValeurDe>
+		<stringDonnerFocusA>
+         	<fr>Donner le focus à </fr>
+         	<en>Set focus to the </en>
+      	</stringDonnerFocusA>
+		<stringDonnerFocusAu>
+         	<fr>Donner le focus au </fr>
+         	<en>Set focus to the </en>
+      	</stringDonnerFocusAu>
+	</Communs>
+	<Accueil>
+		<Titre>
+         	<fr> - Accueil</fr>
+         	<en> - Home Page</en>
+      	</Titre>
+		<BtSuivant>
+         	<fr>Définir les règles d'assistance</fr>
+         	<en>Define the assistance rules</en>
+      	</BtSuivant>
+		<LbTitre>
+         	<fr>Editeur d'assistance</fr>
+         	<en>Assistance editor</en>
+      	</LbTitre>
+		<BtDecrireAssistance>
+         	<fr>Décrire l'assistance d'un logiciel</fr>
+         	<en>Describe a software assistance</en>
+      	</BtDecrireAssistance>
+		<BtModifierAssistance>
+         	<fr>Modifier l'assistance d'un logiciel</fr>
+         	<en>Modify a software assistance</en>
+      	</BtModifierAssistance>
+		<LbDescription>
+         	<fr>&lt;html&gt;L'éditeur d'assistance vous permet de spécifier des systèmes d'assistance personnalisée pour les utlisateurs d'un logiciel-cible.&lt;/html&gt;</fr>
+         	<en>&lt;html&gt;The assistance editor alloowed you to spécify assistance systemes in a personnalised way for the users of a target-software.&lt;/html&gt;</en>
+      	</LbDescription>
+	</Accueil>
+	<chargerAssistance>
+		<Titre>
+         	<fr> - Modifier un système d'assistance</fr>
+         	<en> - Modify an assistance system</en>
+      	</Titre>
+		<LbChoixLogiciel>
+         	<fr>Définition d'un système d'assistance</fr>
+         	<en>Definition of an assistance system</en>
+      	</LbChoixLogiciel>
+		<LbNom>
+         	<fr>Système d'assistance</fr>
+         	<en>Assistance system</en>
+      	</LbNom>
+		<LbLogiciel>
+         	<fr>Pour le logiciel</fr>
+         	<en>For software</en>
+      	</LbLogiciel>
+		<LbType>
+         	<fr>Type de logiciel</fr>
+         	<en>Software type</en>
+      	</LbType>
+		<LbDateCrea>
+         	<fr>Date de création</fr>
+         	<en>Creation date</en>
+      	</LbDateCrea>
+		<LbDateModif>
+         	<fr>Modifié le</fr>
+         	<en>Modified on</en>
+      	</LbDateModif>
+		<LbCreateur>
+         	<fr>Créateur</fr>
+         	<en>Creator</en>
+      	</LbCreateur>
+		<LbStatut>
+         	<fr>Statut</fr>
+         	<en>Status</en>
+      	</LbStatut>
+		<LbStructure>
+         	<fr>Structure de profils associée</fr>
+         	<en>Structure of profile associated</en>
+      	</LbStructure>
+		<LbDescription>
+         	<fr>Description technique</fr>
+         	<en>Technic description</en>
+      	</LbDescription>
+		<LbPublic>
+         	<fr>Public visé</fr>
+         	<en>Target-public</en>
+      	</LbPublic>
+		<LbCommentaires>
+         	<fr>Commentaires</fr>
+         	<en>Comments</en>
+      	</LbCommentaires>
+	</chargerAssistance>
+	<ChoixLogiciel>
+		<Titre>
+         	<fr> - Choix du logiciel à assister</fr>
+         	<en> - Choice of the software to assit</en>
+      	</Titre>
+		<RbNouveau>
+         	<fr>Autre logiciel</fr>
+         	<en>Other software</en>
+      	</RbNouveau>
+		<RbExistant>
+         	<fr>Séléction d'un logiciel</fr>
+         	<en>Selection of a software</en>
+      	</RbExistant>
+		<LbNom>
+         	<fr>Logiciel à assister</fr>
+         	<en>Software to assist</en>
+      	</LbNom>
+		<LbDescription>
+         	<fr>Description technique du logiciel</fr>
+         	<en>Technic description of the software</en>
+      	</LbDescription>
+		<BtInterface>
+         	<fr>Nouvelle description</fr>
+         	<en>New description</en>
+      	</BtInterface>
+		<LbType>
+         	<fr>Type de logiciel</fr>
+         	<en>Type of software</en>
+      	</LbType>
+		<LbStructure>
+         	<fr>Structure de profils associée</fr>
+         	<en>Structure of profile associated</en>
+      	</LbStructure>
+		<itemAppliJava>
+         	<fr>Application Java</fr>
+         	<en>Java application</en>
+      	</itemAppliJava>
+		<itemAppliWindows>
+         	<fr>Exécutable Windows</fr>
+         	<en>Windows native application</en>
+      	</itemAppliWindows>
+		<itemAppliWeb>
+         	<fr>Application web</fr>
+         	<en>Web application</en>
+      	</itemAppliWeb>
+	</ChoixLogiciel>
+	<CreationRegles>
+		<Titre>
+         	<fr> - Création de règles d'assistance</fr>
+         	<en> - Creation of assistance rules</en>
+      	</Titre>
+		<LbTitre>
+         	<fr>Création d'un système d'assistance pour</fr>
+         	<en>Creation of assistance system for</en>
+      	</LbTitre>
+		<BtAnnuler>
+         	<fr>Annuler</fr>
+         	<en>Cancel</en>
+      	</BtAnnuler>
+		<BtValider>
+         	<fr>Valider</fr>
+         	<en>Validate</en>
+      	</BtValider>
+		<BtApercu>
+			<fr>Aperçu</fr>
+         	<en>Glimpse</en>
+		</BtApercu>
+		<BtAjout>
+         	<fr>Ajout...</fr>
+         	<en>Add...</en>
+      	</BtAjout>
+		<BtSuppr>
+         	<fr>Suppression...</fr>
+         	<en>Delete...</en>
+      	</BtSuppr>
+		<BtModif>
+         	<fr>Modification...</fr>
+         	<en>Modification...</en>
+      	</BtModif>
+		<LbRegle>
+         	<fr>Nom de la règle</fr>
+         	<en>Name of the rule</en>
+      	</LbRegle>
+		<LbEvenement>
+         	<fr>Evénement déclencheur</fr>
+         	<en>Trigger event</en>
+      	</LbEvenement>
+		<LbCondition>
+         	<fr>Condition de déclenchement</fr>
+         	<en>Trigger condition</en>
+      	</LbCondition>
+		<LbAction>
+         	<fr>Actions à déclencher</fr>
+         	<en>Actions to trigger</en>
+      	</LbAction>
+		<PanelCreation>
+         	<fr>Nouvelle règle d'assistance</fr>
+         	<en>New assistance rule</en>
+      	</PanelCreation>
+		<LbConditions>
+         	<fr>Conditions sur le déclenchement</fr>
+         	<en>Trigger conditions</en>
+      	</LbConditions>
+		<LbAssistance>
+         	<fr>Actions d'assistance</fr>
+         	<en>Assistance actions</en>
+      	</LbAssistance>
+		<BtComposant>
+         	<fr>Choisir</fr>
+         	<en>Choose</en>
+      	</BtComposant>
+		<LbRegles>
+         	<fr>Règles d'assistance</fr>
+         	<en>Assistance rules</en>
+      	</LbRegles>
+		<LbComposant>
+         	<fr>sur le composant</fr>
+         	<en>on component</en>
+      	</LbComposant>
+		<LbType>
+         	<fr>Type d'événement</fr>
+         	<en>Event type</en>
+      	</LbType>
+		<BtAideFormule>
+         	<fr>?</fr>
+         	<en>?</en>
+      	</BtAideFormule>
+		<nom>
+         	<fr>Nom</fr>
+         	<en>Name</en>
+      	</nom>
+		<type>
+         	<fr>Type</fr>
+         	<en>Type</en>
+      	</type>
+		<objet>
+         	<fr>Objet</fr>
+         	<en>Object</en>
+      	</objet>
+		<valeur>
+         	<fr>Valeur</fr>
+         	<en>Value</en>
+      	</valeur>
+		<assistant>
+         	<fr>Assistant</fr>
+         	<en>Assistant</en>
+      	</assistant>
+		<description>
+         	<fr>Brève description</fr>
+         	<en>Brief description</en>
+      	</description>
+		<evenement>
+         	<fr>Evènement déclencheur</fr>
+         	<en>Trigger event</en>
+      	</evenement>
+		<condition>
+         	<fr>Condition</fr>
+         	<en>Condition</en>
+      	</condition>
+		<action>
+         	<fr>Action</fr>
+         	<en>Action</en>
+      	</action>
+		<RbEvenement>
+         	<fr>Evénément</fr>
+         	<en>Event</en>
+      	</RbEvenement>
+		<RbSequenceEvenements>
+         	<fr>Séquence d'événéments</fr>
+         	<en>Sequence of events</en>
+      	</RbSequenceEvenements>
+		<BtModifierSequence>
+         	<fr>Modifier</fr>
+         	<en>Modify</en>
+      	</BtModifierSequence>
+		<BtCreerSequence>
+         	<fr>Créer</fr>
+         	<en>Create</en>
+      	</BtCreerSequence>
+		<declencher>
+         	<fr>Déclencher</fr>
+         	<en>Trigger</en>
+      	</declencher>
+		<valeur>
+         	<fr>valeur(s) possible(s)</fr>
+         	<en>possible value(s)</en>
+      	</valeur>
+		<alorsDeclencher>
+         	<fr>Déclencher</fr>
+         	<en>Trigger</en>
+      	</alorsDeclencher>
+		<siValeurEgaleA>
+         	<fr>valeur égale à</fr>
+         	<en>value equals to</en>
+      	</siValeurEgaleA>
+		<siChoixEgaleA>
+         	<fr>choix égal à</fr>
+         	<en>choice equals to</en>
+      	</siChoixEgaleA>
+		<si>
+         	<fr>Si</fr>
+         	<en>If</en>
+      	</si>
+		<en>
+         	<fr>en </fr>
+         	<en>in </en>
+      	</en>
+		<superieureA>
+         	<fr>supérieure à</fr>
+         	<en>superior to</en>
+      	</superieureA>
+		<inferieureA>
+         	<fr>inférieure à</fr>
+         	<en>inferior to</en>
+      	</inferieureA>
+		<duree>
+         	<fr>durée</fr>
+         	<en>lenght</en>
+      	</duree>
+		<stringValeur>
+         	<fr>valeur</fr>
+         	<en>value</en>
+      	</stringValeur>
+		<contenant>
+         	<fr>contenant</fr>
+         	<en>contains</en>
+      	</contenant>
+		<commencantPar>
+         	<fr>commençant par</fr>
+         	<en>strats with</en>
+      	</commencantPar>
+		<egaleA>
+         	<fr>égal à</fr>
+         	<en>equals to</en>
+      	</egaleA>
+		<terminantPar>
+         	<fr>terminant par</fr>
+         	<en>ends with</en>
+      	</terminantPar>
+		<stringVrai>
+         	<fr>vrai</fr>
+         	<en>true</en>
+      	</stringVrai>
+		<stringFaux>
+         	<fr>faux</fr>
+         	<en>false</en>
+      	</stringFaux>
+		<valeurCompriseEntre>
+         	<fr>valeur comprise entre</fr>
+         	<en>value between</en>
+      	</valeurCompriseEntre>
+		<stringEt>
+         	<fr>et</fr>
+         	<en>and</en>
+      	</stringEt>
+		<LbNomCondition>
+         	<fr>Nom de la condition</fr>
+         	<en>Name of the condition</en>
+      	</LbNomCondition>
+		<LbChoixTypeCondition>
+         	<fr>Type de condition</fr>
+         	<en>Type of condition</en>
+      	</LbChoixTypeCondition>
+		<itemConditionProfil>
+         	<fr>sur le profil de l'utilisateur</fr>
+         	<en>on the user's profile</en>
+      	</itemConditionProfil>
+		<itemConditionTraces>
+         	<fr>sur les traces de l'utilisateur</fr>
+         	<en>on the user's traces</en>
+      	</itemConditionTraces>
+		<itemConditionHistorique>
+         	<fr>sur l'historique de l'assistance</fr>
+         	<en>on the historic of assistance</en>
+      	</itemConditionHistorique>
+		<itemConditionContexte>
+         	<fr>sur l'état de l'application-cible</fr>
+         	<en>on the state of the taget-application</en>
+      	</itemConditionContexte>
+		<itemConditionConsultation>
+         	<fr>consultation de l'utilisateur</fr>
+         	<en>consultation of the user</en>
+      	</itemConditionConsultation>
+		<itemConditionCombinaison>
+         	<fr>combinaison de conditions</fr>
+         	<en>combination of conditions</en>
+      	</itemConditionCombinaison>
+		<LbElementConditionProfil>
+         	<fr>Elément concerné</fr>
+         	<en>Concerned element</en>
+      	</LbElementConditionProfil>
+		<LbObjetContrainteHistorique>
+         	<fr>Règle ou action concerné</fr>
+         	<en>Concerned rule or action</en>
+      	</LbObjetContrainteHistorique>
+		<RbSeanceContrainteHistorique>
+         	<fr>Dans la séance</fr>
+         	<en>In this session</en>
+      	</RbSeanceContrainteHistorique>
+		<RbGlobalementContrainteHistorique>
+         	<fr>Globalement</fr>
+         	<en>Generally</en>
+      	</RbGlobalementContrainteHistorique>
+		<LbDepuisContrainteHistorique>
+         	<fr>Unité de temps</fr>
+         	<en>Time unit</en>
+      	</LbDepuisContrainteHistorique>
+		<dernierDeclenchement>
+         	<fr>dernier déclenchements</fr>
+         	<en>last trigger</en>
+      	</dernierDeclenchement>
+		<nombreDeclenchement>
+         	<fr>nombre de déclenchements</fr>
+         	<en>numbre of trigger</en>
+      	</nombreDeclenchement>
+		<LbObjetContrainteTraces>
+         	<fr>Séquence d'événements concernée</fr>
+         	<en>Concerned sequence of events</en>
+      	</LbObjetContrainteTraces>
+		<dureeTotaleConditionTraces>
+         	<fr>durée totale</fr>
+         	<en>total lenght</en>
+      	</dureeTotaleConditionTraces>
+		<dureeDepuisConditionTraces>
+         	<fr>temps depuis la dernière occurrence</fr>
+         	<en>time since last occurrence</en>
+      	</dureeDepuisConditionTraces>
+		<nbOccurrencesConditionTraces>
+         	<fr>nombre d'occurrences</fr>
+         	<en>number of occurrences</en>
+      	</nbOccurrencesConditionTraces>
+		<nbEvenementsDepuisConditionTraces>
+         	<fr>nombre d'évenements depuis la dernière occurrence</fr>
+         	<en>number of events since last occurrence</en>
+      	</nbEvenementsDepuisConditionTraces>
+		<presenceConditionTraces>
+         	<fr>présence dans les traces de l'utilisateur</fr>
+         	<en>presence in the user's traces</en>
+      	</presenceConditionTraces>
+		<LbProprieteContrainteContexte>
+         	<fr>Propriété</fr>
+         	<en>Property</en>
+      	</LbProprieteContrainteContexte>
+		<LbTypeContrainteContexte>
+         	<fr>Type</fr>
+         	<en>Type</en>
+      	</LbTypeContrainteContexte>
+		<valeurTextuelle>
+         	<fr>valeur textuelle</fr>
+         	<en>textual value</en>
+      	</valeurTextuelle>
+		<valeurNumerique>
+         	<fr>valeur numerique</fr>
+         	<en>numeric value</en>
+      	</valeurNumerique>
+		<estSelectionne>
+         	<fr>est sélectionné</fr>
+         	<en>is selected</en>
+      	</estSelectionne>
+		<aLeFocus>
+         	<fr>a le focus</fr>
+         	<en>has focus</en>
+      	</aLeFocus>
+		<estEditable>
+         	<fr>est éditable</fr>
+         	<en>is editable</en>
+      	</estEditable>
+		<estActif>
+         	<fr>est actif</fr>
+         	<en>is enabled</en>
+      	</estActif>
+		<nbColonnes>
+         	<fr>nombre de colonnes</fr>
+         	<en>number of columns</en>
+      	</nbColonnes>
+		<nbLignes>
+         	<fr>nombre de lignes</fr>
+         	<en>number of ligns</en>
+      	</nbLignes>
+		<valeurMax>
+         	<fr>valeur maximale</fr>
+         	<en>maximum value</en>
+      	</valeurMax>
+		<valeurMin>
+         	<fr>valeur minimale</fr>
+         	<en>minimum value</en>
+      	</valeurMin>
+		<estEtendu>
+         	<fr>est étendu</fr>
+         	<en>is colapsed</en>
+      	</estEtendu>
+		<estAuPremierPlan>
+         	<fr>est au premier plan</fr>
+         	<en>is top most</en>
+      	</estAuPremierPlan>
+		<invoke>
+         	<fr>cliquer</fr>
+         	<en>click</en>
+      	</invoke>
+		<select>
+         	<fr>sélectionner</fr>
+         	<en>select</en>
+      	</select>
+		<setFocus>
+         	<fr>donner le focus</fr>
+         	<en>set focus</en>
+      	</setFocus>
+		<setValue>
+         	<fr>modifier la valeur</fr>
+         	<en>set value</en>
+      	</setValue>
+		<toggle>
+         	<fr>modifier l'état</fr>
+         	<en>toggle</en>
+      	</toggle>
+		<toggle>
+         	<fr>modifier l'état</fr>
+         	<en>toggle</en>
+      	</toggle>
+		<LbMessageActionInteractive>
+         	<fr>Message</fr>
+         	<en>Message</en>
+      	</LbMessageActionInteractive>
+		<LbAjoutActionInteractive>
+         	<fr>Personnaliser avec</fr>
+         	<en>Personnalize with</en>
+      	</LbAjoutActionInteractive>
+		<LbTitreActionInteractive>
+         	<fr>Titre du message</fr>
+         	<en>Message title</en>
+      	</LbTitreActionInteractive>
+		<LbCouleurActionInteractive>
+         	<fr>Couleur de fond</fr>
+         	<en>Background color</en>
+      	</LbCouleurActionInteractive>
+		<LbPoliceMessageActionInteractive>
+         	<fr>Police du message</fr>
+         	<en>Message font</en>
+      	</LbPoliceMessageActionInteractive>
+		<LbPoliceBoutonActionInteractive>
+         	<fr>Police des boutons</fr>
+         	<en>Button font</en>
+      	</LbPoliceBoutonActionInteractive>
+		<LbBoutonActionInteractive>
+         	<fr>Bouton de réponse</fr>
+         	<en>Button of answer</en>
+      	</LbBoutonActionInteractive>
+		<BtInclureConditionConsultation>
+         	<fr>Inclure</fr>
+         	<en>Include</en>
+      	</BtInclureConditionConsultation>
+		<BtAjoutBoutonActionInteractive>
+         	<fr>Ajouter un bouton de réponse</fr>
+         	<en>Add a button of answer</en>
+      	</BtAjoutBoutonActionInteractive>
+		<BtSupprimerBoutonConditionConsultation>
+         	<fr>Supprimer un bouton de réponse</fr>
+         	<en>Remove a button of answer</en>
+      	</BtSupprimerBoutonConditionConsultation>
+		<stringIntitule>
+         	<fr>intitulé</fr>
+         	<en>label</en>
+      	</stringIntitule>
+		<LbFormuleConditionCombinaison>
+         	<fr>Formule</fr>
+         	<en>Formula</en>
+      	</LbFormuleConditionCombinaison>
+		<LbOperateursConditionCombinaison>
+         	<fr>Opérateurs logiques</fr>
+         	<en>Logical operators</en>
+      	</LbOperateursConditionCombinaison>
+		<BtEtConditionCombinaison>
+         	<fr>et</fr>
+         	<en>and</en>
+      	</BtEtConditionCombinaison>
+		<BtOuConditionCombinaison>
+         	<fr>ou</fr>
+         	<en>or</en>
+      	</BtOuConditionCombinaison>
+		<BtNonConditionCombinaison>
+         	<fr>non</fr>
+         	<en>not</en>
+      	</BtNonConditionCombinaison>
+		<LbConditionsConditionCombinaison1>
+         	<fr>Conditions existantes</fr>
+         	<en>Existing conditions</en>
+      	</LbConditionsConditionCombinaison1>
+		<LbConditionsConditionCombinaison1>
+         	<fr>conditions existantes</fr>
+         	<en>existing conditions</en>
+      	</LbConditionsConditionCombinaison1>
+		<LbNomAction>
+         	<fr>nom de l'action</fr>
+         	<en>name of the action</en>
+      	</LbNomAction>
+		<LbChoixTypeAction>
+         	<fr>type d'action</fr>
+         	<en>type of the action</en>
+      	</LbChoixTypeAction>
+		<itemTypeActionAjoutComposant>
+         	<fr>ajouter un composant</fr>
+         	<en>add a component</en>
+      	</itemTypeActionAjoutComposant>		
+		<itemTypeActionMessage>
+         	<fr>message</fr>
+         	<en>message</en>
+      	</itemTypeActionMessage>
+		<itemTypeActionModificationProfil>
+         	<fr>modification du profil de l'utilisateur</fr>
+         	<en>modification of the user's profile</en>
+      	</itemTypeActionModificationProfil>
+		<itemTypeActionActionInterface>
+         	<fr>action sur l'interface</fr>
+         	<en>action on the interface</en>
+      	</itemTypeActionActionInterface>
+		<itemTypeActionPasAPas>
+         	<fr>pas à pas</fr>
+         	<en>step-to-step</en>
+      	</itemTypeActionPasAPas>
+		<itemTypeActionActionRessource>
+         	<fr>ressource externe</fr>
+         	<en>external ressource</en>
+      	</itemTypeActionActionRessource>
+		<itemTypeActionActionAnimation>
+         	<fr>animation</fr>
+         	<en>animation</en>
+      	</itemTypeActionActionAnimation>
+		<itemTypeActionMiseEnValeur>
+         	<fr>mise en valeur</fr>
+         	<en>enhancement</en>
+      	</itemTypeActionMiseEnValeur>
+		<itemTypeActionMasquage>
+         	<fr>masquage</fr>
+         	<en>masking</en>
+      	</itemTypeActionMasquage>
+		<stringDescriptionMettreEnValeurComposant>
+         	<fr>mettre en valeur le composant </fr>
+         	<en>enhance component </en>
+      	</stringDescriptionMettreEnValeurComposant>
+		<stringDescriptionEntourerComposant>
+         	<fr>entourer le composant </fr>
+         	<en>circle component </en>
+      	</stringDescriptionEntourerComposant>
+		<stringDescriptionColorerComposant>
+         	<fr>colorer le composant </fr>
+         	<en>color component </en>
+      	</stringDescriptionColorerComposant>
+		<stringDescriptionSymboleComposant>
+         	<fr>afficher un symbole près du composant </fr>
+         	<en>desiplay a symbole near component </en>
+      	</stringDescriptionSymboleComposant>
+		<stringDescriptionAgentComposant>
+         	<fr>afficher un agent animé près du composant </fr>
+         	<en>desiplay a animated agent near component </en>
+      	</stringDescriptionAgentComposant>
+		<stringDescriptionEstomperComposant>
+         	<fr>estomper le composant </fr>
+         	<en>shade component </en>
+      	</stringDescriptionEstomperComposant>
+		<stringDescriptionOcculterComposant>
+         	<fr>occulter le composant </fr>
+         	<en>obscure component </en>
+      	</stringDescriptionOcculterComposant>
+		<stringDescriptionOcculterComposant>
+         	<fr>occulter le composant </fr>
+         	<en>obscure component </en>
+      	</stringDescriptionOcculterComposant>
+		<itemParLaGauche>
+			<fr>par la gauche</fr>
+         	<en>by left</en>
+		</itemParLaGauche>
+		<itemParLaDroite>
+			<fr>par la droite</fr>
+         	<en>by right</en>
+		</itemParLaDroite>
+		<itemParLeHaut>
+			<fr>par le haut</fr>
+         	<en>by top</en>
+		</itemParLeHaut>
+		<itemParLeBas>
+			<fr>par le bas</fr>
+         	<en>by down</en>
+		</itemParLeBas>
+		<LbContenuActionMessage>
+			<fr>Contenu du message</fr>
+         	<en>Message content</en>
+		</LbContenuActionMessage>
+		<LbCouleurFondActionMessage>
+			<fr>couleur de fond</fr>
+         	<en>background color</en>
+		</LbCouleurFondActionMessage>
+		<LbTypeActionMessage>
+			<fr>type de message</fr>
+         	<en>type of message</en>
+		</LbTypeActionMessage>
+		<LbPersoActionMessage>
+			<fr>personnaliser avec</fr>
+         	<en>personalized with</en>
+		</LbPersoActionMessage>
+		<CheckEcritActionMessage>
+			<fr>écrit</fr>
+         	<en>written</en>
+		</CheckEcritActionMessage>
+		<CheckOralActionMessage>
+			<fr>oral</fr>
+         	<en>oral</en>
+		</CheckOralActionMessage>
+		<CheckDifferentActionMessage>
+			<fr>message oral different</fr>
+         	<en>oral message different</en>
+		</CheckDifferentActionMessage>
+		<LbModeActionMessage>
+			<fr>mode de transmission</fr>
+         	<en>diffusion mode</en>
+		</LbModeActionMessage>
+		<LbPositionPopupActionMessage>
+			<fr>position</fr>
+         	<en>position</en>
+		</LbPositionPopupActionMessage>
+		<BtRbPositionSourisPopupActionMessage>
+			<fr>par rapport à la souris</fr>
+         	<en>according mouse position</en>
+		</BtRbPositionSourisPopupActionMessage>
+		<RbPositionEcranPopupActionMessage>
+			<fr>par rapport à l'écran</fr>
+         	<en>according sreen</en>
+		</RbPositionEcranPopupActionMessage>
+		<RbPositionCoordonneesPopupActionMessage>
+			<fr>coordonnées exactes</fr>
+         	<en>exacte coordinates</en>
+		</RbPositionCoordonneesPopupActionMessage>
+		<LbPositionHorizontalePopupActionMessage>
+			<fr>horizontalement</fr>
+         	<en>horizontaly</en>
+		</LbPositionHorizontalePopupActionMessage>
+		<LbPositionVerticalePopupActionMessage>
+			<fr>verticalement</fr>
+         	<en>vertcaly</en>
+		</LbPositionVerticalePopupActionMessage>
+		<LbAgentActionMessage>
+			<fr>personnage</fr>
+         	<en>character</en>
+		</LbAgentActionMessage>
+		<PanelDetailsPopupActionMessage>
+			<fr>Plus de détails</fr>
+         	<en>More details</en>
+		</PanelDetailsPopupActionMessage>
+		<BtInclure>
+			<fr>Inclure</fr>
+         	<en>Include</en>
+		</BtInclure>
+		<LbTitreFenetrePopupActionMessage>
+			<fr>titre</fr>
+         	<en>title</en>
+		</LbTitreFenetrePopupActionMessage>
+		<LbTailleFenetrePopupActionMessage>
+			<fr>taille</fr>
+         	<en>size</en>
+		</LbTailleFenetrePopupActionMessage>
+		<BtTailleAutomatiquePopupActionMessage>
+			<fr>automatique</fr>
+         	<en>automtic</en>
+		</BtTailleAutomatiquePopupActionMessage>
+		<BtTailleManuellePopupActionMessage>
+			<fr>manuelle</fr>
+         	<en>manual</en>
+		</BtTailleManuellePopupActionMessage>
+		<LbHauteurFenetrePopupActionMessage>
+			<fr>hauteur</fr>
+         	<en>height</en>
+		</LbHauteurFenetrePopupActionMessage>
+		<LbLargeurFenetrePopupActionMessage>
+			<fr>largeur</fr>
+         	<en>width</en>
+		</LbLargeurFenetrePopupActionMessage>
+		<CheckMiseEnFormeActionMessage>
+			<fr>mise en forme avancée</fr>
+         	<en>advanced formating</en>
+		</CheckMiseEnFormeActionMessage>
+		<itemCentre>
+			<fr>centre</fr>
+         	<en>center</en>
+		</itemCentre>
+		<itemGauche>
+			<fr>gauche</fr>
+         	<en>left</en>
+		</itemGauche>
+		<itemDroite>
+			<fr>droite</fr>
+         	<en>right</en>
+		</itemDroite>
+		<itemBas>
+			<fr>bas</fr>
+         	<en>down</en>
+		</itemBas>
+		<itemHaut>
+			<fr>haut</fr>
+         	<en>top</en>
+		</itemHaut>
+		<itemPopupSynthese>
+			<fr>pop-up + synthèse vocale</fr>
+         	<en>popup + vocal synthese</en>
+		</itemPopupSynthese>
+		<itemPopup>
+			<fr>pop-up</fr>
+         	<en>popup</en>
+		</itemPopup>
+		<itemSynthese>
+			<fr>synthèse vocale</fr>
+         	<en>vocal synthese</en>
+		</itemSynthese>
+		<itemAgentAnime>
+			<fr>agent animé</fr>
+         	<en>animated agent</en>
+		</itemAgentAnime>
+		<itemAvecPrenom>
+			<fr>avec le prénom de l'utilisateur</fr>
+         	<en>with the user's name</en>
+		</itemAvecPrenom>
+		<itemAvecNom>
+			<fr>avec le nom de l'utilisateur</fr>
+         	<en>with the user's surname</en>
+		</itemAvecNom>
+		<itemAvecElementProfil>
+			<fr>avec un élément du profil de l'utilisateur</fr>
+         	<en>with an element from the user's profile</en>
+		</itemAvecElementProfil>
+		<LbIdActionMiseEnValeur>
+			<fr>composant concerné</fr>
+         	<en>concerned component</en>
+		</LbIdActionMiseEnValeur>
+		<LbTypeActionMiseEnValeur>
+			<fr>type de mise en valeur</fr>
+         	<en>type of enhancement</en>
+		</LbTypeActionMiseEnValeur>
+		<LbEntourerCouleurActionMiseEnValeur>
+			<fr>couleur du trait</fr>
+         	<en>stroke color</en>
+		</LbEntourerCouleurActionMiseEnValeur>
+		<LbArrondiActionMiseEnValeur>
+			<fr>arrondit</fr>
+         	<en>curve</en>
+		</LbArrondiActionMiseEnValeur>
+		<LbEloignementActionMiseEnValeur>
+			<fr>distance trait/composant</fr>
+         	<en>distance stroke/component</en>
+		</LbEloignementActionMiseEnValeur>
+		<LbEpaisseurActionMiseEnValeur>
+			<fr>épaisseur du trait</fr>
+         	<en>stroke size</en>
+		</LbEpaisseurActionMiseEnValeur>
+		<LbDirection>
+			<fr>direction</fr>
+         	<en>direction</en>
+		</LbDirection>
+		<LbSymbole>
+			<fr>symbole</fr>
+         	<en>symbole</en>
+		</LbSymbole>
+		<LbCouleurActionMiseEnValeur>
+			<fr>couleur du composant</fr>
+         	<en>component color</en>
+		</LbCouleurActionMiseEnValeur>
+		<LbTransparenceActionMiseEnValeur>
+			<fr>transparence</fr>
+         	<en>transparence</en>
+		</LbTransparenceActionMiseEnValeur>
+		<LbSymboleActionMiseEnValeurAgent>
+			<fr>symbole</fr>
+         	<en>symbole</en>
+		</LbSymboleActionMiseEnValeurAgent>
+		<LbTypeActionMasquage>
+			<fr>type de masquage</fr>
+         	<en>type of masking</en>
+		</LbTypeActionMasquage>
+		<tooltipAfficherDetailsMiseEnValeur>
+			<fr>Afficher les déatils de la mise en valeur</fr>
+         	<en>Dipslay the details for the enhancement</en>
+		</tooltipAfficherDetailsMiseEnValeur>
+		<tooltipMasquerDetailsMiseEnValeur>
+			<fr>Masquer les déatils de la mise en valeur</fr>
+         	<en>Mask the details for the enhancement</en>
+		</tooltipMasquerDetailsMiseEnValeur>
+		<itemEstomper>
+			<fr>estomper</fr>
+         	<en>shade</en>
+		</itemEstomper>
+		<itemOcculter>
+			<fr>occulter</fr>
+         	<en>obscure</en>
+		</itemOcculter>
+		<itemColorer>
+			<fr>colorer</fr>
+         	<en>color</en>
+		</itemColorer>
+		<itemEntourer>
+			<fr>entourer</fr>
+         	<en>circle</en>
+		</itemEntourer>
+		<itemSymbole>
+			<fr>symbole</fr>
+         	<en>symbole</en>
+		</itemSymbole>
+		<LbTypeActionPasaPas>
+			<fr>type de pas à pas</fr>
+         	<en>type of step-to-step</en>
+		</LbTypeActionPasaPas>
+		<LbEtapesActionPasaPas>
+			<fr>liste des étapes</fr>
+         	<en>step list</en>
+		</LbEtapesActionPasaPas>
+		<BtModifierEtapesActionPasaPas>
+			<fr>Modifier</fr>
+         	<en>Modify</en>
+		</BtModifierEtapesActionPasaPas>
+		<BtCreerEtapesActionPasaPas>
+			<fr>Créer</fr>
+         	<en>Create</en>
+		</BtCreerEtapesActionPasaPas>
+		<LbOptionActionPasaPas>
+			<fr>Options générales</fr>
+         	<en>General options</en>
+		</LbOptionActionPasaPas>
+		<CheckMessageAvantActionPasaPas>
+			<fr>Afficher un message avant le début du pas à pas</fr>
+         	<en>Display a message before the step-to-step</en>
+		</CheckMessageAvantActionPasaPas>
+		<CheckMessageApresActionPasaPas>
+			<fr>Afficher un message à la fin du pas à pas</fr>
+         	<en>Display a message after the step-to-step</en>
+		</CheckMessageApresActionPasaPas>
+		<CheckProgressionActionPasaPas>
+			<fr>Afficher la progression tout au long du pas à pas</fr>
+         	<en>Display the progression all along the step-to-step</en>
+		</CheckProgressionActionPasaPas>
+		<CheckMessageAvantAutorisationActionPasaPas>
+			<fr>Demander l'autorisation à l'utilisateur</fr>
+         	<en>Ask the suer's permission</en>
+		</CheckMessageAvantAutorisationActionPasaPas>
+		<CheckMessageApresBilanActionPasaPas>
+			<fr>Afficher le bilan</fr>
+         	<en>Display the assessment</en>
+		</CheckMessageApresBilanActionPasaPas>
+		<LbOptionEtapesActionPasaPas>
+			<fr>Options des étapes du pas à pas</fr>
+         	<en>Options for the steps</en>
+		</LbOptionEtapesActionPasaPas>
+		<CheckMiseEnValeurActionPasaPas>
+			<fr>Mettre en valeur le composant concerné</fr>
+         	<en>Enhance concerned component</en>
+		</CheckMiseEnValeurActionPasaPas>
+		<CheckInterventionActionPasaPas>
+			<fr>Demander l'intervention de l'utilisateur</fr>
+         	<en>Ask user's intervention</en>
+		</CheckInterventionActionPasaPas>
+		<CheckExpliquerEtapeActionPasaPas>
+			<fr>Expliquer l'étape à venir</fr>
+         	<en>Explain the coming step</en>
+		</CheckExpliquerEtapeActionPasaPas>
+		<CheckExpliquerEtapeTermineeActionPasaPas>
+			<fr>Expliquer l'étape qui se termine</fr>
+         	<en>Explain the ending step</en>
+		</CheckExpliquerEtapeTermineeActionPasaPas>
+		<CheckTimerActionPasaPas>
+			<fr>Temps entre deux étapes</fr>
+         	<en>Time between two steps</en>
+		</CheckTimerActionPasaPas>
+		<LbSecondesActionPasaPas>
+			<fr>secondes</fr>
+         	<en>seconds</en>
+		</LbSecondesActionPasaPas>
+		<BtPersonnaliserMessagesPasAPas>
+			<fr>Personnaliser les messages</fr>
+         	<en>Personalize messages</en>
+		</BtPersonnaliserMessagesPasAPas>
+		<BtMiseEnValeurPasAPas>
+			<fr>Modifier la mise en valeur</fr>
+         	<en>Modify the enhancement</en>
+		</BtMiseEnValeurPasAPas>
+		<itemGuide>
+			<fr>guidé</fr>
+         	<en>guided</en>
+		</itemGuide>
+		<itemAutomatise>
+			<fr>automatisé</fr>
+         	<en>automated</en>
+		</itemAutomatise>
+		<itemTypeComposantAjouteBouton>
+			<fr>bouton</fr>
+         	<en>button</en>
+		</itemTypeComposantAjouteBouton>
+		<itemTypeComposantAjouteLabel>
+			<fr>texte</fr>
+         	<en>text</en>
+		</itemTypeComposantAjouteLabel>
+		<itemTypeComposantAjouteImage>
+			<fr>image</fr>
+         	<en>image</en>
+		</itemTypeComposantAjouteImage>
+		<LbTypeActionRessource>
+			<fr>type</fr>
+         	<en>type</en>
+		</LbTypeActionRessource>
+		<LbCheminActionRessource>
+			<fr>chemin</fr>
+         	<en>path</en>
+		</LbCheminActionRessource>
+		<itemOuvrirFichierActionRessource>
+			<fr>Ouvrir un fichier</fr>
+         	<en>Open a file</en>
+		</itemOuvrirFichierActionRessource>
+		<itemOuvrirURLActionRessource>
+			<fr>Ouvrir une page web</fr>
+         	<en>Open a web page</en>
+		</itemOuvrirURLActionRessource>
+		<itemOuvrirAppliActionRessource>
+			<fr>Lancer une application</fr>
+         	<en>Launch an application</en>
+		</itemOuvrirAppliActionRessource>
+		<BtCheminActionRessource>
+			<fr>Parcourir...</fr>
+         	<en>Browse...</en>
+		</BtCheminActionRessource>
+		<LbActionActionInterface>
+			<fr>Action à réaliser sur le composant</fr>
+         	<en>Action to perform on the component</en>
+		</LbActionActionInterface>
+		<LbEtatActionInterface>
+			<fr>Passer à l'état</fr>
+         	<en>Set state</en>
+		</LbEtatActionInterface>
+		<RbOnActionInterface>
+			<fr>coché / on</fr>
+         	<en>checked / on</en>
+		</RbOnActionInterface>
+		<RbOffActionInterface>
+			<fr>décoché / off</fr>
+         	<en>unchecked / off</en>
+		</RbOffActionInterface>
+		<LbValeurActionInterface>
+			<fr>Attribuer la valeur</fr>
+         	<en>Set value</en>
+		</LbValeurActionInterface>
+		<LbSelectionActionModifierProfil>
+			<fr>Séctionner un élément dans le profil de l'utilisateur</fr>
+         	<en>Select an element in the user's profile</en>
+		</LbSelectionActionModifierProfil>
+		<LbElementActionModifierProfil>
+			<fr>Elément à modifier</fr>
+         	<en>Element to modify</en>
+		</LbElementActionModifierProfil>
+		<LbTypeActionModifierProfil>
+			<fr>Type de modification</fr>
+         	<en>Modification type</en>
+		</LbTypeActionModifierProfil>
+		<LbActionActionModifierProfil>
+			<fr>Modifier la valeur de</fr>
+         	<en>Modify the value of</en>
+		</LbActionActionModifierProfil>
+		<LbPointActionModifierProfil>
+			<fr>points</fr>
+         	<en>points</en>
+		</LbPointActionModifierProfil>
+		<LbExacteActionModifierProfil>
+			<fr>Affecter la valeur</fr>
+         	<en>Set value</en>
+		</LbExacteActionModifierProfil>
+		<LbSourceActionModifierProfil>
+			<fr>Préciser la source</fr>
+         	<en>Precise the source</en>
+		</LbSourceActionModifierProfil>
+		<LbPersoActionAgentAnime>
+			<fr>Personnage</fr>
+         	<en>Charactere</en>
+		</LbPersoActionAgentAnime>
+		<LbListeActionAgentAnime>
+			<fr>Sous-actions</fr>
+         	<en>Sub-actions</en>
+		</LbListeActionAgentAnime>
+		<BtAjouterSSActionAgentAnime>
+			<fr>Ajouter</fr>
+         	<en>Add</en>
+		</BtAjouterSSActionAgentAnime>
+		<SAjLabelType>
+			<fr>Type d'action</fr>
+         	<en>Action type</en>
+		</SAjLabelType>
+		<SAjLabel1>
+			<fr>Position horizontales</fr>
+         	<en>Horizontal position</en>
+		</SAjLabel1>
+		<SAjLabel2>
+			<fr>Position verticales</fr>
+         	<en>Vertical position</en>
+		</SAjLabel2>
+		<SAjLabel2>
+			<fr>Position verticales</fr>
+         	<en>Vertical position</en>
+		</SAjLabel2>
+		<BtModifier>
+			<fr>Modifier</fr>
+         	<en>Modify</en>
+		</BtModifier>
+		<titrePanelSousActionAnimation>
+			<fr>Création d'une sous-action</fr>
+         	<en>Creation of a sub-action</en>
+		</titrePanelSousActionAnimation>
+		<itemDeplacementActionAnimation>
+			<fr>déplacement</fr>
+         	<en>deplacement</en>
+		</itemDeplacementActionAnimation>
+		<itemParoleActionAnimation>
+			<fr>parole</fr>
+         	<en>speak</en>
+		</itemParoleActionAnimation>
+		<itemPensseActionAnimation>
+			<fr>pensée</fr>
+         	<en>thought</en>
+		</itemPensseActionAnimation>
+		<itemAnimationActionAnimation>
+			<fr>animation</fr>
+         	<en>animation</en>
+		</itemAnimationActionAnimation>
+		<itemVitesseActionAnimation>
+			<fr>vitesse</fr>
+         	<en>speed</en>
+		</itemVitesseActionAnimation>
+		<itemTexteActionAnimation>
+			<fr>texte</fr>
+         	<en>text</en>
+		</itemTexteActionAnimation>
+		<itemTexteActionAnimation>
+			<fr>texte</fr>
+         	<en>text</en>
+		</itemTexteActionAnimation>
+	</CreationRegles>		
+	<ActionMessage>
+		<prenom>
+         	<fr>avec le prénom de l'utilisateur</fr>
+         	<en>with the user's name</en>
+      	</prenom>
+		<nom>
+         	<fr>avec le nom de l'utilisateur</fr>
+         	<en>with the user's surname</en>
+      	</nom>
+		<profil>
+         	<fr>avec un élément du profil de l'utilisateur</fr>
+         	<en>with an element from the user's profil</en>
+      	</profil>
+		<LbTitre>
+         	<fr>Création d'une action d'assistance de type message</fr>
+         	<en>Creation of an assistance action of type message</en>
+      	</LbTitre>
+		<LbNom>
+         	<fr>Nom de l'action</fr>
+         	<en>Name of the action</en>
+      	</LbNom>
+		<LbApercu>
+         	<fr>Aperçu du message qui sera affiché</fr>
+         	<en>Glimpse of the message that will be displayed</en>
+      	</LbApercu>
+		<BtPolice>
+         	<fr>Modifier la police</fr>
+         	<en>Modify the font</en>
+      	</BtPolice>
+		<CbCouleur>
+         	<fr>Modifier la couleur de fond</fr>
+         	<en>Modify the background color</en>
+      	</CbCouleur>
+		<LbPersonnaliser>
+         	<fr>Personnaliser le contenu du message</fr>
+         	<en>Personnalize the content of the message</en>
+      	</LbPersonnaliser>
+		<LbBalise>
+         	<fr>Balise correspondante</fr>
+         	<en>Corresponding marker</en>
+      	</LbBalise>
+		<BtBalise>
+         	<fr>Ajouter au texte</fr>
+         	<en>Add to the text</en>
+      	</BtBalise>
+	</ActionMessage>
+	<ActionMiseEnValeur>
+		<LbTitre>
+         	<fr>Création d'une action d'assistance de type mise en valeur</fr>
+         	<en>Creation of an assistance action of type enhancement</en>
+      	</LbTitre>
+		<LbNom>
+         	<fr>Nom de l'action</fr>
+         	<en>Name of the action</en>
+      	</LbNom>
+		<LbSelection>
+         	<fr>Séléction du composant de l'interface à mettre en valeur</fr>
+         	<en>Selection of the component from the interface to enhance</en>
+      	</LbSelection>
+		<LbId>
+         	<fr>Composant concerné</fr>
+         	<en>Concerned component</en>
+      	</LbId>
+		<LbType>
+         	<fr>Type de mise en valeur :</fr>
+         	<en>Type of enhancment:</en>
+      	</LbType>
+		<LbCouleur>
+         	<fr>Couleur du composant :</fr>
+         	<en>Color of the component:</en>
+      	</LbCouleur>
+		<Lbxor>
+         	<fr>Couleur du texte :</fr>
+         	<en>Text color:</en>
+      	</Lbxor>
+		<BtModifCouleur>
+         	<fr>Modifier</fr>
+         	<en>Modify</en>
+      	</BtModifCouleur>
+		<BtModifxor>
+         	<fr>Modifier</fr>
+         	<en>Modify</en>
+      	</BtModifxor>
+		<BtModifEntourerCouleur>
+         	<fr>Modifier</fr>
+         	<en>Modify</en>
+      	</BtModifEntourerCouleur>
+		<LbEntourerCouleur>
+         	<fr>Couleur de d'entourage :</fr>
+         	<en>Surround color:</en>
+      	</LbEntourerCouleur>
+		<LbArrondi>
+         	<fr>Arrondi :</fr>
+         	<en>Rounded:</en>
+      	</LbArrondi>
+		<LbEloignement>
+         	<fr>Distance :</fr>
+         	<en>Distance:</en>
+      	</LbEloignement>
+		<BtApercu>
+         	<fr>Voir un aperçu</fr>
+         	<en>See a glimpse</en>
+      	</BtApercu>
+		<BtExemple>
+         	<fr>Bouton exemple</fr>
+         	<en>Example button</en>
+      	</BtExemple>
+		<LbExemple>
+         	<fr>Label exemple</fr>
+         	<en>Example label</en>
+      	</LbExemple>
+		<CheckExemple>
+         	<fr>Case à cocher exemple</fr>
+         	<en>Example checkbox</en>
+      	</CheckExemple>
+		<TxtExemple>
+         	<fr>champ de saisie exemple</fr>
+         	<en>Example textfield</en>
+      	</TxtExemple>
+		<PanelExemple>
+         	<fr>Composants de démonstration</fr>
+         	<en>Demonstration components</en>
+      	</PanelExemple>
+	</ActionMiseEnValeur>
+	<ChoixTypeAction>
+		<message>
+         	<fr>Message</fr>
+         	<en>Message</en>
+      	</message>
+		<mise>
+         	<fr>Mise en valeur</fr>
+         	<en>Enhancement</en>
+      	</mise>
+		<agentAnime>
+         	<fr>Agent anime</fr>
+         	<en>Animated agent</en>
+      	</agentAnime>
+		<recommandations>
+         	<fr>Recommandations</fr>
+         	<en>Recommandations</en>
+      	</recommandations>
+		<modificationProfil>
+         	<fr>Modification du profil de l'utilisateur</fr>
+         	<en>Modification of the user's profile</en>
+      	</modificationProfil>
+		<non>
+         	<fr>Non</fr>
+         	<en>Not</en>
+      	</non>
+		<LbTitre>
+         	<fr>Création d'une nouvelle action d'assistance</fr>
+         	<en>Creation of a new assistance action</en>
+      	</LbTitre>
+		<LbType>
+         	<fr>Quel type d'action voulez-vous créer?</fr>
+         	<en>Which type of action do you want to create</en>
+      	</LbType>
+		<LbAssistant>
+         	<fr>Souhaitez-vous utiliser un assistant en particulier?</fr>
+         	<en>Do you want to use an assistant in particuliar?</en>
+      	</LbAssistant>
+	</ChoixTypeAction>
+	<SauveAsistance>
+		<Titre>
+		    <fr> - Sauvegarde du système d'assistance</fr>
+         	<en> - Save the assistance systeme</en>
+		</Titre>
+		<LbNom>
+		    <fr>Nom du fichier</fr>
+         	<en>File name</en>
+		</LbNom>
+		<LbLogiciel>
+		    <fr>Logiciel assisté</fr>
+         	<en>Assisted software</en>
+		</LbLogiciel>
+		<LbDateCrea>
+		    <fr>Date de création</fr>
+         	<en>Creation date</en>
+		</LbDateCrea>
+		<LbDateModif>
+		    <fr>Date de dernière modification</fr>
+         	<en>Last modification date</en>
+		</LbDateModif>
+		<LbCreateur>
+		    <fr>Créateur</fr>
+         	<en>Creator</en>
+		</LbCreateur>
+		<LbStatut>
+		    <fr>Statut</fr>
+         	<en>Status</en>
+		</LbStatut>
+		<LbStructure>
+		    <fr>Strucutre de profil associée</fr>
+         	<en>Profile structure associated</en>
+		</LbStructure>
+		<LbDescription>
+		    <fr>Description technique associée</fr>
+         	<en>Technic description associated</en>
+		</LbDescription>
+		<LbPublic>
+		    <fr>Public visé</fr>
+         	<en>Public aimed</en>
+		</LbPublic>
+		<LbCommentaires>
+		    <fr>Commentaires</fr>
+         	<en>Comments</en>
+		</LbCommentaires>
+		<RBPublic>
+		    <fr>Public</fr>
+         	<en>Public</en>
+		</RBPublic>
+		<RBPrive>
+		    <fr>Privé</fr>
+         	<en>Private</en>
+		</RBPrive>
+	</SauveAsistance>
+	<ChoixTypeCondition>
+		<LbText>
+		    <fr>Sur quoi voulez-vous définir nouvelle une condition?</fr>
+         	<en>On what do you want to define a new condition?</en>
+		</LbText>
+		<profil>
+		    <fr>sur le profil de l'utilisateur</fr>
+         	<en>on the user's profile</en>
+		</profil>
+		<traceAssistance>
+		    <fr>sur l'historique de l'assistance</fr>
+         	<en>on the historic of the assistance</en>
+		</traceAssistance>
+		<trace>
+		    <fr>sur les actions de l'utilisateur</fr>
+         	<en>on the user's actions</en>
+		</trace>
+		<contexte>
+		    <fr>sur l'état de l'application assistée</fr>
+         	<en>on the state of the assisted application</en>
+		</contexte>
+	</ChoixTypeCondition>
+	<ActionModifierProfil>
+		<exact>
+		    <fr>choisir une valeur ou un niveau exact</fr>
+         	<en>choose an exact value or level</en>
+		</exact>
+		<modifier>
+		    <fr>modifier la valeur ou le niveau</fr>
+         	<en>modify the value or level</en>
+		</modifier>
+		<points>
+		    <fr>point(s)</fr>
+         	<en>point(s)</en>
+		</points>
+		<niveaux>
+		    <fr>niveau(x)</fr>
+         	<en>level(s)</en>
+		</niveaux>	
+	</ActionModifierProfil>
+	<ChoixPolice>
+		<Titre>
+		    <fr> - Choix d'une police</fr>
+         	<en> - Choice of a font</en>
+		</Titre>
+		<LbPolice>
+		    <fr>Police</fr>
+         	<en>Font</en>
+		</LbPolice>
+		<LbStyle>
+		    <fr>Style</fr>
+         	<en>Style</en>
+		</LbStyle>
+		<LbCouleur>
+		    <fr>Couleur</fr>
+         	<en>Color</en>
+		</LbCouleur>
+		<LbTaille>
+		    <fr>Taille</fr>
+         	<en>Size</en>
+		</LbTaille>
+		<PanelApercu>
+		    <fr>Aperçu</fr>
+         	<en>Glimpse</en>
+		</PanelApercu>
+	</ChoixPolice>
+	<ApercuMiseEnValeur>
+		<Titre>
+		    <fr> - Aperçu d'une action d'assistance</fr>
+         	<en> - Glimpse of an assistance action</en>
+		</Titre>
+		<BtExemple>
+		    <fr>Exemple</fr>
+         	<en>Example</en>
+		</BtExemple>
+	</ApercuMiseEnValeur>
+	<personnaliserMessage>
+		<Titre>
+		    <fr> - Séléctionner un élément du profil</fr>
+         	<en> - Select an element from the profile</en>
+		</Titre>
+		<LbSelection>
+		    <fr>Selectionner un élément dans le profil de l'utilisateur :</fr>
+         	<en>Select an element in the user's profile :</en>
+		</LbSelection>
+	</personnaliserMessage>
+	<miseEnValeurPasAPas>
+		<Titre>
+		    <fr> - Mise en valeur des étapes du pas à pas</fr>
+         	<en> - Enhancement of the steps of step-to-step</en>
+		</Titre>
+		<LbEntourerCouleurActionMiseEnValeur>
+		    <fr>Couleur du trait</fr>
+         	<en>Stroke color</en>
+		</LbEntourerCouleurActionMiseEnValeur>
+		<LbArrondiActionMiseEnValeur>
+		    <fr>Arrondi</fr>
+         	<en>Curved</en>
+		</LbArrondiActionMiseEnValeur>
+		<LbEloignementActionMiseEnValeur>
+		    <fr>Distance entre le trait et le composant</fr>
+         	<en>Distance between stroke and component</en>
+		</LbEloignementActionMiseEnValeur>
+		<LbEpaisseurActionMiseEnValeur>
+		    <fr>Epaisseur du trait</fr>
+         	<en>Stroke size</en>
+		</LbEpaisseurActionMiseEnValeur>
+	</miseEnValeurPasAPas>
+	<ModificationInterface>
+		<Titre>
+		    <fr> - Modification de la description de l'interface</fr>
+         	<en> - Modification of the decsription of the interface</en>
+		</Titre>
+		<LbType>
+		    <fr>Type ajouté</fr>
+         	<en>Added type</en>
+		</LbType>
+		<LbDescription>
+		    <fr>Description ajoutée</fr>
+         	<en>Added description</en>
+		</LbDescription>
+		<LbCommentaires>
+		    <fr>Commentaires</fr>
+         	<en>Comments</en>
+		</LbCommentaires>
+		<PanelComposant>
+		    <fr>Décrire un composant de l'interface</fr>
+         	<en>Describe a component of the interface</en>
+		</PanelComposant>
+		<LbBouton>
+		    <fr>Ceci est un bouton</fr>
+         	<en>This is a button</en>
+		</LbBouton>
+		<BtBouton>
+		    <fr>Bouton</fr>
+         	<en>Button</en>
+		</BtBouton>
+		<LbBoutonRadio>
+		    <fr>&lt;html&gt;Voici deux boutons radio: lorsque l'on sélectionne un bouton radio, les autres sont désélectionnés&lt;/html&gt;</fr>
+         	<en>&lt;html&gt;This is two radio buttons: when we select a radio button, the others are deselected&lt;/html&gt;</en>
+		</LbBoutonRadio>
+		<Rb1>
+		    <fr>Bouton radio 1</fr>
+         	<en>Radio button 1</en>
+		</Rb1>
+		<Rb2>
+		    <fr>Bouton radio 2</fr>
+         	<en>Radio button 2</en>
+		</Rb2>
+		<LbSaisie>
+		    <fr>Voici deux zones de saisies</fr>
+         	<en>This is two text fields</en>
+		</LbSaisie>
+		<LbCase>
+		    <fr>Voici une case à cocher</fr>
+         	<en>This is a check box</en>
+		</LbCase>
+		<CheckCase>
+		    <fr>Case à cocher</fr>
+         	<en>Check box</en>
+		</CheckCase>
+		<LbListe>
+		    <fr>&lt;html&gt;Ceci est une liste déroulante qui contient 4 items&lt;/html&gt;</fr>
+         	<en>&lt;html&gt;This is a combo box that contains 4 items&lt;/html&gt;</en>
+		</LbListe>
+		<LbPanel>
+		    <fr>Un panel est un conteneur, il n'est pas nécessairement matérialisé à l'interface</fr>
+         	<en>A panel is a container, it is not necessarily visible at the interface</en>
+		</LbPanel>
+		<LbMenu>
+		    <fr>&lt;html&gt;Ceci illustre un menu qui contient plusieurs items&lt;/html&gt;</fr>
+         	<en>&lt;html&gt;This is a menu that contains several items&lt;/html&gt;</en>
+		</LbMenu>
+		<LbLabel>
+		    <fr>Ceci est un label : tous les textes affichés de l'interface sont des labels</fr>
+         	<en>This is a label : all the texts displayed at the interface are labels</en>
+		</LbLabel>
+		<LbArbre>
+		    <fr>Ceci est un arbre</fr>
+         	<en>This is a tree</en>
+		</LbArbre>
+		<LbSlider>
+		    <fr>Ceci est un slider</fr>
+         	<en>This is a slider</en>
+		</LbSlider>
+		<LbLien>
+		    <fr>&lt;html&gt;Ceci illustre un lien : dans une page web,le curseur change lorsque l'on survole un lien et en cliquant dessus on peut atteindre une nouvelle page&lt;/html&gt;</fr>
+         	<en>&lt;html&gt;This illustrates a link: in a web page, the cursor change when it rol over a link and clik on a link make you move to another page&lt;/html&gt;</en>
+		</LbLien>
+		<PanelAide>
+		    <fr>Aide pour reconnaître les types de composants</fr>
+         	<en>Help to recognize the types of components</en>
+		</PanelAide>
+		<branche>
+		    <fr>Branche</fr>
+         	<en>Branch</en>
+		</branche>
+		<feuille>
+		    <fr>feuille</fr>
+         	<en>leaf</en>
+		</feuille>
+		<arbre>
+		    <fr>Arbre</fr>
+         	<en>Tree</en>
+		</arbre>
+		<fenetre>
+		    <fr>fenetre</fr>
+         	<en>window</en>
+		</fenetre>
+		<composant>
+		    <fr>composant</fr>
+         	<en>component</en>
+		</composant>
+		<tooltip1BtAide>
+		    <fr>Afficher l'aide pour la reconnaissance des types de composants</fr>
+         	<en>Display the help to recognize the types of components</en>
+		</tooltip1BtAide>
+		<tooltip2BtAide>
+		    <fr>Masquer l'aide pour la reconnaissance des types de composants</fr>
+         	<en>Mask the help to recognize the types of components</en>
+		</tooltip2BtAide>
+		<tooltipBtSauver>
+		    <fr>Enregistrer les modification faites à ce composant</fr>
+         	<en>Save the modifications to this component</en>
+		</tooltipBtSauver>
+		<typeBouton>
+		    <fr>bouton</fr>
+         	<en>button</en>
+		</typeBouton>
+		<typeBoutonRadio>
+		    <fr>bouton radio</fr>
+         	<en>radio button</en>
+		</typeBoutonRadio>
+		<typeSaisie>
+		    <fr>zone de saisie</fr>
+         	<en>text field</en>
+		</typeSaisie>
+		<typeCase>
+		    <fr>case à cocher</fr>
+         	<en>check box</en>
+		</typeCase>
+		<typeComboBox>
+		    <fr>liste déroulante</fr>
+         	<en>combo box</en>
+		</typeComboBox>
+		<typeItem>
+		    <fr>item</fr>
+         	<en>item</en>
+		</typeItem>
+		<typePanel>
+		    <fr>panel</fr>
+         	<en>panel</en>
+		</typePanel>
+		<typeMenu>
+		    <fr>menu</fr>
+         	<en>menu</en>
+		</typeMenu>
+		<typeLabel>
+		    <fr>label</fr>
+         	<en>label</en>
+		</typeLabel>
+		<typeArbre>
+		    <fr>arbre</fr>
+         	<en>tree</en>
+		</typeArbre>
+		<typeFenetre>
+		    <fr>fenetre</fr>
+         	<en>window</en>
+		</typeFenetre>
+		<typeTable>
+		    <fr>table</fr>
+         	<en>table</en>
+		</typeTable>
+		<typeListe>
+		    <fr>liste</fr>
+         	<en>list</en>
+		</typeListe>
+		<typeSlider>
+		    <fr>slider</fr>
+         	<en>slider</en>
+		</typeSlider>
+		<typeLien>
+		    <fr>lien</fr>
+         	<en>link</en>
+		</typeLien>
+		<typeImage>
+		    <fr>image</fr>
+         	<en>image</en>
+		</typeImage>
+		<typeComposant>
+		    <fr>composant</fr>
+         	<en>component</en>
+		</typeComposant>
+		<stringFixeTexte>
+		    <fr>texte</fr>
+         	<en>text</en>
+		</stringFixeTexte>
+		<stringFixeTitre>
+		    <fr>titre</fr>
+         	<en>title</en>
+		</stringFixeTitre>
+		<stringFixeSource>
+		    <fr>source</fr>
+         	<en>source</en>
+		</stringFixeSource>
+		<stringFixeValeur>
+		    <fr>valeur</fr>
+         	<en>value</en>
+		</stringFixeValeur>
+		<stringFixeLien>
+		    <fr>lien</fr>
+         	<en>link</en>
+		</stringFixeLien>
+		<stringArticleLe>
+		    <fr>le</fr>
+         	<en>the</en>
+		</stringArticleLe>
+		<stringArticleLa>
+		    <fr>la</fr>
+         	<en>the</en>
+		</stringArticleLa>
+		<stringArticleL>
+		    <fr>l'</fr>
+         	<en>the </en>
+		</stringArticleL>
+	</ModificationInterface>
+	<creationSequence>
+		<Titre>
+		    <fr> - séquence d'événements</fr>
+         	<en> - sequence of events</en>
+		</Titre>
+		<LbId>
+		    <fr>Identifiant de la séquence</fr>
+         	<en>Identifier of the sequence</en>
+		</LbId>
+		<LbNom>
+		    <fr>Nom de la séquence</fr>
+         	<en>Name of the sequence</en>
+		</LbNom>
+		<LbEvenement>
+		    <fr>Evénement</fr>
+         	<en>Event</en>
+		</LbEvenement>
+		<LbComposant>
+		    <fr>sur le composant</fr>
+         	<en>on component</en>
+		</LbComposant>
+		<LbValeurActionInterface>
+		    <fr>Attribuer la valeur</fr>
+         	<en>Set value</en>
+		</LbValeurActionInterface>
+		<LbEtatActionInterface>
+		    <fr>Passer à l'état</fr>
+         	<en>Set state</en>
+		</LbEtatActionInterface>
+		<RbOnActionInterface>
+		    <fr>Coché</fr>
+         	<en>On</en>
+		</RbOnActionInterface>
+		<RbOffActionInterface>
+		    <fr>Décoché</fr>
+         	<en>Off</en>
+		</RbOffActionInterface>
+		<LbIgnorer>
+		    <fr>Ignorer les événements intrus de type</fr>
+         	<en>Ignore intrusive events of type</en>
+		</LbIgnorer>
+		<LbNbToleres>
+		    <fr>Nombre d'événements intrus tolorés entre deux événements de la séquence</fr>
+         	<en>Number of intrusive events tolerate between two events from the sequence</en>
+		</LbNbToleres>
+		<CheckDureeMaxTotale>
+		    <fr>Durée maximale de la séquence</fr>
+         	<en>Maximal lenght for the sequence</en>
+		</CheckDureeMaxTotale>
+		<CheckDureeMinTotale>
+		    <fr>Durée minimale de la séquence</fr>
+         	<en>Minimal lenght for the sequence</en>
+		</CheckDureeMinTotale>
+		<CheckDureeMaxEntre>
+		    <fr>Durée maximale entre deux événements de la séquence</fr>
+         	<en>Maximal lenght between two events form the sequence</en>
+		</CheckDureeMaxEntre>
+		<CheckDureeMinEntre>
+		    <fr>Durée minimale entre deux événements de la séquence</fr>
+         	<en>Minimal lenght between two events form the sequence</en>
+		</CheckDureeMinEntre>
+		<BtEnregistrer>
+		    <fr>Enregistrer</fr>
+         	<en>Record</en>
+		</BtEnregistrer>
+		<BtHaut>
+		    <fr>Monter l'événement sélectionné</fr>
+         	<en>Move up the selected event</en>
+		</BtHaut>
+		<BtBas>
+		    <fr>Baisser l'événement sélectionné</fr>
+         	<en>Move down the selected event</en>
+		</BtBas>
+		<BtSupprimer>
+		    <fr>Supprimer l'événement sélectionné</fr>
+         	<en>Delete the selected event</en>
+		</BtSupprimer>
+		<BtModifier>
+		    <fr>Modifier l'événement sélectionné</fr>
+         	<en>Modify the selected event</en>
+		</BtModifier>
+		<BtAjouter>
+		    <fr>Créer un nouvel événement</fr>
+         	<en>Create a new event</en>
+		</BtAjouter>
+		<tooltipBtEnregistrer>
+		    <fr>Enregistrer une nouvelle séquence d'événements</fr>
+         	<en>Record a new sequence of events</en>
+		</tooltipBtEnregistrer>
+	</creationSequence>
+	<personnalisationPasAPas>
+		<Titre>
+		    <fr> - personnalisation des messages du pas à pas</fr>
+         	<en> - personalization of the messages for the step-to-step</en>
+		</Titre>
+		<CheckMessageAvant>
+		    <fr>Message avant le début du pas à pas</fr>
+         	<en>Message before the beginning of the step-to-step</en>
+		</CheckMessageAvant>
+		<CheckDemandeMessageAvant>
+		    <fr>Demander l'autorisation à l'utilisateur</fr>
+         	<en>Ask the user's permission</en>
+		</CheckDemandeMessageAvant>
+		<CheckMessageApres>
+		    <fr>Message à la fin du pas à pas</fr>
+         	<en>Message at the end of the step-to-step</en>
+		</CheckMessageApres>
+		<LbEtapes>
+		    <fr>Liste des étapes</fr>
+         	<en>Step list</en>
+		</LbEtapes>
+		<CheckMessageAvantEtape>
+		    <fr>Message avant l'étape séléctionnée</fr>
+         	<en>Message before selected step</en>
+		</CheckMessageAvantEtape>
+		<CheckDemandeMessageAvantEtape>
+		    <fr>Message à la fin de l'étape séléctionnée</fr>
+         	<en>Message after selected step</en>
+		</CheckDemandeMessageAvantEtape>
+		<LbCouleur>
+		    <fr>Couleur de fond des messages</fr>
+         	<en>Background color of messages</en>
+		</LbCouleur>
+		<LbPoliceMessage>
+		    <fr>Police des messages</fr>
+         	<en>Message font</en>
+		</LbPoliceMessage>
+		<LbPoliceBouton>
+		    <fr>Police des bouton réponse</fr>
+         	<en>Button font</en>
+		</LbPoliceBouton>
+		<PanelMiseEnForme>
+		    <fr>Options de mise en forme</fr>
+         	<en>Formatting options</en>
+		</PanelMiseEnForme>
+		<BtValider>
+			<fr>Valider et revenir à la définition des règles d'assistance</fr>
+         	<en>Validate and come back to assistance rules definition</en>
+		</BtValider>
+		<BtAnnuler>
+			<fr>Retour à la définition des règles d'assistance</fr>
+         	<en>Return to assistance rules definition</en>
+		</BtAnnuler>
+		<BtApercu>
+			<fr>Voir un aperçu de la mise en valeur définie sur un composant exemple</fr>
+         	<en>See a glimpse of the valorisation defined in an example component</en>
+		</BtApercu>
+		<BtCouleur>
+			<fr>Modifier la couleur de fond du message</fr>
+         	<en>Modify the message backgroung color</en>
+		</BtCouleur>
+		<BtPoliceMessage>
+			<fr>Modifier la police du message</fr>
+         	<en>Modify the message font</en>
+		</BtPoliceMessage>
+		<BtPoliceBouton>
+			<fr>Modifier la police des boutons réponses</fr>
+         	<en>Modify the button font</en>
+		</BtPoliceBouton>
+	</personnalisationPasAPas>
+</interface>
+

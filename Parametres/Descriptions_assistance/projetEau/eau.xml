@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<description>
+  <metadonnees>
+    <assistance nom="eau" logiciel="projetEau" type="Application Java" interface="MaDescription.interface" statut="public" public="" />
+    <creation date_creation="21/05/2014" date_modification="21/05/2014" createur="" />
+    <personnalisation structure_profil_statique="" id_structure_profil_statique="" />
+    <commentaires />
+  </metadonnees>
+  <regles>
+    <regle id="R0">
+      <metadonnees />
+      <evenement_declencheur type="lancementAssistance" idComp="" />
+      <alternatives condition="C0">
+        <alternative valeur="Oui">
+          <action id="R1" />
+        </alternative>
+        <alternative valeur="Non merci">
+          <action id="A0" />
+        </alternative>
+      </alternatives>
+      <evenement_de_fin idEve="E0" type="mouseClicked" idComp="5313" />
+    </regle>
+    <regle id="R1">
+      <metadonnees />
+      <evenement_declencheur type="lancementRegle" idComp="R1" />
+      <alternatives condition="C0">
+      </alternatives>
+    </regle>
+  </regles>
+  <actions>
+    <action id="A0" type="message" sous-type="textuel" assistant="">
+      <textuel>
+        <texte>&lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;p&gt;
+      Au revoir %prenom%
+    &lt;/p&gt;&lt;/body&gt;&lt;/body&gt;&lt;/html&gt;</texte>
+      </textuel>
+    </action>
+    <action id="A1" type="mise en valeur">
+      <composant id="5313" type="" />
+    </action>
+  </actions>
+  <conditions>
+    <condition id="C0" type="consultation">
+      <texte>Voullez-vous être assisté dans la découverte de ce logiciel ?</texte>
+      <titre>Aide</titre>
+      <policeMessage nom="Dialog" style="1" taille="12" />
+      <policeOptions nom="Dialog" style="1" taille="12" />
+      <couleur police="sun.swing.PrintColorUIResource[r=51,g=51,b=51]" fond="java.awt.Color[r=255,g=255,b=255]" />
+      <options>
+        <option label="Oui" />
+        <option label="Non merci" />
+      </options>
+    </condition>
+  </conditions>
+  <evenements>
+  <evenement typeEve="action utilisateur" id="E0" type="mouseClicked" idComp="5313" />
+	</evenements>
+  <sequences />
+</description>
+

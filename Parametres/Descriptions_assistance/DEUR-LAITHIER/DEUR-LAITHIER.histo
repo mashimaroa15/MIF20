@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<historique date_creation="19/05/2014" date_derniere_modif="19/05/2014" nom_assistance="DEUR-LAITHIER" logiciel="DEUR-LAITHIER">
+  <utilisateur nom="anonyme.xml">
+    <objet nom="R1">
+      <seance dernier="1400583796244" date="20/05/2014">1</seance>
+      <seance dernier="1400583796244" date="20/05/2014">1</seance>
+      <seance dernier="1400583796244" date="20/05/2014">1</seance>
+      <seance dernier="1400585130394" date="20/05/2014">1</seance>
+      <seance dernier="1400585130394" date="20/05/2014">1</seance>
+      <seance dernier="1400585130394" date="20/05/2014">1</seance>
+      <seance dernier="1400585130394" date="20/05/2014">1</seance>
+      <seance dernier="1400585240440" date="20/05/2014">1</seance>
+      <seance dernier="1400585240440" date="20/05/2014">1</seance>
+      <seance dernier="1400585240440" date="20/05/2014">1</seance>
+      <seance dernier="1400585240440" date="20/05/2014">1</seance>
+      <seance dernier="1400585240440" date="20/05/2014">1</seance>
+      <seance dernier="1400585365446" date="20/05/2014">1</seance>
+      <seance dernier="1400585847557" date="20/05/2014">1</seance>
+    </objet>
+    <objet nom="A2">
+      <seance dernier="1400583796244" date="20/05/2014">1</seance>
+      <seance dernier="1400583796244" date="20/05/2014">1</seance>
+      <seance dernier="1400583796244" date="20/05/2014">1</seance>
+      <seance dernier="1400585130394" date="20/05/2014">1</seance>
+      <seance dernier="1400585130394" date="20/05/2014">1</seance>
+      <seance dernier="1400585130394" date="20/05/2014">1</seance>
+      <seance dernier="1400585130394" date="20/05/2014">1</seance>
+      <seance dernier="1400585240440" date="20/05/2014">1</seance>
+      <seance dernier="1400585240440" date="20/05/2014">1</seance>
+      <seance dernier="1400585240440" date="20/05/2014">1</seance>
+      <seance dernier="1400585240440" date="20/05/2014">1</seance>
+      <seance dernier="1400585240440" date="20/05/2014">1</seance>
+      <seance dernier="1400585365446" date="20/05/2014">1</seance>
+      <seance dernier="1400585847557" date="20/05/2014">1</seance>
+    </objet>
+    <objet nom="A3">
+      <seance dernier="1400585130596" date="20/05/2014">1</seance>
+      <seance dernier="1400585130596" date="20/05/2014">1</seance>
+      <seance dernier="1400585130596" date="20/05/2014">1</seance>
+      <seance dernier="1400585130596" date="20/05/2014">1</seance>
+      <seance dernier="1400585240845" date="20/05/2014">1</seance>
+      <seance dernier="1400585240845" date="20/05/2014">1</seance>
+      <seance dernier="1400585240845" date="20/05/2014">1</seance>
+      <seance dernier="1400585240845" date="20/05/2014">1</seance>
+      <seance dernier="1400585240845" date="20/05/2014">1</seance>
+      <seance dernier="1400585365805" date="20/05/2014">1</seance>
+      <seance dernier="1400585847807" date="20/05/2014">1</seance>
+    </objet>
+    <objet nom="A5">
+      <seance dernier="1400585130862" date="20/05/2014">1</seance>
+      <seance dernier="1400585130862" date="20/05/2014">1</seance>
+      <seance dernier="1400585130862" date="20/05/2014">1</seance>
+      <seance dernier="1400585130862" date="20/05/2014">1</seance>
+      <seance dernier="1400585241204" date="20/05/2014">1</seance>
+      <seance dernier="1400585241204" date="20/05/2014">1</seance>
+      <seance dernier="1400585241204" date="20/05/2014">1</seance>
+      <seance dernier="1400585241204" date="20/05/2014">1</seance>
+      <seance dernier="1400585241204" date="20/05/2014">1</seance>
+      <seance dernier="1400585366148" date="20/05/2014">1</seance>
+      <seance dernier="1400585848103" date="20/05/2014">1</seance>
+    </objet>
+    <objet nom="C2">
+      <seance heure="1400585847557" date="20/05/2014">Oui</seance>
+    </objet>
+  </utilisateur>
+</historique>
+

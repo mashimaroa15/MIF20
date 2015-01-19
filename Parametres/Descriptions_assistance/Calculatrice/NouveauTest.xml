@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<description>
+  <metadonnees>
+    <assistance nom="NouveauTest" logiciel="Calculatrice" type="Exécutable Windows" interface="interfaceCalculatrice.interface" statut="public" public="" />
+    <creation date_creation="15/07/2013" date_modification="21/03/2014" createur="Blandine" />
+    <personnalisation structure_profil_statique="AssistanceRegard.str" id_structure_profil_statique="136" />
+    <commentaires>C'est une assistance bidon pour faire des tests avec une appli simple</commentaires>
+  </metadonnees>
+  <regles>
+    <regle id="R0">
+      <metadonnees />
+      <evenement_declencheur idEve="E0" type="mouseClicked" idComp="37" />
+      <alternatives condition="C2">
+        <alternative borne_inf="1" borne_sup="1">
+          <action id="R3" />
+        </alternative>
+      </alternatives>
+      <evenement_de_fin idEve="E2" type="mouseEntered" idComp="36" />
+    </regle>
+    <regle id="R1">
+      <metadonnees />
+      <evenement_declencheur idEve="E2" type="mouseEntered" idComp="36" />
+      <alternatives condition="">
+        <alternative>
+          <action id="A0" />
+          <action id="A3" />
+        </alternative>
+      </alternatives>
+      <evenement_de_fin idEve="E7" type="mouseEntered" idComp="36" duree="600000" />
+    </regle>
+    <regle id="R2">
+      <metadonnees />
+      <evenement_declencheur type="lancementAssistance" idComp="" />
+      <alternatives condition="">
+        <alternative>
+          <action id="A9" />
+        </alternative>
+      </alternatives>
+      <evenement_de_fin idEve="E5" type="declenchement" idComp="A0" />
+    </regle>
+    <regle id="R3">
+      <metadonnees />
+      <evenement_declencheur idEve="E1" type="mouseClicked" idComp="33" />
+      <alternatives condition="C4">
+        <alternative valeur="Option 1">
+          <action id="A1" />
+          <action id="A11" />
+        </alternative>
+        <alternative valeur="Option 2">
+          <action id="R3" />
+          <action id="R0" />
+        </alternative>
+        <alternative valeur="Option 3">
+          <action id="A0" />
+          <action id="A1" />
+        </alternative>
+        <alternative valeur="Option 1">
+          <action id="A10" />
+          <action id="A9" />
+          <action id="A11" />
+        </alternative>
+      </alternatives>
+    </regle>
+    <regle id="R4">
+      <metadonnees />
+      <evenement_declencheur type="lancementAssistance" idComp="" />
+      <alternatives condition="">
+        <alternative>
+          <action id="A0" />
+        </alternative>
+      </alternatives>
+    </regle>
+  </regles>
+  <actions>
+    <action id="A0" type="mise en valeur">
+      <composant id="35" type="symbole" direction="par la gauche" symbole="attention8.png" />
+    </action>
+    <action id="A1" type="mise en valeur">
+      <composant id="35" type="entourer" couleur="java.awt.Color[r=0,g=0,b=102]" arrondi="0" eloignement="0" epaisseur="5" />
+    </action>
+    <action id="A3" type="mise en valeur">
+      <composant id="37" type="agent animé" direction="par le haut" personnage="Robby" />
+    </action>
+    <action id="A9" type="message" sous-type="textuel_vocal" assistant="messager">
+      <textuel>
+        <texte>Bonjour Lucas, Je vais t'aider &amp;#224; corriger les yeux rouges sur une photo.</texte>
+        <options titre="Message Assistant">
+          <position type="ecran">
+            <ecran horizontal="centre" vertical="centre" />
+          </position>
+          <taille type="automatique" />
+        </options>
+      </textuel>
+      <vocal different="vrai">
+        <texte>Bonjour %prenom%</texte>
+      </vocal>
+    </action>
+    <action id="A10" type="masquage">
+      <composant id="32" type="occulter" />
+    </action>
+    <action id="A11" type="animation" agent="DoubleAgent.Control" personnage="Genie">
+      <sousaction type="deplacement" position_x="700" position_y="600" vitesse="" />
+      <sousaction type="animation" identifiant="explain" />
+      <sousaction type="parole" vitesse="100">
+        <texte>salut</texte>
+      </sousaction>
+      <sousaction type="pense">
+        <texte>hum...</texte>
+      </sousaction>
+    </action>
+    <action id="A12" type="mise en valeur" timer="12000">
+      <composant id="31" type="entourer" couleur="java.awt.Color[r=255,g=51,b=51]" arrondi="0" eloignement="0" epaisseur="5" />
+    </action>
+    <action id="A13" type="ajout composant" nom="C1">
+      <composant id="34" type="label" icone="Aide7.png" texte="Aide" direction="par la gauche" largeur="100" hauteur="100" police="java.awt.Font[family=Cambria,name=Cambria,style=bolditalic,size=18]" couleur="java.awt.Color[r=255,g=51,b=0]" />
+    </action>
+    <action id="A14" type="pas à pas" typeAuto="automatisé" listeEtapes="S1_MaSequenceUtile">
+      <message type="avant" demande="non">
+        <texte>on va faire un pas à pas.</texte>
+        <titre>Information</titre>
+        <policeMessage nom="Calibri" style="0" taille="36" />
+        <policeOptions nom="Calibri" style="0" taille="20" />
+        <couleur police="java.awt.Color[r=0,g=0,b=0]" fond="java.awt.Color[r=255,g=255,b=255]" />
+        <options>
+          <option label="commencer" />
+        </options>
+      </message>
+      <etapes>
+        <message type="avant" demande="non" />
+        <miseEnValeur>
+          <composant type="entourer" couleur="java.awt.Color[r=0,g=0,b=255]" arrondi="15" eloignement="5" epaisseur="4" />
+        </miseEnValeur>
+      </etapes>
+      <evenement idComp="37" propriete="clic">
+        <message type="avant" demande="non">
+          <texte>Nous allons maintenant cliquer sur le bouton 4</texte>
+          <titre>Information</titre>
+          <policeMessage nom="Calibri" style="0" taille="36" />
+          <policeOptions nom="Calibri" style="0" taille="20" />
+          <couleur police="java.awt.Color[r=0,g=0,b=0]" fond="java.awt.Color[r=255,g=255,b=255]" />
+          <options>
+            <option label="continuer" />
+          </options>
+        </message>
+      </evenement>
+      <evenement idComp="44" propriete="clic">
+        <message type="avant" demande="non">
+          <texte>On va cliquer sur le bouton 2</texte>
+          <titre>Information</titre>
+          <policeMessage nom="Calibri" style="0" taille="36" />
+          <policeOptions nom="Calibri" style="0" taille="20" />
+          <couleur police="java.awt.Color[r=0,g=0,b=0]" fond="java.awt.Color[r=255,g=255,b=255]" />
+          <options>
+            <option label="continuer" />
+          </options>
+        </message>
+      </evenement>
+    </action>
+    <action id="A15" type="presentation guidee" listeEtapes="S0_">
+      <message type="avant" demande="non">
+        <texte>on va faire une présentation guidée.</texte>
+        <titre>Information</titre>
+        <policeMessage nom="Calibri" style="0" taille="36" />
+        <policeOptions nom="Calibri" style="0" taille="20" />
+        <couleur police="java.awt.Color[r=0,g=0,b=0]" fond="java.awt.Color[r=255,g=204,b=204]" />
+        <options>
+          <option label="commencer" />
+        </options>
+      </message>
+      <etapes>
+        <message type="avant" demande="non" />
+        <timer secondes="10" />
+        <miseEnValeur>
+          <composant type="entourer" couleur="java.awt.Color[r=0,g=0,b=255]" arrondi="15" eloignement="5" epaisseur="4" />
+        </miseEnValeur>
+      </etapes>
+      <evenement idComp="34" propriete="clic">
+        <message sous-type="textuel" type="message">
+          <textuel>
+            <texte>&lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body bgcolor="#ffcccc"&gt;Je vous présente le bouton Effacer la mémoire&lt;/body&gt;&lt;/body&gt;&lt;/html&gt;</texte>
+            <options titre="Information" />
+          </textuel>
+        </message>
+      </evenement>
+      <evenement idComp="44" propriete="clic">
+        <message sous-type="textuel" type="message">
+          <textuel>
+            <texte>&lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body bgcolor="#ffcccc"&gt;Je vous présente le bouton 2&lt;/body&gt;&lt;/body&gt;&lt;/html&gt;</texte>
+            <options titre="Information" />
+          </textuel>
+        </message>
+      </evenement>
+    </action>
+    <action id="A16" type="fichier" chemin="D:\Publications\Publications_GINON.doc" />
+  </actions>
+  <conditions>
+    <condition id="C2" type="historique" objet="C4" sous-type="consultation" />
+    <condition id="C4" type="consultation">
+      <texte>salut à tous</texte>
+      <titre>information</titre>
+      <policeMessage nom="Comic Sans MS" style="3" taille="22" />
+      <policeOptions nom="Arial" style="3" taille="10" />
+      <couleur police="java.awt.Color[r=255,g=0,b=102]" fond="java.awt.Color[r=255,g=204,b=204]" />
+      <options>
+        <option label="Option 1" />
+        <option label="Option 2" />
+        <option label="Option 3" />
+      </options>
+    </condition>
+    <condition id="C5" type="combinaison" formule="C0(Like)||C2(&gt;9)||C2(&gt;1)" />
+    <condition id="C7" type="profil">
+      <textuelle chemin="[Preferences, Discover new fonctionalities]">
+        <valeur>Like</valeur>
+        <valeur>Dislike</valeur>
+      </textuelle>
+    </condition>
+    <condition id="C8" type="historique" objet="R0" sous-type="dernier déclenchements" portee="seance" unite="secondes" />
+    <condition id="C9" type="contexte" idComp="38" propriete="valeur textuelle" sous-type="texte" />
+  </conditions>
+  <evenements>
+    <evenement typeEve="action utilisateur" id="E0" type="mouseClicked" idComp="37" />
+    <evenement typeEve="action utilisateur" id="E1" type="mouseClicked" idComp="33" />
+    <evenement typeEve="action utilisateur" id="E2" type="mouseEntered" idComp="36" />
+    <evenement typeEve="action utilisateur" id="E3" type="mouseEntered" idComp="30" />
+    <evenement id="E4" typeEve="timer fixe" duree="780000" unite="minutes" />
+    <evenement typeEve="evenement assistance" id="E5" type="declenchement" objet="A0" />
+    <evenement id="E6" typeEve="timer relatif" sous-typeEve="evenement assistance" objet="aucune regle/action" duree="30000" unite="secondes" />
+    <evenement id="E7" typeEve="timer relatif" sous-typeEve="evenement" objet="E2" duree="600000" unite="minutes" />
+    <evenement id="E8" typeEve="timer relatif" sous-typeEve="action utilisateur" objet="absence evenement" sousObjet="E1" duree="29000" unite="secondes" />
+    <evenement id="E9" typeEve="timer relatif" sous-typeEve="action utilisateur" objet="aucune action" duree="30000" unite="secondes" />
+    <evenement id="E10" typeEve="timer relatif" sous-typeEve="action utilisateur" objet="aucun clic" duree="30000" unite="secondes" />
+    <evenement id="E11" typeEve="timer relatif" sous-typeEve="action utilisateur" objet="aucun mouvement" duree="30000" unite="secondes" />
+    <evenement id="E12" typeEve="timer relatif" sous-typeEve="evenement" objet="E3" duree="30000" unite="secondes" />
+  </evenements>
+  <sequences>
+    <sequence id="S0" nom="" type="actions">
+      <evenement idComp="34" propriete="clic" />
+      <evenement idComp="44" propriete="clic" />
+    </sequence>
+    <sequence id="S1" nom="MaSequenceUtile" type="actions">
+      <evenement idComp="37" propriete="clic" />
+      <evenement idComp="44" propriete="clic" />
+    </sequence>
+  </sequences>
+</description>
+

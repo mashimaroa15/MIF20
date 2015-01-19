@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Interface>
+  <fenetre id="0" url="http://www.ludeales.com/jeu-connaissance-europe.php" typeAjoute="fenêtre" descriptionAjoutee="la fenetre null">
+    <composant id="1" type="text" typeAjoute="zone de saisie" id_web="login" texte="" valeur="" xpath="/html/body/div[2]/div/form/input" descriptionAjoutee="la zone de saisie login" />
+    <composant id="2" type="password" typeAjoute="zone de saisie" id_web="password" texte="" valeur="" xpath="/html/body/div[2]/div/form/input[2]" descriptionAjoutee="la zone de saisie password" />
+    <composant id="3" type="image" texte="" valeur="Go" xpath="/html/body/div[2]/div/form/input[8]" />
+    <composant id="4" typeAjoute="lien" texte="" xpath="/html/body/div[2]/div/a" lien="http://www.ludeales.com/index.php" descriptionAjoutee="le lien http://www.ludeales.com/index.php" />
+    <composant id="5" typeAjoute="lien" texte="Inscrivez-vous" titre="" xpath="/html/body/div[2]/div/div/a" lien="http://www.ludeales.com/inscription.php" descriptionAjoutee="le lien " />
+    <composant id="6" typeAjoute="lien" texte="Dés" titre="" xpath="/html/body/div[2]/div[2]/div/div/ul/li/a" lien="http://www.ludeales.com/jeu-de-des.php" descriptionAjoutee="le lien " />
+    <composant id="7" typeAjoute="lien" texte="Cartes" titre="" xpath="/html/body/div[2]/div[2]/div/div/ul/li[2]/a" lien="http://www.ludeales.com/jeu-cartes.php" descriptionAjoutee="le lien " />
+    <composant id="8" typeAjoute="lien" texte="Action" titre="" xpath="/html/body/div[2]/div[2]/div/div/ul/li[3]/a" lien="http://www.ludeales.com/jeu-action.php" descriptionAjoutee="le lien " />
+    <composant id="9" typeAjoute="lien" texte="Géographie" titre="" xpath="/html/body/div[2]/div[2]/div/div/ul/li[4]/a" lien="http://www.ludeales.com/jeu-geographie.php" descriptionAjoutee="le lien " />
+    <composant id="10" typeAjoute="lien" texte="Département français" titre="" xpath="/html/body/div[2]/div[2]/div/div/ul/li[4]/ul/li/a" lien="http://www.ludeales.com/jeu-connaissance-france.php" descriptionAjoutee="le lien " />
+    <composant id="11" typeAjoute="lien" texte="Europe" titre="" xpath="/html/body/div[2]/div[2]/div/div/ul/li[4]/ul/li[2]/a" lien="http://www.ludeales.com/jeu-connaissance-europe.php" descriptionAjoutee="le lien " />
+    <composant id="12" typeAjoute="lien" texte="Capitales d'Europe" titre="" xpath="/html/body/div[2]/div[2]/div/div/ul/li[4]/ul/li[3]/a" lien="http://www.ludeales.com/jeu-connaissance-villes-europe.php" descriptionAjoutee="le lien " />
+    <composant id="13" typeAjoute="lien" texte="Afrique" titre="" xpath="/html/body/div[2]/div[2]/div/div/ul/li[4]/ul/li[4]/a" lien="http://www.ludeales.com/jeu-connaissance-afrique.php" descriptionAjoutee="le lien " />
+    <composant id="14" typeAjoute="lien" texte="Asie" titre="" xpath="/html/body/div[2]/div[2]/div/div/ul/li[4]/ul/li[5]/a" lien="http://www.ludeales.com/jeu-connaissance-asie.php" descriptionAjoutee="le lien " />
+    <composant id="15" typeAjoute="lien" texte="Amérique du Nord" titre="" xpath="/html/body/div[2]/div[2]/div/div/ul/li[4]/ul/li[6]/a" lien="http://www.ludeales.com/jeu-connaissance-amerique-nord.php" descriptionAjoutee="le lien " />
+    <composant id="16" typeAjoute="lien" texte="Villes d'Amérique du Nord" titre="" xpath="/html/body/div[2]/div[2]/div/div/ul/li[4]/ul/li[7]/a" lien="http://www.ludeales.com/jeu-connaissance-villes-amerique-nord.php" descriptionAjoutee="le lien " />
+    <composant id="17" typeAjoute="lien" texte="Amérique du Sud" titre="" xpath="/html/body/div[2]/div[2]/div/div/ul/li[4]/ul/li[8]/a" lien="http://www.ludeales.com/jeu-connaissance-amerique-sud.php" descriptionAjoutee="le lien " />
+    <composant id="18" typeAjoute="lien" texte="Océanie" titre="" xpath="/html/body/div[2]/div[2]/div/div/ul/li[4]/ul/li[9]/a" lien="http://www.ludeales.com/jeu-connaissance-oceanie.php" descriptionAjoutee="le lien " />
+    <composant id="19" typeAjoute="lien" texte="Puzzle" titre="" xpath="/html/body/div[2]/div[2]/div/div/ul/li[5]/a" lien="http://www.ludeales.com/jeu-puzzle.php" descriptionAjoutee="le lien " />
+    <composant id="20" typeAjoute="lien" texte="Réflexion" titre="" xpath="/html/body/div[2]/div[2]/div/div/ul/li[6]/a" lien="http://www.ludeales.com/jeu-reflexion.php" descriptionAjoutee="le lien " />
+    <composant id="21" typeAjoute="lien" texte="Classement et meilleurs scores - pays d'Europe" titre="" xpath="/html/body/div[2]/div[2]/div/div[2]/div/h1[2]/a" lien="http://www.ludeales.com/scores.php?jeu=europe" descriptionAjoutee="le lien " />
+    <composant id="22" typeAjoute="lien" texte="le classement des meilleurs scores" titre="" xpath="/html/body/div[2]/div[2]/div/div[2]/div/p/a" lien="http://www.ludeales.com/scores.php?jeu=europe" descriptionAjoutee="le lien " />
+    <composant id="23" typeAjoute="lien" texte="jeu sur l'Europe" titre="" xpath="/html/body/div[2]/div[2]/div/div[2]/div/p[4]/a" lien="http://pagesperso-orange.fr/therese.eveilleau/pages/jeux_mat/textes/europe.htm" descriptionAjoutee="le lien " />
+    <composant id="24" typeAjoute="lien" texte="Le blog de Ludeales" titre="" xpath="/html/body/div[3]/a" lien="http://blog.ludeales.com/" descriptionAjoutee="le lien " />
+    <composant id="25" typeAjoute="lien" texte="Conditions d'utilisation" titre="" xpath="/html/body/div[3]/a[2]" lien="http://www.ludeales.com/cgu.php" descriptionAjoutee="le lien " />
+    <composant id="26" typeAjoute="lien" texte="Contact" titre="" xpath="/html/body/div[3]/a[3]" lien="http://www.ludeales.com/contact.php" descriptionAjoutee="le lien " />
+    <composant id="27" typeAjoute="lien" texte="Ludeales games in English" titre="" xpath="/html/body/div[3]/a[4]" lien="http://www.ludygames.com/" descriptionAjoutee="le lien " />
+    <composant id="28" typeAjoute="lien" texte="Corrigés, dissertations et commentaires" titre="" xpath="/html/body/div[3]/a[5]" lien="http://www.litterales.com/" descriptionAjoutee="le lien " />
+    <composant id="29" id_web="logo" typeAjoute="image" alt="Ludeales.com" xpath="/html/body/div[2]/div/a/img" titre="" source="http://www.ludeales.com/images/logo.gif" descriptionAjoutee="l'image " />
+    <composant id="30" typeAjoute="label" texte="Login Mot de Passe" xpath="/html/body/div[2]/div/form" />
+    <composant id="31" typeAjoute="label" texte="Login" xpath="/html/body/div[2]/div/form/label" />
+    <composant id="32" typeAjoute="label" texte="Mot de Passe" xpath="/html/body/div[2]/div/form/label[2]" />
+    <composant id="33" typeAjoute="label" texte="Placez les pays d'Europe  " xpath="/html/body/div[2]/div[2]/div/div[2]/div/h1" />
+    <composant id="34" typeAjoute="label" texte="Vous pouvez désormais consulter le classement des meilleurs scores." xpath="/html/body/div[2]/div[2]/div/div[2]/div/p" />
+    <composant id="35" typeAjoute="label" texte="Règles du jeu" xpath="/html/body/div[2]/div[2]/div/div[2]/div/h1[3]" />
+    <composant id="36" typeAjoute="label" texte="Placez le plus rapidement possible les pays d'Europe sur la carte." xpath="/html/body/div[2]/div[2]/div/div[2]/div/p[2]" />
+    <composant id="37" typeAjoute="label" texte="pays d'Europe" xpath="/html/body/div[2]/div[2]/div/div[2]/div/p[2]/strong" />
+    <composant id="38" typeAjoute="label" texte="Partenaires" xpath="/html/body/div[2]/div[2]/div/div[2]/div/h1[4]" />
+    <composant id="39" typeAjoute="label" texte="Retrouvez un autre jeu sur l'Europe sur ce site perso." xpath="/html/body/div[2]/div[2]/div/div[2]/div/p[4]" />
+  </fenetre>
+</Interface>
+

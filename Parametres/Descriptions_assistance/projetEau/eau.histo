@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<historique date_creation="21/05/2014" date_derniere_modif="21/05/2014" nom_assistance="eau" logiciel="projetEau">
+  <utilisateur nom="anonyme.xml">
+    <objet nom="R1">
+      <seance dernier="1400669903924" date="21/05/2014">1</seance>
+    </objet>
+    <objet nom="C0">
+      <seance heure="1400669903924" date="21/05/2014">Non merci</seance>
+    </objet>
+  </utilisateur>
+</historique>
+

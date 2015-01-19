@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="no"?>
+<!DOCTYPE structure SYSTEM "structure.dtd">
+<structure id="138" nom="Profils_Comete" createur="Blandine" date_creation="07/02/2013" date_derniere_modif="07/02/2013" nom_eleve="" prenom_eleve=""><brique id="1" type="0" nom="Connaissance" indice="0"><infos_echelle><echelle id="3"/></infos_echelle><arbre_des_composantes niveaux="1" ponderation="faux"><composante nom="Système solaire"><valeur id_echelle="3" num="0"/></composante><composante nom="Soleil"><valeur id_echelle="3" num="0"/></composante></arbre_des_composantes></brique><brique id="2" type="0" nom="Compétences" indice="1"><infos_echelle><echelle id="17"/></infos_echelle><arbre_des_composantes niveaux="1" ponderation="faux"><composante nom="Jeu du pendu"><valeur id_echelle="17" num="0"/></composante><composante nom="QCM"><valeur id_echelle="17" num="0"/></composante></arbre_des_composantes></brique>
+<brique id="3" type="0" nom="Capacités" indice="2">
+<infos_echelle>
+<echelle id="1"/>
+</infos_echelle>
+<arbre_des_composantes niveaux="1" ponderation="faux">
+<composante nom="Vue">
+<valeur id_echelle="1" num="0"/>
+</composante>
+<composante nom="Audition">
+<valeur id_echelle="1" num="0"/>
+</composante>
+<composante nom="Niveau en lecture">
+<valeur id_echelle="1" num="0"/>
+</composante>
+</arbre_des_composantes>
+</brique>
+<brique id="4" type="0" nom="Préférences" indice="3">
+<infos_echelle>
+<echelle id="29"/>
+</infos_echelle>
+<arbre_des_composantes niveaux="1" ponderation="faux">
+<composante nom="Assistance fréquente">
+<valeur id_echelle="29" num="0"/>
+</composante>
+<composante nom="Assistance textuelle">
+<valeur id_echelle="29" num="0"/>
+</composante>
+<composante nom="Assistance illustrée">
+<valeur id_echelle="29" num="0"/>
+</composante>
+<composante nom="Assistance audio">
+<valeur id_echelle="29" num="0"/>
+</composante>
+</arbre_des_composantes>
+</brique>
+</structure>

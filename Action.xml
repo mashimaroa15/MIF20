@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<action id="A5" type="message" sous-type="textuel" assistant="agent animé">
+  <textuel>
+    <texte>bonjour à tous! Bienvenue</texte>
+  </textuel>
+</action>
+

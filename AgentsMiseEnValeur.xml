@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Agents>
+	<Becky>
+		<DroiteEcran x="-110" y="-50">GestureLeft</DroiteEcran>
+		<GaucheEcran x="-20" y="-40">GestureRight</GaucheEcran>
+		<HautEcran x="-75" y="-5">GestureUp</HautEcran>		
+	</Becky>
+	<Ben>
+		<DroiteEcran x="-130" y="-90">GestureLeft</DroiteEcran>
+		<GaucheEcran x="-30" y="-90">GestureRight</GaucheEcran>
+		<HautEcran x="-110" y="-40">GestureUp</HautEcran>
+	</Ben>
+	<Cupid>
+		<DroiteEcran x="-165" y="-75">GesturingLeft</DroiteEcran>
+		<GaucheEcran x="-10" y="-75">GesturingRight</GaucheEcran>
+		<HautEcran x="-45" y="25">GesturingUp</HautEcran>
+		<BasEcran x="-50" y="-140">GesturingDown</BasEcran>
+	</Cupid>
+	<Debbie>
+		<DroiteEcran x="-160" y="-55">GesturingLeft</DroiteEcran>
+		<GaucheEcran x="-10" y="-80">GesturingRight</GaucheEcran>
+		<HautEcran x="-25" y="45">GesturingUp</HautEcran>
+		<BasEcran x="-45" y="-120">GesturingDown</BasEcran>
+	</Debbie>
+	<Electra>
+		<DroiteEcran x="-120" y="-65">GestureLeft</DroiteEcran>
+		<GaucheEcran x="-15" y="-65">GestureRight</GaucheEcran>		
+	</Electra>
+	<Gar>
+		<DroiteEcran x="-125" y="-55">GestureLeft</DroiteEcran>
+		<GaucheEcran x="0" y="-45">GestureRight</GaucheEcran>
+		<HautEcran x="-80" y="0">GestureUp</HautEcran>
+	</Gar>
+	<Genie>
+		<DroiteEcran x="-120" y="-25">GestureLeft</DroiteEcran>
+		<GaucheEcran x="0" y="-25">GestureRight</GaucheEcran>
+		<HautEcran x="-30" y="0">GestureUp</HautEcran>
+		<BasEcran x="-45" y="-120">GestureDown</BasEcran>
+	</Genie>
+	<Hanz>
+		<DroiteEcran x="-125" y="-55">GestureLeft</DroiteEcran>
+		<GaucheEcran x="0" y="-50">GestureRight</GaucheEcran>
+		<BasEcran x="-40" y="-105">GestureDown</BasEcran>		
+	</Hanz>
+	<Isabella>
+		<DroiteEcran x="-145" y="-80">GesturingRight</DroiteEcran>
+		<GaucheEcran x="-60" y="-80">GesturingLeft</GaucheEcran>
+		<HautEcran x="-45" y="25">GesturingUp</HautEcran>
+	</Isabella>
+	<James>
+		<DroiteEcran x="-145" y="-55">GestureLeft</DroiteEcran>
+		<GaucheEcran x="0" y="-70">GestureRight</GaucheEcran>
+		<HautEcran x="-30" y="0">GestureUp</HautEcran>
+		<BasEcran x="-30" y="-110">GestureDown</BasEcran>
+	</James>
+	<Leo>
+		<DroiteEcran x="-110" y="-60">GestureLeft</DroiteEcran>
+		<GaucheEcran x="-15" y="-70">GestureRight</GaucheEcran>
+		<HautEcran x="-50" y="-25">GestureUp</HautEcran>
+		<BasEcran x="-50" y="-110">GestureDown</BasEcran>
+	</Leo>
+	<Merlin>
+		<DroiteEcran x="-120" y="-50">GestureLeft</DroiteEcran>
+		<GaucheEcran x="-25" y="-55">GestureRight</GaucheEcran>	
+		<HautEcran x="-50" y="-25">GestureUp</HautEcran>
+		<BasEcran x="-45" y="-120">GestureDown</BasEcran>
+	</Merlin>
+	<Milton>
+		<DroiteEcran x="-115" y="-70">GestureRight</DroiteEcran>
+		<HautEcran x="-35" y="0">GestureUp</HautEcran>
+		<BasEcran x="-70" y="-120">GestureDown</BasEcran>
+	</Milton>
+	<Oscar>
+		<DroiteEcran x="-100" y="-40">GestureLeft</DroiteEcran>
+		<GaucheEcran x="-20" y="-55">GestureRight</GaucheEcran>
+		<HautEcran x="-30" y="-10">GestureUp</HautEcran>
+		<BasEcran x="-60" y="-120">GestureDown</BasEcran>
+	</Oscar>
+	<Peedy>
+		<DroiteEcran x="-160" y="-60">GestureLeft</DroiteEcran>
+		<GaucheEcran x="0" y="-60">GestureRight</GaucheEcran>
+		<HautEcran x="-40" y="0">GestureUp</HautEcran>
+		<BasEcran x="-130" y="-120">GestureDown</BasEcran>
+	</Peedy>
+	<Robby>
+		<DroiteEcran x="-125" y="-20">GestureLeft</DroiteEcran>
+		<GaucheEcran x="0" y="-20">GestureRight</GaucheEcran>
+		<HautEcran x="-5" y="0">GestureUp</HautEcran>
+		<BasEcran x="-20" y="-120">GestureDown</BasEcran>
+	</Robby>
+	<Sam>
+		<DroiteEcran x="-155" y="-65">GestureLeft</DroiteEcran>
+		<GaucheEcran x="0" y="-60">GestureRight</GaucheEcran>
+		<HautEcran x="-50" y="15">GestureUp</HautEcran>
+		<BasEcran x="-55" y="-125">GestureDown</BasEcran>
+	</Sam>
+	<Santa>
+		<DroiteEcran x="-130" y="-60">GestureLeft</DroiteEcran>
+		<GaucheEcran x="-10" y="-60">GestureRight</GaucheEcran>
+		<HautEcran x="-40" y="20">GestureUp</HautEcran>
+		<BasEcran x="-35" y="-115">GestureDown</BasEcran>
+	</Santa>
+	<Wabbit>
+		<DroiteEcran x="-165" y="-85">GestureLeft</DroiteEcran>
+		<GaucheEcran x="-30" y="-85">GestureRight</GaucheEcran>
+		<HautEcran x="-50" y="60">GestureUp</HautEcran>
+		<BasEcran x="-105" y="-180">GestureDown</BasEcran>
+	</Wabbit>
+</Agents>

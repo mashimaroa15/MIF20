@@ -1,0 +1,521 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Interface>
+  <fenetre texte="" type="frame" id="2775" description="" typeAjoute="fenêtre" descriptionAjoutee="la fenetre ">
+    <composant texte="" type="root pane" id="2776" description="" typeAjoute="panel" descriptionAjoutee="le panel ">
+      <composant texte="" type="panel" id="2777" description="" typeAjoute="panel" descriptionAjoutee="le panel " />
+      <composant texte="" type="layered pane" id="2778" description="" typeAjoute="panel" descriptionAjoutee="le panel ">
+        <composant texte="" type="panel" id="2779" description="" typeAjoute="panel" descriptionAjoutee="le panel ">
+          <composant texte="" type="layered pane" id="2780" description="" typeAjoute="panel" descriptionAjoutee="le panel ">
+            <composant texte="ENFANT" type="push button" id="2781" description="" typeAjoute="bouton" descriptionAjoutee="le bouton ENFANT" />
+            <composant texte="JEUNE ADULTE" type="push button" id="2782" description="" typeAjoute="bouton" descriptionAjoutee="le bouton JEUNE ADULTE" />
+            <composant texte="" type="label" id="2783" description="" typeAjoute="label" />
+          </composant>
+        </composant>
+      </composant>
+    </composant>
+  </fenetre>
+  <fenetre texte="" type="frame" id="2752" description="" typeAjoute="fenêtre" descriptionAjoutee="la fenetre ">
+    <composant texte="" type="root pane" id="2753" description="" typeAjoute="panel" descriptionAjoutee="le panel ">
+      <composant texte="" type="panel" id="2754" description="" typeAjoute="panel" descriptionAjoutee="le panel " />
+      <composant texte="" type="layered pane" id="2755" description="" typeAjoute="panel" descriptionAjoutee="le panel ">
+        <composant texte="" type="panel" id="2756" description="" typeAjoute="panel" descriptionAjoutee="le panel ">
+          <composant texte="" type="push button" id="2757" description="" typeAjoute="bouton" descriptionAjoutee="le bouton " />
+          <composant texte="" type="push button" id="2758" description="" typeAjoute="bouton" descriptionAjoutee="le bouton " />
+          <composant texte="" type="push button" id="2759" description="" typeAjoute="bouton" descriptionAjoutee="le bouton " />
+          <composant texte="" type="push button" id="2760" description="" typeAjoute="bouton" descriptionAjoutee="le bouton " />
+          <composant texte="Simulateur" type="push button" id="2761" description="" typeAjoute="bouton" descriptionAjoutee="le bouton Simulateur" />
+          <composant texte="" type="push button" id="2762" description="" typeAjoute="bouton" descriptionAjoutee="le bouton " />
+          <composant texte="" type="push button" id="2763" description="" typeAjoute="bouton" descriptionAjoutee="le bouton " />
+          <composant texte="" type="label" id="2764" description="" typeAjoute="label" />
+          <composant texte="" type="label" id="2765" description="" typeAjoute="label" />
+          <composant texte="" type="push button" id="2766" description="" typeAjoute="bouton" descriptionAjoutee="le bouton " />
+          <composant texte="" type="push button" id="2767" description="" typeAjoute="bouton" descriptionAjoutee="le bouton " />
+          <composant texte="" type="push button" id="2768" description="" typeAjoute="bouton" descriptionAjoutee="le bouton " />
+          <composant texte="" type="push button" id="2769" description="" typeAjoute="bouton" descriptionAjoutee="le bouton " />
+          <composant texte="" type="push button" id="2770" description="" typeAjoute="bouton" descriptionAjoutee="le bouton " />
+        </composant>
+        <composant texte="" type="menu bar" id="2771" description="">
+          <composant texte="File" type="menu" id="2772" description="">
+            <composant texte="Quitter" type="menu item" id="2773" description="" />
+          </composant>
+          <composant texte="Edit" type="menu" id="2774" description="" />
+        </composant>
+      </composant>
+    </composant>
+  </fenetre>
+  <fenetre texte="" type="frame" id="2729" description="" typeAjoute="fenêtre" descriptionAjoutee="la fenetre ">
+    <composant texte="" type="root pane" id="2730" description="" typeAjoute="panel" descriptionAjoutee="le panel ">
+      <composant texte="" type="panel" id="2731" description="" typeAjoute="panel" descriptionAjoutee="le panel " />
+      <composant texte="" type="layered pane" id="2732" description="" typeAjoute="panel" descriptionAjoutee="le panel ">
+        <composant texte="" type="panel" id="2733" description="" typeAjoute="panel" descriptionAjoutee="le panel ">
+          <composant texte="" type="label" id="2734" description="" typeAjoute="label" />
+          <composant texte="" type="label" id="2735" description="" typeAjoute="label" />
+          <composant texte="" type="push button" id="2736" description="" typeAjoute="bouton" descriptionAjoutee="le bouton " />
+          <composant texte="" type="push button" id="2737" description="" typeAjoute="bouton" descriptionAjoutee="le bouton " />
+          <composant texte="Simulateur" type="push button" id="2738" description="" typeAjoute="bouton" descriptionAjoutee="le bouton Simulateur" />
+          <composant texte="" type="push button" id="2739" description="" typeAjoute="bouton" descriptionAjoutee="le bouton " />
+          <composant texte="" type="push button" id="2740" description="" typeAjoute="bouton" descriptionAjoutee="le bouton " />
+          <composant texte="" type="push button" id="2741" description="" typeAjoute="bouton" descriptionAjoutee="le bouton " />
+          <composant texte="" type="push button" id="2742" description="" typeAjoute="bouton" descriptionAjoutee="le bouton " />
+          <composant texte="" type="push button" id="2743" description="" typeAjoute="bouton" descriptionAjoutee="le bouton " />
+          <composant texte="" type="push button" id="2744" description="" typeAjoute="bouton" descriptionAjoutee="le bouton " />
+          <composant texte="" type="push button" id="2745" description="" typeAjoute="bouton" descriptionAjoutee="le bouton " />
+          <composant texte="" type="push button" id="2746" description="" typeAjoute="bouton" descriptionAjoutee="le bouton " />
+          <composant texte="" type="push button" id="2747" description="" typeAjoute="bouton" descriptionAjoutee="le bouton " />
+        </composant>
+        <composant texte="" type="menu bar" id="2748" description="">
+          <composant texte="File" type="menu" id="2749" description="">
+            <composant texte="Quitter" type="menu item" id="2750" description="" />
+          </composant>
+          <composant texte="Edit" type="menu" id="2751" description="" />
+        </composant>
+      </composant>
+    </composant>
+  </fenetre>
+  <fenetre texte="" type="frame" id="2710" description="" typeAjoute="fenêtre" descriptionAjoutee="la fenetre ">
+    <composant texte="" type="root pane" id="2711" description="" typeAjoute="panel" descriptionAjoutee="le panel ">
+      <composant texte="" type="panel" id="2712" description="" typeAjoute="panel" descriptionAjoutee="le panel " />
+      <composant texte="" type="layered pane" id="2713" description="" typeAjoute="panel" descriptionAjoutee="le panel ">
+        <composant texte="" type="panel" id="2714" description="" typeAjoute="panel" descriptionAjoutee="le panel ">
+          <composant texte="" type="panel" id="2715" description="" typeAjoute="panel" descriptionAjoutee="le panel ">
+            <composant texte="jRadioButton1" type="radio button" id="2716" description="" typeAjoute="bouton radio" descriptionAjoutee="le bouton radio jRadioButton1" />
+            <composant texte="jRadioButton2" type="radio button" id="2717" description="" typeAjoute="bouton radio" descriptionAjoutee="le bouton radio jRadioButton2" />
+            <composant texte="jRadioButton3" type="radio button" id="2718" description="" typeAjoute="bouton radio" descriptionAjoutee="le bouton radio jRadioButton3" />
+            <composant texte="jRadioButton4" type="radio button" id="2719" description="" typeAjoute="bouton radio" descriptionAjoutee="le bouton radio jRadioButton4" />
+            <composant texte="jLabel2" type="label" id="2720" description="" typeAjoute="label" />
+            <composant texte="jLabel3" type="label" id="2721" description="" typeAjoute="label" />
+          </composant>
+          <composant texte="0" type="label" id="2722" description="" typeAjoute="label" />
+          <composant texte="/5" type="label" id="2723" description="" typeAjoute="label" />
+          <composant texte="jLabel7" type="label" id="2724" description="" typeAjoute="label" />
+          <composant texte="Note:" type="label" id="2725" description="" typeAjoute="label" />
+          <composant texte="QCM" type="label" id="2726" description="" typeAjoute="label" />
+          <composant texte="Valider" type="push button" id="2727" description="" typeAjoute="bouton" descriptionAjoutee="le bouton Valider" />
+          <composant texte="Suivant" type="push button" id="2728" description="" typeAjoute="bouton" descriptionAjoutee="le bouton Suivant" />
+        </composant>
+      </composant>
+    </composant>
+  </fenetre>
+  <fenetre texte="" type="frame" id="2700" description="" typeAjoute="fenêtre" descriptionAjoutee="la fenetre ">
+    <composant texte="" type="root pane" id="2701" description="" typeAjoute="panel" descriptionAjoutee="le panel ">
+      <composant texte="" type="panel" id="2702" description="" typeAjoute="panel" descriptionAjoutee="le panel " />
+      <composant texte="" type="layered pane" id="2703" description="" typeAjoute="panel" descriptionAjoutee="le panel ">
+        <composant texte="" type="panel" id="2704" description="" typeAjoute="panel" descriptionAjoutee="le panel ">
+          <composant texte="Addition" type="push button" id="2705" description="" typeAjoute="bouton" descriptionAjoutee="le bouton Addition" />
+          <composant texte="Soustraction" type="push button" id="2706" description="" typeAjoute="bouton" descriptionAjoutee="le bouton Soustraction" />
+          <composant texte="Multiplication" type="push button" id="2707" description="" typeAjoute="bouton" descriptionAjoutee="le bouton Multiplication" />
+          <composant texte="" type="push button" id="2708" description="" typeAjoute="bouton" descriptionAjoutee="le bouton " />
+          <composant texte="L'Utilisation de l'eau" type="label" id="2709" description="" typeAjoute="label" />
+        </composant>
+      </composant>
+    </composant>
+  </fenetre>
+  <fenetre texte="" type="frame" id="2671" description="" typeAjoute="fenêtre" descriptionAjoutee="la fenetre ">
+    <composant texte="" type="root pane" id="2672" description="" typeAjoute="panel" descriptionAjoutee="le panel ">
+      <composant texte="" type="panel" id="2673" description="" typeAjoute="panel" descriptionAjoutee="le panel " />
+      <composant texte="" type="layered pane" id="2674" description="" typeAjoute="panel" descriptionAjoutee="le panel ">
+        <composant texte="" type="panel" id="2675" description="" typeAjoute="panel" descriptionAjoutee="le panel ">
+          <composant texte="L’eau de pluie s’infiltre dans le sol ou ruisselle jusqu’à un cours d’eau." type="label" id="2676" description="" typeAjoute="label" />
+          <composant texte="elle rejoint les fleuves qui eux-mêmes se jettent dans la mer" type="label" id="2677" description="" typeAjoute="label" />
+          <composant texte="Le ciel est chargé de nuages ... Il pleut !" type="label" id="2678" description="" typeAjoute="label" />
+          <composant texte="Des nuages se créent." type="label" id="2679" description="" typeAjoute="label" />
+          <composant texte="Grâce aux rayons chauds du soleil, l’eau s’évapore." type="label" id="2680" description="" typeAjoute="label" />
+          <composant texte="" type="panel" id="2681" description="" typeAjoute="panel" descriptionAjoutee="le panel ">
+            <composant texte="" type="label" id="2682" description="" typeAjoute="label" />
+            <composant texte="Grâce aux rayons chauds du soleil, l’eau s’évapore." type="label" id="2683" description="" typeAjoute="label" />
+          </composant>
+          <composant texte="" type="panel" id="2684" description="" typeAjoute="panel" descriptionAjoutee="le panel ">
+            <composant texte="" type="label" id="2685" description="" typeAjoute="label" />
+            <composant texte="Des nuages se créent." type="label" id="2686" description="" typeAjoute="label" />
+          </composant>
+          <composant texte="" type="panel" id="2687" description="" typeAjoute="panel" descriptionAjoutee="le panel ">
+            <composant texte="" type="label" id="2688" description="" typeAjoute="label" />
+            <composant texte="elle rejoint les fleuves qui eux-mêmes se jettent dans la mer" type="label" id="2689" description="" typeAjoute="label" />
+          </composant>
+          <composant texte="" type="panel" id="2690" description="" typeAjoute="panel" descriptionAjoutee="le panel ">
+            <composant texte="" type="label" id="2691" description="" typeAjoute="label" />
+            <composant texte="L’eau de pluie s’infiltre dans le sol ou ruisselle jusqu’à un cours d’eau." type="label" id="2692" description="" typeAjoute="label" />
+          </composant>
+          <composant texte="" type="panel" id="2693" description="" typeAjoute="panel" descriptionAjoutee="le panel ">
+            <composant texte="" type="label" id="2694" description="" typeAjoute="label" />
+            <composant texte="Le ciel est chargé de nuage ... Il pleut !" type="label" id="2695" description="" typeAjoute="label" />
+          </composant>
+          <composant texte="PARTIE 1:" type="label" id="2696" description="" typeAjoute="label" />
+          <composant texte="Déposer les phrases suivantes dans le bonne ordre" type="label" id="2697" description="" typeAjoute="label" />
+          <composant texte="Valider" type="push button" id="2698" description="" typeAjoute="bouton" descriptionAjoutee="le bouton Valider" />
+          <composant texte="" type="label" id="2699" description="" typeAjoute="label" />
+        </composant>
+      </composant>
+    </composant>
+  </fenetre>
+  <fenetre texte="" type="frame" id="2662" description="" typeAjoute="fenêtre" descriptionAjoutee="la fenetre ">
+    <composant texte="" type="root pane" id="2663" description="" typeAjoute="panel" descriptionAjoutee="le panel ">
+      <composant texte="" type="panel" id="2664" description="" typeAjoute="panel" descriptionAjoutee="le panel " />
+      <composant texte="" type="layered pane" id="2665" description="" typeAjoute="panel" descriptionAjoutee="le panel ">
+        <composant texte="" type="panel" id="2666" description="" typeAjoute="panel" descriptionAjoutee="le panel ">
+          <composant texte="Le cycle de l'eau" type="label" id="2667" description="" typeAjoute="label" />
+          <composant texte="Exercice:" type="label" id="2668" description="" typeAjoute="label" />
+          <composant texte="jButton1" type="push button" id="2669" description="" typeAjoute="bouton" descriptionAjoutee="le bouton jButton1" />
+          <composant texte="jButton2" type="push button" id="2670" description="" typeAjoute="bouton" descriptionAjoutee="le bouton jButton2" />
+        </composant>
+      </composant>
+    </composant>
+  </fenetre>
+  <fenetre texte="" type="frame" id="2643" description="" typeAjoute="fenêtre" descriptionAjoutee="la fenetre ">
+    <composant texte="" type="root pane" id="2644" description="" typeAjoute="panel" descriptionAjoutee="le panel ">
+      <composant texte="" type="panel" id="2645" description="" typeAjoute="panel" descriptionAjoutee="le panel " />
+      <composant texte="" type="layered pane" id="2646" description="" typeAjoute="panel" descriptionAjoutee="le panel ">
+        <composant texte="" type="panel" id="2647" description="" typeAjoute="panel" descriptionAjoutee="le panel ">
+          <composant texte="" type="panel" id="2648" description="" typeAjoute="panel" descriptionAjoutee="le panel ">
+            <composant texte="jRadioButton1" type="radio button" id="2649" description="" typeAjoute="bouton radio" descriptionAjoutee="le bouton radio jRadioButton1" />
+            <composant texte="jRadioButton2" type="radio button" id="2650" description="" typeAjoute="bouton radio" descriptionAjoutee="le bouton radio jRadioButton2" />
+            <composant texte="jRadioButton3" type="radio button" id="2651" description="" typeAjoute="bouton radio" descriptionAjoutee="le bouton radio jRadioButton3" />
+            <composant texte="jRadioButton4" type="radio button" id="2652" description="" typeAjoute="bouton radio" descriptionAjoutee="le bouton radio jRadioButton4" />
+            <composant texte="jLabel2" type="label" id="2653" description="" typeAjoute="label" />
+            <composant texte="jLabel3" type="label" id="2654" description="" typeAjoute="label" />
+          </composant>
+          <composant texte="0" type="label" id="2655" description="" typeAjoute="label" />
+          <composant texte="/5" type="label" id="2656" description="" typeAjoute="label" />
+          <composant texte="jLabel7" type="label" id="2657" description="" typeAjoute="label" />
+          <composant texte="Note:" type="label" id="2658" description="" typeAjoute="label" />
+          <composant texte="QCM" type="label" id="2659" description="" typeAjoute="label" />
+          <composant texte="Valider" type="push button" id="2660" description="" typeAjoute="bouton" descriptionAjoutee="le bouton Valider" />
+          <composant texte="Suivant" type="push button" id="2661" description="" typeAjoute="bouton" descriptionAjoutee="le bouton Suivant" />
+        </composant>
+      </composant>
+    </composant>
+  </fenetre>
+  <fenetre texte="Travail sur l'addition" type="frame" id="2585" description="" typeAjoute="fenêtre" descriptionAjoutee="la fenetre Travail sur l'addition">
+    <composant texte="" type="root pane" id="2586" description="" typeAjoute="panel" descriptionAjoutee="le panel ">
+      <composant texte="" type="panel" id="2587" description="" typeAjoute="panel" descriptionAjoutee="le panel " />
+      <composant texte="" type="layered pane" id="2588" description="" typeAjoute="panel" descriptionAjoutee="le panel ">
+        <composant texte="" type="panel" id="2589" description="" typeAjoute="panel" descriptionAjoutee="le panel ">
+          <composant texte="Intermédiaire" type="push button" id="2590" description="" typeAjoute="bouton" descriptionAjoutee="le bouton Intermédiaire" />
+          <composant texte="Retour choix" type="push button" id="2591" description="" typeAjoute="bouton" descriptionAjoutee="le bouton Retour choix" />
+          <composant texte="Novice" type="push button" id="2592" description="" typeAjoute="bouton" descriptionAjoutee="le bouton Novice" />
+          <composant texte="Expert" type="push button" id="2593" description="" typeAjoute="bouton" descriptionAjoutee="le bouton Expert" />
+          <composant texte="" type="separator" id="2594" description="" />
+          <composant texte="" type="text" id="2595" description="" typeAjoute="zone de saisie" descriptionAjoutee="la zone de saisie " />
+          <composant texte="" type="text" id="2596" description="" typeAjoute="zone de saisie" descriptionAjoutee="la zone de saisie " />
+          <composant texte="" type="combo box" id="2597" description="" typeAjoute="liste déroulante" descriptionAjoutee="la liste déroulante ">
+            <composant texte="" type="popup menu" id="2598" description="" typeAjoute="menu" descriptionAjoutee="le menu ">
+              <composant texte="" type="scroll pane" id="2599" description="">
+                <composant texte="" type="viewport" id="2600" description="">
+                  <composant texte="" type="list" id="2601" description="" typeAjoute="liste">
+                    <composant texte="+" type="label" id="2602" description="" typeAjoute="label" />
+                    <composant texte="-" type="label" id="2603" description="" typeAjoute="label" />
+                    <composant texte="x" type="label" id="2604" description="" typeAjoute="label" />
+                    <composant texte="/" type="label" id="2605" description="" typeAjoute="label" />
+                  </composant>
+                </composant>
+                <composant texte="" type="scroll bar" id="2606" description="">
+                  <composant texte="" type="push button" id="2607" description="" typeAjoute="bouton" descriptionAjoutee="le bouton " />
+                  <composant texte="" type="push button" id="2608" description="" typeAjoute="bouton" descriptionAjoutee="le bouton " />
+                </composant>
+              </composant>
+            </composant>
+          </composant>
+          <composant texte="" type="combo box" id="2609" description="" typeAjoute="liste déroulante" descriptionAjoutee="la liste déroulante ">
+            <composant texte="" type="popup menu" id="2610" description="" typeAjoute="menu" descriptionAjoutee="le menu ">
+              <composant texte="" type="scroll pane" id="2611" description="">
+                <composant texte="" type="viewport" id="2612" description="">
+                  <composant texte="" type="list" id="2613" description="" typeAjoute="liste">
+                    <composant texte="+" type="label" id="2614" description="" typeAjoute="label" />
+                    <composant texte="-" type="label" id="2615" description="" typeAjoute="label" />
+                    <composant texte="x" type="label" id="2616" description="" typeAjoute="label" />
+                    <composant texte="/" type="label" id="2617" description="" typeAjoute="label" />
+                  </composant>
+                </composant>
+                <composant texte="" type="scroll bar" id="2618" description="">
+                  <composant texte="" type="push button" id="2619" description="" typeAjoute="bouton" descriptionAjoutee="le bouton " />
+                  <composant texte="" type="push button" id="2620" description="" typeAjoute="bouton" descriptionAjoutee="le bouton " />
+                </composant>
+              </composant>
+            </composant>
+          </composant>
+          <composant texte="" type="text" id="2621" description="" typeAjoute="zone de saisie" descriptionAjoutee="la zone de saisie " />
+          <composant texte="=" type="label" id="2622" description="" typeAjoute="label" />
+          <composant texte="" type="text" id="2623" description="" typeAjoute="zone de saisie" descriptionAjoutee="la zone de saisie " />
+          <composant texte="" type="text" id="2624" description="" typeAjoute="zone de saisie" descriptionAjoutee="la zone de saisie " />
+          <composant texte="=" type="label" id="2625" description="" typeAjoute="label" />
+          <composant texte="" type="text" id="2626" description="" typeAjoute="zone de saisie" descriptionAjoutee="la zone de saisie " />
+          <composant texte="Valider" type="push button" id="2627" description="" typeAjoute="bouton" descriptionAjoutee="le bouton Valider" />
+          <composant texte="" type="label" id="2628" description="" typeAjoute="label" />
+          <composant texte="" type="scroll pane" id="2629" description="">
+            <composant texte="" type="viewport" id="2630" description="">
+              <composant texte="" type="text" id="2631" description="" typeAjoute="zone de saisie" descriptionAjoutee="la zone de saisie " />
+            </composant>
+            <composant texte="" type="scroll bar" id="2632" description="">
+              <composant texte="" type="push button" id="2633" description="" typeAjoute="bouton" descriptionAjoutee="le bouton " />
+              <composant texte="" type="push button" id="2634" description="" typeAjoute="bouton" descriptionAjoutee="le bouton " />
+            </composant>
+            <composant texte="" type="scroll bar" id="2635" description="">
+              <composant texte="" type="push button" id="2636" description="" typeAjoute="bouton" descriptionAjoutee="le bouton " />
+              <composant texte="" type="push button" id="2637" description="" typeAjoute="bouton" descriptionAjoutee="le bouton " />
+            </composant>
+          </composant>
+          <composant texte="Calculs:" type="label" id="2638" description="" typeAjoute="label" />
+          <composant texte="" type="separator" id="2639" description="" />
+          <composant texte="Réponse:" type="label" id="2640" description="" typeAjoute="label" />
+          <composant texte="" type="label" id="2641" description="" typeAjoute="label" />
+          <composant texte="" type="text" id="2642" description="" typeAjoute="zone de saisie" descriptionAjoutee="la zone de saisie " />
+        </composant>
+      </composant>
+    </composant>
+  </fenetre>
+  <fenetre texte="Travail sur la soustraction" type="frame" id="2527" description="" typeAjoute="fenêtre" descriptionAjoutee="la fenetre Travail sur la soustraction">
+    <composant texte="" type="root pane" id="2528" description="" typeAjoute="panel" descriptionAjoutee="le panel ">
+      <composant texte="" type="panel" id="2529" description="" typeAjoute="panel" descriptionAjoutee="le panel " />
+      <composant texte="" type="layered pane" id="2530" description="" typeAjoute="panel" descriptionAjoutee="le panel ">
+        <composant texte="" type="panel" id="2531" description="" typeAjoute="panel" descriptionAjoutee="le panel ">
+          <composant texte="Retour choix" type="push button" id="2532" description="" typeAjoute="bouton" descriptionAjoutee="le bouton Retour choix" />
+          <composant texte="Intermédiaire" type="push button" id="2533" description="" typeAjoute="bouton" descriptionAjoutee="le bouton Intermédiaire" />
+          <composant texte="Novice" type="push button" id="2534" description="" typeAjoute="bouton" descriptionAjoutee="le bouton Novice" />
+          <composant texte="Expert" type="push button" id="2535" description="" typeAjoute="bouton" descriptionAjoutee="le bouton Expert" />
+          <composant texte="" type="separator" id="2536" description="" />
+          <composant texte="" type="text" id="2537" description="" typeAjoute="zone de saisie" descriptionAjoutee="la zone de saisie " />
+          <composant texte="" type="text" id="2538" description="" typeAjoute="zone de saisie" descriptionAjoutee="la zone de saisie " />
+          <composant texte="" type="combo box" id="2539" description="" typeAjoute="liste déroulante" descriptionAjoutee="la liste déroulante ">
+            <composant texte="" type="popup menu" id="2540" description="" typeAjoute="menu" descriptionAjoutee="le menu ">
+              <composant texte="" type="scroll pane" id="2541" description="">
+                <composant texte="" type="viewport" id="2542" description="">
+                  <composant texte="" type="list" id="2543" description="" typeAjoute="liste">
+                    <composant texte="+" type="label" id="2544" description="" typeAjoute="label" />
+                    <composant texte="-" type="label" id="2545" description="" typeAjoute="label" />
+                    <composant texte="x" type="label" id="2546" description="" typeAjoute="label" />
+                    <composant texte="/" type="label" id="2547" description="" typeAjoute="label" />
+                  </composant>
+                </composant>
+                <composant texte="" type="scroll bar" id="2548" description="">
+                  <composant texte="" type="push button" id="2549" description="" typeAjoute="bouton" descriptionAjoutee="le bouton " />
+                  <composant texte="" type="push button" id="2550" description="" typeAjoute="bouton" descriptionAjoutee="le bouton " />
+                </composant>
+              </composant>
+            </composant>
+          </composant>
+          <composant texte="" type="combo box" id="2551" description="" typeAjoute="liste déroulante" descriptionAjoutee="la liste déroulante ">
+            <composant texte="" type="popup menu" id="2552" description="" typeAjoute="menu" descriptionAjoutee="le menu ">
+              <composant texte="" type="scroll pane" id="2553" description="">
+                <composant texte="" type="viewport" id="2554" description="">
+                  <composant texte="" type="list" id="2555" description="" typeAjoute="liste">
+                    <composant texte="+" type="label" id="2556" description="" typeAjoute="label" />
+                    <composant texte="-" type="label" id="2557" description="" typeAjoute="label" />
+                    <composant texte="x" type="label" id="2558" description="" typeAjoute="label" />
+                    <composant texte="/" type="label" id="2559" description="" typeAjoute="label" />
+                  </composant>
+                </composant>
+                <composant texte="" type="scroll bar" id="2560" description="">
+                  <composant texte="" type="push button" id="2561" description="" typeAjoute="bouton" descriptionAjoutee="le bouton " />
+                  <composant texte="" type="push button" id="2562" description="" typeAjoute="bouton" descriptionAjoutee="le bouton " />
+                </composant>
+              </composant>
+            </composant>
+          </composant>
+          <composant texte="" type="text" id="2563" description="" typeAjoute="zone de saisie" descriptionAjoutee="la zone de saisie " />
+          <composant texte="=" type="label" id="2564" description="" typeAjoute="label" />
+          <composant texte="" type="text" id="2565" description="" typeAjoute="zone de saisie" descriptionAjoutee="la zone de saisie " />
+          <composant texte="" type="text" id="2566" description="" typeAjoute="zone de saisie" descriptionAjoutee="la zone de saisie " />
+          <composant texte="=" type="label" id="2567" description="" typeAjoute="label" />
+          <composant texte="" type="text" id="2568" description="" typeAjoute="zone de saisie" descriptionAjoutee="la zone de saisie " />
+          <composant texte="Valider" type="push button" id="2569" description="" typeAjoute="bouton" descriptionAjoutee="le bouton Valider" />
+          <composant texte="" type="label" id="2570" description="" typeAjoute="label" />
+          <composant texte="" type="scroll pane" id="2571" description="">
+            <composant texte="" type="viewport" id="2572" description="">
+              <composant texte="" type="text" id="2573" description="" typeAjoute="zone de saisie" descriptionAjoutee="la zone de saisie " />
+            </composant>
+            <composant texte="" type="scroll bar" id="2574" description="">
+              <composant texte="" type="push button" id="2575" description="" typeAjoute="bouton" descriptionAjoutee="le bouton " />
+              <composant texte="" type="push button" id="2576" description="" typeAjoute="bouton" descriptionAjoutee="le bouton " />
+            </composant>
+            <composant texte="" type="scroll bar" id="2577" description="">
+              <composant texte="" type="push button" id="2578" description="" typeAjoute="bouton" descriptionAjoutee="le bouton " />
+              <composant texte="" type="push button" id="2579" description="" typeAjoute="bouton" descriptionAjoutee="le bouton " />
+            </composant>
+          </composant>
+          <composant texte="Calculs:" type="label" id="2580" description="" typeAjoute="label" />
+          <composant texte="" type="separator" id="2581" description="" />
+          <composant texte="Réponse:" type="label" id="2582" description="" typeAjoute="label" />
+          <composant texte="" type="label" id="2583" description="" typeAjoute="label" />
+          <composant texte="" type="text" id="2584" description="" typeAjoute="zone de saisie" descriptionAjoutee="la zone de saisie " />
+        </composant>
+      </composant>
+    </composant>
+  </fenetre>
+  <fenetre texte="Travail sur la multiplication" type="frame" id="2459" description="" typeAjoute="fenêtre" descriptionAjoutee="la fenetre Travail sur la multiplication">
+    <composant texte="" type="root pane" id="2460" description="" typeAjoute="panel" descriptionAjoutee="le panel ">
+      <composant texte="" type="panel" id="2461" description="" typeAjoute="panel" descriptionAjoutee="le panel " />
+      <composant texte="" type="layered pane" id="2462" description="" typeAjoute="panel" descriptionAjoutee="le panel ">
+        <composant texte="" type="panel" id="2463" description="" typeAjoute="panel" descriptionAjoutee="le panel ">
+          <composant texte="Retour choix" type="push button" id="2464" description="" typeAjoute="bouton" descriptionAjoutee="le bouton Retour choix" />
+          <composant texte="Expert" type="push button" id="2465" description="" typeAjoute="bouton" descriptionAjoutee="le bouton Expert" />
+          <composant texte="Novice" type="push button" id="2466" description="" typeAjoute="bouton" descriptionAjoutee="le bouton Novice" />
+          <composant texte="Intermédiaire" type="push button" id="2467" description="" typeAjoute="bouton" descriptionAjoutee="le bouton Intermédiaire" />
+          <composant texte="" type="separator" id="2468" description="" />
+          <composant texte="Valider" type="push button" id="2469" description="" typeAjoute="bouton" descriptionAjoutee="le bouton Valider" />
+          <composant texte="" type="text" id="2470" description="" typeAjoute="zone de saisie" descriptionAjoutee="la zone de saisie " />
+          <composant texte="Calculs:" type="label" id="2471" description="" typeAjoute="label" />
+          <composant texte="" type="text" id="2472" description="" typeAjoute="zone de saisie" descriptionAjoutee="la zone de saisie " />
+          <composant texte="" type="combo box" id="2473" description="" typeAjoute="liste déroulante" descriptionAjoutee="la liste déroulante ">
+            <composant texte="" type="popup menu" id="2474" description="" typeAjoute="menu" descriptionAjoutee="le menu ">
+              <composant texte="" type="scroll pane" id="2475" description="">
+                <composant texte="" type="viewport" id="2476" description="">
+                  <composant texte="" type="list" id="2477" description="" typeAjoute="liste">
+                    <composant texte="+" type="label" id="2478" description="" typeAjoute="label" />
+                    <composant texte="-" type="label" id="2479" description="" typeAjoute="label" />
+                    <composant texte="x" type="label" id="2480" description="" typeAjoute="label" />
+                    <composant texte="/" type="label" id="2481" description="" typeAjoute="label" />
+                  </composant>
+                </composant>
+                <composant texte="" type="scroll bar" id="2482" description="">
+                  <composant texte="" type="push button" id="2483" description="" typeAjoute="bouton" descriptionAjoutee="le bouton " />
+                  <composant texte="" type="push button" id="2484" description="" typeAjoute="bouton" descriptionAjoutee="le bouton " />
+                </composant>
+              </composant>
+            </composant>
+          </composant>
+          <composant texte="" type="combo box" id="2485" description="" typeAjoute="liste déroulante" descriptionAjoutee="la liste déroulante ">
+            <composant texte="" type="popup menu" id="2486" description="" typeAjoute="menu" descriptionAjoutee="le menu ">
+              <composant texte="" type="scroll pane" id="2487" description="">
+                <composant texte="" type="viewport" id="2488" description="">
+                  <composant texte="" type="list" id="2489" description="" typeAjoute="liste">
+                    <composant texte="+" type="label" id="2490" description="" typeAjoute="label" />
+                    <composant texte="-" type="label" id="2491" description="" typeAjoute="label" />
+                    <composant texte="x" type="label" id="2492" description="" typeAjoute="label" />
+                    <composant texte="/" type="label" id="2493" description="" typeAjoute="label" />
+                  </composant>
+                </composant>
+                <composant texte="" type="scroll bar" id="2494" description="">
+                  <composant texte="" type="push button" id="2495" description="" typeAjoute="bouton" descriptionAjoutee="le bouton " />
+                  <composant texte="" type="push button" id="2496" description="" typeAjoute="bouton" descriptionAjoutee="le bouton " />
+                </composant>
+              </composant>
+            </composant>
+          </composant>
+          <composant texte="" type="text" id="2497" description="" typeAjoute="zone de saisie" descriptionAjoutee="la zone de saisie " />
+          <composant texte="=" type="label" id="2498" description="" typeAjoute="label" />
+          <composant texte="" type="text" id="2499" description="" typeAjoute="zone de saisie" descriptionAjoutee="la zone de saisie " />
+          <composant texte="" type="text" id="2500" description="" typeAjoute="zone de saisie" descriptionAjoutee="la zone de saisie " />
+          <composant texte="=" type="label" id="2501" description="" typeAjoute="label" />
+          <composant texte="" type="text" id="2502" description="" typeAjoute="zone de saisie" descriptionAjoutee="la zone de saisie " />
+          <composant texte="" type="separator" id="2503" description="" />
+          <composant texte="Réponse:" type="label" id="2504" description="" typeAjoute="label" />
+          <composant texte="" type="label" id="2505" description="" typeAjoute="label" />
+          <composant texte="" type="combo box" id="2506" description="" typeAjoute="liste déroulante" descriptionAjoutee="la liste déroulante ">
+            <composant texte="" type="popup menu" id="2507" description="" typeAjoute="menu" descriptionAjoutee="le menu ">
+              <composant texte="" type="scroll pane" id="2508" description="">
+                <composant texte="" type="viewport" id="2509" description="">
+                  <composant texte="" type="list" id="2510" description="" typeAjoute="liste">
+                    <composant texte="Arthur" type="label" id="2511" description="" typeAjoute="label" />
+                    <composant texte="Elodie" type="label" id="2512" description="" typeAjoute="label" />
+                  </composant>
+                </composant>
+                <composant texte="" type="scroll bar" id="2513" description="">
+                  <composant texte="" type="push button" id="2514" description="" typeAjoute="bouton" descriptionAjoutee="le bouton " />
+                  <composant texte="" type="push button" id="2515" description="" typeAjoute="bouton" descriptionAjoutee="le bouton " />
+                </composant>
+              </composant>
+            </composant>
+          </composant>
+          <composant texte="" type="text" id="2516" description="" typeAjoute="zone de saisie" descriptionAjoutee="la zone de saisie " />
+          <composant texte="" type="scroll pane" id="2517" description="">
+            <composant texte="" type="viewport" id="2518" description="">
+              <composant texte="" type="text" id="2519" description="" typeAjoute="zone de saisie" descriptionAjoutee="la zone de saisie " />
+            </composant>
+            <composant texte="" type="scroll bar" id="2520" description="">
+              <composant texte="" type="push button" id="2521" description="" typeAjoute="bouton" descriptionAjoutee="le bouton " />
+              <composant texte="" type="push button" id="2522" description="" typeAjoute="bouton" descriptionAjoutee="le bouton " />
+            </composant>
+            <composant texte="" type="scroll bar" id="2523" description="">
+              <composant texte="" type="push button" id="2524" description="" typeAjoute="bouton" descriptionAjoutee="le bouton " />
+              <composant texte="" type="push button" id="2525" description="" typeAjoute="bouton" descriptionAjoutee="le bouton " />
+            </composant>
+          </composant>
+          <composant texte="" type="label" id="2526" description="" typeAjoute="label" />
+        </composant>
+      </composant>
+    </composant>
+  </fenetre>
+  <fenetre texte="" type="frame" id="2419" description="" typeAjoute="fenêtre" descriptionAjoutee="la fenetre ">
+    <composant texte="" type="root pane" id="2420" description="" typeAjoute="panel" descriptionAjoutee="le panel ">
+      <composant texte="" type="panel" id="2421" description="" typeAjoute="panel" descriptionAjoutee="le panel " />
+      <composant texte="" type="layered pane" id="2422" description="" typeAjoute="panel" descriptionAjoutee="le panel ">
+        <composant texte="" type="panel" id="2423" description="" typeAjoute="panel" descriptionAjoutee="le panel ">
+          <composant texte="" type="push button" id="2424" description="" typeAjoute="bouton" descriptionAjoutee="le bouton " />
+          <composant texte="" type="push button" id="2425" description="" typeAjoute="bouton" descriptionAjoutee="le bouton " />
+          <composant texte="Bien/Pas Bien" type="label" id="2426" description="" typeAjoute="label" />
+          <composant texte="" type="text" id="2427" description="" typeAjoute="zone de saisie" descriptionAjoutee="la zone de saisie " />
+          <composant texte="Bien" type="push button" id="2428" description="" typeAjoute="bouton" descriptionAjoutee="le bouton Bien" />
+          <composant texte="" type="text" id="2429" description="" typeAjoute="zone de saisie" descriptionAjoutee="la zone de saisie " />
+          <composant texte="" type="text" id="2430" description="" typeAjoute="zone de saisie" descriptionAjoutee="la zone de saisie " />
+          <composant texte="" type="text" id="2431" description="" typeAjoute="zone de saisie" descriptionAjoutee="la zone de saisie " />
+          <composant texte="" type="text" id="2432" description="" typeAjoute="zone de saisie" descriptionAjoutee="la zone de saisie " />
+          <composant texte="Pas Bien" type="push button" id="2433" description="" typeAjoute="bouton" descriptionAjoutee="le bouton Pas Bien" />
+          <composant texte="" type="label" id="2434" description="" typeAjoute="label" />
+          <composant texte="" type="label" id="2435" description="" typeAjoute="label" />
+        </composant>
+      </composant>
+    </composant>
+  </fenetre>
+  <fenetre texte="" type="frame" id="2344" description="" typeAjoute="fenêtre" descriptionAjoutee="la fenetre ">
+    <composant texte="" type="root pane" id="2345" description="" typeAjoute="panel" descriptionAjoutee="le panel ">
+      <composant texte="" type="panel" id="2346" description="" typeAjoute="panel" descriptionAjoutee="le panel " />
+      <composant texte="" type="layered pane" id="2347" description="" typeAjoute="panel" descriptionAjoutee="le panel ">
+        <composant texte="" type="panel" id="2348" description="" typeAjoute="panel" descriptionAjoutee="le panel ">
+          <composant texte="" type="layered pane" id="2349" description="" typeAjoute="panel" descriptionAjoutee="le panel ">
+            <composant texte="" type="text" id="2350" description="" typeAjoute="zone de saisie" descriptionAjoutee="la zone de saisie " />
+            <composant texte="" type="text" id="2351" description="" typeAjoute="zone de saisie" descriptionAjoutee="la zone de saisie " />
+            <composant texte="" type="text" id="2352" description="" typeAjoute="zone de saisie" descriptionAjoutee="la zone de saisie " />
+            <composant texte="" type="text" id="2353" description="" typeAjoute="zone de saisie" descriptionAjoutee="la zone de saisie " />
+            <composant texte="" type="text" id="2354" description="" typeAjoute="zone de saisie" descriptionAjoutee="la zone de saisie " />
+            <composant texte="" type="text" id="2355" description="" typeAjoute="zone de saisie" descriptionAjoutee="la zone de saisie " />
+            <composant texte="" type="text" id="2356" description="" typeAjoute="zone de saisie" descriptionAjoutee="la zone de saisie " />
+            <composant texte="" type="text" id="2357" description="" typeAjoute="zone de saisie" descriptionAjoutee="la zone de saisie " />
+            <composant texte="" type="text" id="2358" description="" typeAjoute="zone de saisie" descriptionAjoutee="la zone de saisie " />
+            <composant texte="" type="text" id="2359" description="" typeAjoute="zone de saisie" descriptionAjoutee="la zone de saisie " />
+            <composant texte="" type="text" id="2360" description="" typeAjoute="zone de saisie" descriptionAjoutee="la zone de saisie " />
+            <composant texte="" type="text" id="2361" description="" typeAjoute="zone de saisie" descriptionAjoutee="la zone de saisie " />
+            <composant texte="" type="text" id="2362" description="" typeAjoute="zone de saisie" descriptionAjoutee="la zone de saisie " />
+            <composant texte="" type="text" id="2363" description="" typeAjoute="zone de saisie" descriptionAjoutee="la zone de saisie " />
+            <composant texte="" type="text" id="2364" description="" typeAjoute="zone de saisie" descriptionAjoutee="la zone de saisie " />
+            <composant texte="" type="text" id="2365" description="" typeAjoute="zone de saisie" descriptionAjoutee="la zone de saisie " />
+            <composant texte="" type="text" id="2366" description="" typeAjoute="zone de saisie" descriptionAjoutee="la zone de saisie " />
+            <composant texte="" type="label" id="2367" description="" typeAjoute="label" />
+          </composant>
+          <composant texte="PLAY" type="push button" id="2368" description="" typeAjoute="bouton" descriptionAjoutee="le bouton PLAY" />
+          <composant texte="Ton objectif est de repeupler la vallée." type="label" id="2369" description="" typeAjoute="label" />
+          <composant texte="Il fait chaud, le fleuve est à sec et le village est vide!!!" type="label" id="2370" description="" typeAjoute="label" />
+          <composant texte="" type="scroll pane" id="2371" description="">
+            <composant texte="" type="viewport" id="2372" description="">
+              <composant texte="" type="text" id="2373" description="" typeAjoute="zone de saisie" descriptionAjoutee="la zone de saisie " />
+            </composant>
+            <composant texte="" type="scroll bar" id="2374" description="">
+              <composant texte="" type="push button" id="2375" description="" typeAjoute="bouton" descriptionAjoutee="le bouton " />
+              <composant texte="" type="push button" id="2376" description="" typeAjoute="bouton" descriptionAjoutee="le bouton " />
+            </composant>
+            <composant texte="" type="scroll bar" id="2377" description="">
+              <composant texte="" type="push button" id="2378" description="" typeAjoute="bouton" descriptionAjoutee="le bouton " />
+              <composant texte="" type="push button" id="2379" description="" typeAjoute="bouton" descriptionAjoutee="le bouton " />
+            </composant>
+          </composant>
+          <composant texte="Température (°C)" type="label" id="2380" description="" typeAjoute="label" />
+          <composant texte="Consommation village" type="label" id="2381" description="" typeAjoute="label" />
+          <composant texte="Ouverture Barrage (%)" type="label" id="2382" description="" typeAjoute="label" />
+          <composant texte="" type="slider" id="2383" description="50" />
+          <composant texte="" type="slider" id="2384" description="" />
+          <composant texte="" type="slider" id="2385" description="" />
+          <composant texte="Neige" type="label" id="2386" description="" typeAjoute="label" />
+          <composant texte="" type="text" id="2387" description="" typeAjoute="zone de saisie" descriptionAjoutee="la zone de saisie " />
+          <composant texte="Niveau avant barrage" type="label" id="2388" description="" typeAjoute="label" />
+          <composant texte="" type="text" id="2389" description="" typeAjoute="zone de saisie" descriptionAjoutee="la zone de saisie " />
+          <composant texte="Population" type="label" id="2390" description="" typeAjoute="label" />
+          <composant texte="" type="text" id="2391" description="" typeAjoute="zone de saisie" descriptionAjoutee="la zone de saisie " />
+          <composant texte="Niveau fleuve" type="label" id="2392" description="" typeAjoute="label" />
+          <composant texte="" type="text" id="2393" description="" typeAjoute="zone de saisie" descriptionAjoutee="la zone de saisie " />
+          <composant texte="" type="push button" id="2394" description="" typeAjoute="bouton" descriptionAjoutee="le bouton " />
+          <composant texte="" type="push button" id="2395" description="" typeAjoute="bouton" descriptionAjoutee="le bouton " />
+        </composant>
+      </composant>
+    </composant>
+  </fenetre>
+</Interface>
+

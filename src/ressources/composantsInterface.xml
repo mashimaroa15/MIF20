@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ComposantsInterface>
+	<bouton affichage="bouton">
+		<bouton nom="Button" />
+		<bouton nom="WindowsForms10.BUTTON.app.0.2bf8098_r18_ad1" />
+		<bouton nom="push button" />
+	</bouton>
+	<boutonRadio affichage="bouton radio">
+		<boutonRadio nom="WindowsForms10.BUTTON.app.0.2bf8098_r18_ad1" />
+		<boutonRadio nom="radio button" />
+		<boutonRadio nom="toggle button" />
+	</boutonRadio>
+	<label affichage="label">
+		<label nom="label"/>
+		<label nom="Static"/>
+	</label>
+	<champsSaisi affichage="zone de saisie">
+		<champsSaisi nom="WindowsForms10.EDIT.app.0.2bf8098_r18_ad1" />
+		<champsSaisi nom="Edit" />
+		<champsSaisi nom="WindowsForms10.RichEdit20W.app.0.2bf8098_r18_ad1" />
+		<champsSaisi nom="text" />
+	</champsSaisi>
+	<checkBox affichage="case à cocher">
+		<checkBox nom="WindowsForms10.BUTTON.app.0.2bf8098_r18_ad1" />
+		<checkBox nom="check box" />
+	</checkBox>
+	<comboBox affichage="liste déroulante">
+		<comboBox nom="ComboBox" />
+		<comboBox nom="WindowsForms10.COMBOBOX.app.0.2bf8098_r18_ad1" /> 
+		<comboBox nom="combo box" />
+	</comboBox>
+	<item affichage="item">
+		<item nom="ListBoxItem" />
+		<item nom="TreeViewItem" />
+		<item nom="label" />
+	</item>
+	<slider affichage="slider">
+	</slider>
+	<panel affichage="panel">
+		<panel nom="panel"/>
+		<panel nom="layered pane"/>
+		<panel nom="root pane" />
+		<panel nom="split pane" />
+	</panel>
+	<fenetre affichage="fenêtre">
+		<fenetre nom="frame" />
+	</fenetre>	
+	<menu affichage="menu">
+		<menu nom="MenuItem" />
+		<menu nom="Menu" />
+		<menu nom="popup menu" />
+	</menu>
+	<table affichage="table">
+		<table nom="table" />
+	</table>
+	<arbre affichage="arbre">
+		<arbre nom="tree" />
+	</arbre>
+	<liste affichage="liste">
+		<liste nom="WindowsForms10.LISTBOX.app.0.2bf8098_r18_ad1" />
+		<liste nom="list" />
+	</liste>	
+</ComposantsInterface>

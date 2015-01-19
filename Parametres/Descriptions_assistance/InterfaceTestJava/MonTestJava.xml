@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<description>
+  <metadonnees>
+    <assistance nom="MonTestJava" logiciel="InterfaceTestJava" type="Application Java" interface="testJava.interface" statut="public" public="" />
+    <creation date_creation="09/11/2013" date_modification="10/11/2013" createur="" />
+    <personnalisation structure_profil_statique="AssistanceRegard.str" id_structure_profil_statique="136" />
+    <commentaires />
+  </metadonnees>
+  <regles>
+    <regle id="R0">
+      <metadonnees />
+      <evenement_declencheur type="mouseClicked" idComp="6" duree="0" />
+      <alternatives condition="">
+        <alternative>
+          <action id="A0" />
+        </alternative>
+      </alternatives>
+    </regle>
+    <regle id="R1">
+      <metadonnees />
+      <evenement_declencheur type="mouseClicked" idComp="12" duree="0" />
+      <alternatives condition="">
+        <alternative>
+          <action id="A1" />
+        </alternative>
+      </alternatives>
+    </regle>
+    <regle id="R2">
+      <metadonnees />
+      <evenement_declencheur type="mouseClicked" idComp="53" duree="0" />
+      <alternatives condition="">
+        <alternative>
+          <action id="A2" />
+        </alternative>
+      </alternatives>
+    </regle>
+  </regles>
+  <actions>
+    <action id="A0" type="Action sur l'interface" typeAuto="automatisé">
+      <evenement idComp="98" propriete="valeur" valeur="Test conluant" />
+    </action>
+    <action id="A1" type="Action sur l'interface" typeAuto="automatisé">
+      <evenement idComp="10" propriete="clic" />
+    </action>
+    <action id="A2" type="Pas à pas" typeAuto="automatisé" listeEtapes="S0_SequenceTest">
+      <message type="avant" demande="non">
+        <texte>on va faire un pas à pas.</texte>
+        <titre>Information</titre>
+        <policeMessage nom="Calibri" style="0" taille="36" />
+        <policeOptions nom="Calibri" style="0" taille="20" />
+        <couleur police="java.awt.Color[r=0,g=0,b=0]" fond="java.awt.Color[r=255,g=255,b=255]" />
+        <options>
+          <option label="commencer" />
+        </options>
+      </message>
+      <message type="apres" bilan="non">
+        <texte>Le pas à pas est maintenant terminé.</texte>
+        <titre>Information</titre>
+        <policeMessage nom="Calibri" style="0" taille="36" />
+        <policeOptions nom="Calibri" style="0" taille="20" />
+        <couleur police="java.awt.Color[r=0,g=0,b=0]" fond="java.awt.Color[r=255,g=255,b=255]" />
+        <options>
+          <option label="continuer" />
+        </options>
+      </message>
+      <etapes>
+        <message type="avant" demande="non" />
+        <miseEnValeur>
+          <composant type="entourer" couleur="java.awt.Color[r=0,g=0,b=255]" arrondi="15" eloignement="5" epaisseur="4" />
+        </miseEnValeur>
+      </etapes>
+      <evenement idComp="10" propriete="clic">
+        <message type="avant" demande="non">
+          <texte>Nous allons maintenant cliquer sur le bouton Bouton</texte>
+          <titre>Information</titre>
+          <policeMessage nom="Calibri" style="0" taille="36" />
+          <policeOptions nom="Calibri" style="0" taille="20" />
+          <couleur police="java.awt.Color[r=0,g=0,b=0]" fond="java.awt.Color[r=255,g=255,b=255]" />
+          <options>
+            <option label="continuer" />
+          </options>
+        </message>
+      </evenement>
+      <evenement idComp="12" propriete="etat" valeur="On">
+        <message type="avant" demande="non">
+          <texte>Nous allons maintenant sélectionner le la case à cocher CheckBox</texte>
+          <titre>Information</titre>
+          <policeMessage nom="Calibri" style="0" taille="36" />
+          <policeOptions nom="Calibri" style="0" taille="20" />
+          <couleur police="java.awt.Color[r=0,g=0,b=0]" fond="java.awt.Color[r=255,g=255,b=255]" />
+          <options>
+            <option label="continuer" />
+          </options>
+        </message>
+      </evenement>
+      <evenement idComp="26" propriete="etat" valeur="On">
+        <message type="avant" demande="non">
+          <texte>Nous allons maintenant sélectionner le le bouton radio Bouton radio 2</texte>
+          <titre>Information</titre>
+          <policeMessage nom="Calibri" style="0" taille="36" />
+          <policeOptions nom="Calibri" style="0" taille="20" />
+          <couleur police="java.awt.Color[r=0,g=0,b=0]" fond="java.awt.Color[r=255,g=255,b=255]" />
+          <options>
+            <option label="continuer" />
+          </options>
+        </message>
+      </evenement>
+    </action>
+  </actions>
+  <conditions />
+  <sequences>
+    <sequence id="S0" nom="SequenceTest" type="actions">
+      <evenement idComp="10" propriete="clic" />
+      <evenement idComp="12" propriete="etat" valeur="On" />
+      <evenement idComp="26" propriete="etat" valeur="On" />
+    </sequence>
+  </sequences>
+</description>
+

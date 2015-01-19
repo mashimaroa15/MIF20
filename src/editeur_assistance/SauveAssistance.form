@@ -1,0 +1,323 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.8" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace min="-2" pref="97" max="-2" attributes="0"/>
+              <Component id="BtRetour" min="-2" pref="138" max="-2" attributes="1"/>
+              <EmptySpace min="-2" pref="64" max="-2" attributes="0"/>
+              <Component id="BtSuivant" min="-2" pref="129" max="-2" attributes="1"/>
+              <EmptySpace max="32767" attributes="0"/>
+          </Group>
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace min="-2" pref="32" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <Component id="LbNom" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="32767" attributes="0"/>
+                  </Group>
+                  <Group type="102" attributes="0">
+                      <Group type="103" groupAlignment="1" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="LbDateCrea" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="LbCreateur" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="LbStatut" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="LbCommentaires" alignment="0" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace min="127" pref="127" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="TxtStructure" alignment="1" max="32767" attributes="0"/>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Component id="RBPublic" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace pref="137" max="32767" attributes="0"/>
+                                      <Component id="RBPrive" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace min="-2" pref="61" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Component id="TxtCreateur" alignment="0" max="32767" attributes="0"/>
+                                  <Component id="TxtDateCrea" alignment="0" max="32767" attributes="0"/>
+                                  <Component id="TxtDateModif" alignment="0" max="32767" attributes="0"/>
+                                  <Component id="TxtNom" alignment="0" max="32767" attributes="1"/>
+                                  <Component id="TxtLogiciel" alignment="1" max="32767" attributes="0"/>
+                                  <Component id="TxtCommentaires" alignment="1" max="32767" attributes="0"/>
+                                  <Component id="TxtType" alignment="0" pref="316" max="32767" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="LbDateModif" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="LbPublic" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Group type="103" alignment="0" groupAlignment="1" max="-2" attributes="0">
+                                      <Component id="LbDescription" max="32767" attributes="0"/>
+                                      <Component id="LbStructure" max="32767" attributes="0"/>
+                                  </Group>
+                              </Group>
+                              <EmptySpace min="-2" pref="46" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="TxtPublic" max="32767" attributes="0"/>
+                                  <Component id="TxtDescription" max="32767" attributes="0"/>
+                              </Group>
+                          </Group>
+                      </Group>
+                      <EmptySpace min="-2" pref="36" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" attributes="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="LbType" min="-2" max="-2" attributes="0"/>
+                          <Component id="LbLogiciel" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="LbNom" min="-2" max="-2" attributes="0"/>
+                  <Component id="TxtNom" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="LbLogiciel" min="-2" max="-2" attributes="0"/>
+                  <Component id="TxtLogiciel" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <EmptySpace min="-2" pref="8" max="-2" attributes="0"/>
+                      <Component id="LbType" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="TxtType" min="-2" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="TxtDateCrea" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="LbDateCrea" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="16" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="LbDateModif" alignment="3" min="-2" pref="14" max="-2" attributes="0"/>
+                  <Component id="TxtDateModif" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="LbCreateur" alignment="3" min="-2" max="-2" attributes="1"/>
+                  <Component id="TxtCreateur" alignment="3" max="32767" attributes="1"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="LbStatut" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="RBPrive" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="RBPublic" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="LbStructure" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="TxtStructure" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="33" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="LbDescription" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="TxtDescription" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="29" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="LbPublic" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="TxtPublic" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="35" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="LbCommentaires" min="-2" max="-2" attributes="0"/>
+                  <Component id="TxtCommentaires" min="-2" pref="96" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="19" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="BtRetour" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="BtSuivant" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="29" max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="java.awt.TextArea" name="TxtCommentaires">
+    </Component>
+    <Component class="javax.swing.JTextField" name="TxtPublic">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="classe de 6eC"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="BtSuivant">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Enregistrer"/>
+        <Property name="toolTipText" type="java.lang.String" value="Enregistrer la description de l&apos;assistance"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="BtSuivantActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="BtRetour">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Retour"/>
+        <Property name="toolTipText" type="java.lang.String" value="Revenir &#xe0; la d&#xe9;finition des r&#xe8;gles d&apos;assistance"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="BtRetourActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JRadioButton" name="RBPrive">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Prive"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JRadioButton" name="RBPublic">
+      <Properties>
+        <Property name="selected" type="boolean" value="true"/>
+        <Property name="text" type="java.lang.String" value="Public"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="TxtStructure">
+      <Properties>
+        <Property name="editable" type="boolean" value="false"/>
+        <Property name="text" type="java.lang.String" value="Strucutre"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="TxtCreateur">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Prof"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="TxtCreateurActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="TxtDateModif">
+      <Properties>
+        <Property name="editable" type="boolean" value="false"/>
+        <Property name="text" type="java.lang.String" value="09/02/2011"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="TxtDateCrea">
+      <Properties>
+        <Property name="editable" type="boolean" value="false"/>
+        <Property name="text" type="java.lang.String" value="09/01/2011"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="TxtDateCreaActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="TxtNom">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="TxtNomActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="LbCommentaires">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Commentaires"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="LbPublic">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Public vis&#xe9;"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="LbStructure">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Strucutre de profil associ&#xe9;e"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="LbStatut">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Statut"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="LbCreateur">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Cr&#xe9;ateur"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="LbDateModif">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Date de derni&#xe8;re modification"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="LbDateCrea">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Date de cr&#xe9;ation"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="LbNom">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Nom"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="LbLogiciel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Logiciel"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="TxtLogiciel">
+      <Properties>
+        <Property name="editable" type="boolean" value="false"/>
+        <Property name="text" type="java.lang.String" value="Protege"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="TxtLogicielActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="LbDescription">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Description technique associ&#xe9;e"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="TxtDescription">
+      <Properties>
+        <Property name="editable" type="boolean" value="false"/>
+        <Property name="text" type="java.lang.String" value="Description technique"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="LbType">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Type de logiciel"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="TxtType">
+      <Properties>
+        <Property name="editable" type="boolean" value="false"/>
+        <Property name="text" type="java.lang.String" value="Java"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="TxtTypeActionPerformed"/>
+      </Events>
+    </Component>
+  </SubComponents>
+</Form>

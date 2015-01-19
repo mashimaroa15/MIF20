@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Interface>
+  <fenetre texte="Interface de gestion enseignant" type="frame" id="16951" description="" typeAjoute="" descriptionAjoutee="la fenetre Interface de gestion enseignant" commentaires="Permet de gerer les profils des eleves et de gerer les cours">
+    <composant texte="" type="root pane" id="16952" description="" typeAjoute="panel" descriptionAjoutee="le panel ">
+      <composant texte="" type="panel" id="16953" description="" typeAjoute="panel" descriptionAjoutee="le panel " />
+      <composant texte="" type="layered pane" id="16954" description="" typeAjoute="panel" descriptionAjoutee="le panel ">
+        <composant texte="" type="panel" id="16955" description="" typeAjoute="panel" descriptionAjoutee="le panel ">
+          <composant texte="" type="panel" id="16956" description="" typeAjoute="panel" descriptionAjoutee="le panel ">
+            <composant texte="Ajouter" type="push button" id="16957" description="" typeAjoute="bouton" descriptionAjoutee="le bouton Ajouter" />
+            <composant texte="Supprimer" type="push button" id="16958" description="" typeAjoute="bouton" descriptionAjoutee="le bouton Supprimer" />
+            <composant texte="Eleves" type="label" id="16959" description="" typeAjoute="label" />
+            <composant texte="" type="scroll pane" id="16960" description="">
+              <composant texte="" type="viewport" id="16961" description="">
+                <composant texte="" type="list" id="16962" description="" typeAjoute="liste">
+                  <composant texte="Test" type="label" id="16963" description="" typeAjoute="label" />
+                  <composant texte="Dorian" type="label" id="16964" description="" typeAjoute="label" />
+                  <composant texte="Pascal" type="label" id="16965" description="" typeAjoute="label" />
+                  <composant texte="Timeo" type="label" id="16966" description="" typeAjoute="label" />
+                </composant>
+              </composant>
+              <composant texte="" type="scroll bar" id="16967" description="">
+                <composant texte="" type="push button" id="16968" description="" typeAjoute="bouton" descriptionAjoutee="le bouton " />
+                <composant texte="" type="push button" id="16969" description="" typeAjoute="bouton" descriptionAjoutee="le bouton " />
+              </composant>
+              <composant texte="" type="scroll bar" id="16970" description="">
+                <composant texte="" type="push button" id="16971" description="" typeAjoute="bouton" descriptionAjoutee="le bouton " />
+                <composant texte="" type="push button" id="16972" description="" typeAjoute="bouton" descriptionAjoutee="le bouton " />
+              </composant>
+            </composant>
+            <composant texte="" type="separator" id="16973" description="" />
+            <composant texte="Niveau" type="label" id="16974" description="" typeAjoute="label" />
+            <composant texte="" type="scroll pane" id="16975" description="">
+              <composant texte="" type="viewport" id="16976" description="">
+                <composant texte="" type="list" id="16977" description="" typeAjoute="liste">
+                  <composant texte="niveau1" type="label" id="16978" description="" typeAjoute="label" />
+                  <composant texte="niveau2" type="label" id="16979" description="" typeAjoute="label" />
+                  <composant texte="niveau3" type="label" id="16980" description="" typeAjoute="label" />
+                  <composant texte="niveau4" type="label" id="16981" description="" typeAjoute="label" />
+                  <composant texte="niveau5" type="label" id="16982" description="" typeAjoute="label" />
+                </composant>
+              </composant>
+              <composant texte="" type="scroll bar" id="16983" description="">
+                <composant texte="" type="push button" id="16984" description="" typeAjoute="bouton" descriptionAjoutee="le bouton " />
+                <composant texte="" type="push button" id="16985" description="" typeAjoute="bouton" descriptionAjoutee="le bouton " />
+              </composant>
+              <composant texte="" type="scroll bar" id="16986" description="">
+                <composant texte="" type="push button" id="16987" description="" typeAjoute="bouton" descriptionAjoutee="le bouton " />
+                <composant texte="" type="push button" id="16988" description="" typeAjoute="bouton" descriptionAjoutee="le bouton " />
+              </composant>
+            </composant>
+            <composant texte="" type="separator" id="16989" description="" />
+            <composant texte="Test préliminaire" type="push button" id="16990" description="" typeAjoute="bouton" descriptionAjoutee="le bouton Test préliminaire" />
+          </composant>
+          <composant texte="" type="panel" id="16991" description="" typeAjoute="panel" descriptionAjoutee="le panel ">
+            <composant texte="Enregistrer" type="push button" id="16992" description="" typeAjoute="bouton" descriptionAjoutee="le bouton Enregistrer" />
+            <composant texte="Quitter" type="push button" id="16993" description="" typeAjoute="bouton" descriptionAjoutee="le bouton Quitter" />
+          </composant>
+          <composant texte="Information/Edit ressource selectionnée" type="panel" id="16994" description="" typeAjoute="panel" descriptionAjoutee="le panel Information/Edit ressource selectionnée">
+            <composant texte="" type="scroll pane" id="16995" description="">
+              <composant texte="" type="viewport" id="16996" description="">
+                <composant texte="" type="text" id="16997" description="" typeAjoute="zone de saisie" descriptionAjoutee="la zone de saisie " />
+              </composant>
+              <composant texte="" type="scroll bar" id="16998" description="">
+                <composant texte="" type="push button" id="16999" description="" typeAjoute="bouton" descriptionAjoutee="le bouton " />
+                <composant texte="" type="push button" id="17000" description="" typeAjoute="bouton" descriptionAjoutee="le bouton " />
+              </composant>
+              <composant texte="" type="scroll bar" id="17001" description="">
+                <composant texte="" type="push button" id="17002" description="" typeAjoute="bouton" descriptionAjoutee="le bouton " />
+                <composant texte="" type="push button" id="17003" description="" typeAjoute="bouton" descriptionAjoutee="le bouton " />
+              </composant>
+            </composant>
+          </composant>
+        </composant>
+      </composant>
+    </composant>
+  </fenetre>
+  <fenetre texte="Menu Principal" type="frame" id="17004" description="" typeAjoute="" descriptionAjoutee="la fenetre Menu Principal" commentaires="MenuPrincipal qui donne acces aux fonctions du logiciel">
+    <composant texte="" type="root pane" id="17005" description="" typeAjoute="panel" descriptionAjoutee="le panel ">
+      <composant texte="" type="panel" id="17006" description="" typeAjoute="panel" descriptionAjoutee="le panel " />
+      <composant texte="" type="layered pane" id="17007" description="" typeAjoute="panel" descriptionAjoutee="le panel ">
+        <composant texte="" type="panel" id="17008" description="" typeAjoute="panel" descriptionAjoutee="le panel ">
+          <composant texte="" type="panel" id="17009" description="" typeAjoute="panel" descriptionAjoutee="le panel ">
+            <composant texte="" type="label" id="17010" description="" typeAjoute="label" />
+            <composant texte="Mon évolution" type="label" id="17011" description="" typeAjoute="label" />
+            <composant texte="" type="label" id="17012" description="" typeAjoute="label" />
+            <composant texte="" type="label" id="17013" description="" typeAjoute="label" />
+            <composant texte="" type="label" id="17014" description="" typeAjoute="label" />
+            <composant texte="" type="label" id="17015" description="" typeAjoute="label" />
+            <composant texte="" type="label" id="17016" description="" typeAjoute="label" />
+          </composant>
+          <composant texte="" type="panel" id="17017" description="" typeAjoute="panel" descriptionAjoutee="le panel ">
+            <composant texte="Bienvenue Dorian tu es niveau 1" type="label" id="17018" description="" typeAjoute="label" />
+          </composant>
+          <composant texte="" type="panel" id="17019" description="" typeAjoute="panel" descriptionAjoutee="le panel ">
+            <composant texte="" type="push button" id="17020" description="" typeAjoute="bouton" descriptionAjoutee="le bouton " />
+          </composant>
+          <composant texte="" type="scroll pane" id="17021" description="">
+            <composant texte="" type="viewport" id="17022" description="">
+              <composant texte="Tu peux choisir ce que tu veux apprendre" type="panel" id="17023" description="" typeAjoute="panel" descriptionAjoutee="le panel Tu peux choisir ce que tu veux apprendre">
+                <composant texte="Les bases de l'arbre" type="push button" id="17024" description="" typeAjoute="bouton" descriptionAjoutee="le bouton Les bases de l'arbre" />
+                <composant texte="Les besoins de l'arbre" type="push button" id="17025" description="" typeAjoute="bouton" descriptionAjoutee="le bouton Les besoins de l'arbre" />
+                <composant texte="L'arbre et les saisons" type="push button" id="17026" description="" typeAjoute="bouton" descriptionAjoutee="le bouton L'arbre et les saisons" />
+              </composant>
+            </composant>
+            <composant texte="" type="scroll bar" id="17027" description="">
+              <composant texte="" type="push button" id="17028" description="" typeAjoute="bouton" descriptionAjoutee="le bouton " />
+              <composant texte="" type="push button" id="17029" description="" typeAjoute="bouton" descriptionAjoutee="le bouton " />
+            </composant>
+            <composant texte="" type="scroll bar" id="17030" description="">
+              <composant texte="" type="push button" id="17031" description="" typeAjoute="bouton" descriptionAjoutee="le bouton " />
+              <composant texte="" type="push button" id="17032" description="" typeAjoute="bouton" descriptionAjoutee="le bouton " />
+            </composant>
+          </composant>
+          <composant texte="" type="panel" id="17033" description="" typeAjoute="panel" descriptionAjoutee="le panel ">
+            <composant texte="" type="separator" id="17034" description="" />
+            <composant texte="" type="push button" id="17035" description="" typeAjoute="bouton" descriptionAjoutee="le bouton " />
+          </composant>
+        </composant>
+      </composant>
+    </composant>
+  </fenetre>
+  <fenetre texte="Choix de l'élève" type="frame" id="4870" description="" typeAjoute="fenêtre" descriptionAjoutee="la fenetre Choix de l'élève">
+    <composant texte="" type="root pane" id="4871" description="" typeAjoute="panel" descriptionAjoutee="le panel ">
+      <composant texte="" type="panel" id="4872" description="" typeAjoute="panel" descriptionAjoutee="le panel " />
+      <composant texte="" type="layered pane" id="4873" description="" typeAjoute="panel" descriptionAjoutee="le panel ">
+        <composant texte="" type="panel" id="4874" description="" typeAjoute="panel" descriptionAjoutee="le panel ">
+          <composant texte="" type="panel" id="4875" description="" typeAjoute="panel" descriptionAjoutee="le panel ">
+            <composant texte="" type="panel" id="4876" description="" typeAjoute="panel" descriptionAjoutee="le panel " />
+            <composant texte="" type="panel" id="4877" description="" typeAjoute="panel" descriptionAjoutee="le panel ">
+              <composant texte="" type="label" id="4878" description="" typeAjoute="label" />
+            </composant>
+            <composant texte="" type="label" id="4879" description="" typeAjoute="label" />
+            <composant texte="" type="scroll pane" id="4880" description="">
+              <composant texte="" type="viewport" id="4881" description="">
+                <composant texte="" type="list" id="4882" description="" typeAjoute="liste">
+                  <composant texte="Dorian" type="label" id="4883" description="" typeAjoute="label" />
+                  <composant texte="Pascal" type="label" id="4884" description="" typeAjoute="label" />
+                  <composant texte="Maxime" type="label" id="4885" description="" typeAjoute="label" />
+                  <composant texte="Jean Luc" type="label" id="4886" description="" typeAjoute="label" />
+                  <composant texte="Julie" type="label" id="4887" description="" typeAjoute="label" />
+                  <composant texte="Timeo" type="label" id="4888" description="" typeAjoute="label" />
+                </composant>
+              </composant>
+              <composant texte="" type="scroll bar" id="4889" description="">
+                <composant texte="" type="push button" id="4890" description="" typeAjoute="bouton" descriptionAjoutee="le bouton " />
+                <composant texte="" type="push button" id="4891" description="" typeAjoute="bouton" descriptionAjoutee="le bouton " />
+              </composant>
+              <composant texte="" type="scroll bar" id="4892" description="">
+                <composant texte="" type="push button" id="4893" description="" typeAjoute="bouton" descriptionAjoutee="le bouton " />
+                <composant texte="" type="push button" id="4894" description="" typeAjoute="bouton" descriptionAjoutee="le bouton " />
+              </composant>
+            </composant>
+            <composant texte="" type="label" id="4895" description="" typeAjoute="label" />
+            <composant texte="Choisis ton prénom" type="label" id="4896" description="" typeAjoute="label" />
+          </composant>
+        </composant>
+      </composant>
+    </composant>
+  </fenetre>
+  <fenetre texte="Test préliminaire" type="frame" id="7289" description="" typeAjoute="" descriptionAjoutee="la fenetre Test préliminaire" commentaires="Test effectué quand le profil d'un eleve n'est pas connu">
+    <composant texte="" type="root pane" id="7290" description="" typeAjoute="panel" descriptionAjoutee="le panel ">
+      <composant texte="" type="panel" id="7291" description="" typeAjoute="panel" descriptionAjoutee="le panel " />
+      <composant texte="" type="layered pane" id="7292" description="" typeAjoute="panel" descriptionAjoutee="le panel ">
+        <composant texte="" type="panel" id="7293" description="" typeAjoute="panel" descriptionAjoutee="le panel ">
+          <composant texte="" type="panel" id="7294" description="" typeAjoute="panel" descriptionAjoutee="le panel " />
+          <composant texte="" type="scroll pane" id="7295" description="">
+            <composant texte="" type="viewport" id="7296" description="">
+              <composant texte="" type="panel" id="7297" description="" typeAjoute="panel" descriptionAjoutee="le panel ">
+                <composant texte="0.De quel type est un arbre?" type="label" id="7298" description="" typeAjoute="label" />
+                <composant texte="Vegetal." type="radio button" id="7299" description="" typeAjoute="bouton radio" descriptionAjoutee="le bouton radio Vegetal." />
+                <composant texte="Animal." type="radio button" id="7300" description="" typeAjoute="bouton radio" descriptionAjoutee="le bouton radio Animal." />
+                <composant texte="Mineral." type="radio button" id="7301" description="" typeAjoute="bouton radio" descriptionAjoutee="le bouton radio Mineral." />
+                <composant texte="1.De quoi a besoin une graine pour germer?" type="label" id="7302" description="" typeAjoute="label" />
+                <composant texte="De l'eau et du soleil." type="radio button" id="7303" description="" typeAjoute="bouton radio" descriptionAjoutee="le bouton radio De l'eau et du soleil." />
+                <composant texte="Une température idéale, de l'eau et du soleil." type="radio button" id="7304" description="" typeAjoute="bouton radio" descriptionAjoutee="le bouton radio Une température idéale, de l'eau et du soleil." />
+                <composant texte="Une température idéale et de l'eau." type="radio button" id="7305" description="" typeAjoute="bouton radio" descriptionAjoutee="le bouton radio Une température idéale et de l'eau." />
+                <composant texte="2.Comment identifier l'âge de l'arbre?" type="label" id="7306" description="" typeAjoute="label" />
+                <composant texte="En observant sa hauteur" type="radio button" id="7307" description="" typeAjoute="bouton radio" descriptionAjoutee="le bouton radio En observant sa hauteur" />
+                <composant texte="En observant le tronc." type="radio button" id="7308" description="" typeAjoute="bouton radio" descriptionAjoutee="le bouton radio En observant le tronc." />
+                <composant texte="En observant les feuilles." type="radio button" id="7309" description="" typeAjoute="bouton radio" descriptionAjoutee="le bouton radio En observant les feuilles." />
+                <composant texte="3.Un arbre est une plante :" type="label" id="7310" description="" typeAjoute="label" />
+                <composant texte="Pérenne." type="radio button" id="7311" description="" typeAjoute="bouton radio" descriptionAjoutee="le bouton radio Pérenne." />
+                <composant texte="Lignifiée." type="radio button" id="7312" description="" typeAjoute="bouton radio" descriptionAjoutee="le bouton radio Lignifiée." />
+                <composant texte="Pérenne et lignifiée." type="radio button" id="7313" description="" typeAjoute="bouton radio" descriptionAjoutee="le bouton radio Pérenne et lignifiée." />
+              </composant>
+            </composant>
+            <composant texte="" type="scroll bar" id="7314" description="">
+              <composant texte="" type="push button" id="7315" description="" typeAjoute="bouton" descriptionAjoutee="le bouton " />
+              <composant texte="" type="push button" id="7316" description="" typeAjoute="bouton" descriptionAjoutee="le bouton " />
+            </composant>
+            <composant texte="" type="scroll bar" id="7317" description="">
+              <composant texte="" type="push button" id="7318" description="" typeAjoute="bouton" descriptionAjoutee="le bouton " />
+              <composant texte="" type="push button" id="7319" description="" typeAjoute="bouton" descriptionAjoutee="le bouton " />
+            </composant>
+          </composant>
+          <composant texte="Valider mes réponses" type="push button" id="7320" description="" typeAjoute="bouton" descriptionAjoutee="le bouton Valider mes réponses" />
+          <composant texte="Essai de répondre à ces questions : " type="label" id="7321" description="" typeAjoute="label" />
+        </composant>
+      </composant>
+    </composant>
+  </fenetre>
+  <fenetre texte="Menu Principal" type="frame" id="9714" description="" typeAjoute="fenêtre" descriptionAjoutee="la fenetre Menu Principal">
+    <composant texte="" type="root pane" id="9715" description="" typeAjoute="panel" descriptionAjoutee="le panel ">
+      <composant texte="" type="panel" id="9716" description="" typeAjoute="panel" descriptionAjoutee="le panel " />
+      <composant texte="" type="layered pane" id="9717" description="" typeAjoute="panel" descriptionAjoutee="le panel ">
+        <composant texte="" type="panel" id="9718" description="" typeAjoute="panel" descriptionAjoutee="le panel ">
+          <composant texte="" type="panel" id="9719" description="" typeAjoute="panel" descriptionAjoutee="le panel ">
+            <composant texte="" type="label" id="9720" description="" typeAjoute="label" />
+            <composant texte="Mon évolution" type="label" id="9721" description="" typeAjoute="label" />
+            <composant texte="" type="label" id="9722" description="" typeAjoute="label" />
+            <composant texte="" type="label" id="9723" description="" typeAjoute="label" />
+            <composant texte="" type="label" id="9724" description="" typeAjoute="label" />
+            <composant texte="" type="label" id="9725" description="" typeAjoute="label" />
+            <composant texte="" type="label" id="9726" description="" typeAjoute="label" />
+          </composant>
+          <composant texte="" type="panel" id="9727" description="" typeAjoute="panel" descriptionAjoutee="le panel ">
+            <composant texte="Bienvenue Dorian tu es niveau 1" type="label" id="9728" description="" typeAjoute="label" />
+          </composant>
+          <composant texte="" type="panel" id="9729" description="" typeAjoute="panel" descriptionAjoutee="le panel ">
+            <composant texte="" type="push button" id="9730" description="" typeAjoute="bouton" descriptionAjoutee="le bouton " />
+          </composant>
+          <composant texte="" type="scroll pane" id="9731" description="">
+            <composant texte="" type="viewport" id="9732" description="">
+              <composant texte="Tu peux choisir ce que tu veux apprendre" type="panel" id="9733" description="" typeAjoute="panel" descriptionAjoutee="le panel Tu peux choisir ce que tu veux apprendre">
+                <composant texte="Les bases de l'arbre" type="push button" id="9734" description="" typeAjoute="bouton" descriptionAjoutee="le bouton Les bases de l'arbre" />
+                <composant texte="Les besoins de l'arbre" type="push button" id="9735" description="" typeAjoute="bouton" descriptionAjoutee="le bouton Les besoins de l'arbre" />
+                <composant texte="L'arbre et les saisons" type="push button" id="9736" description="" typeAjoute="bouton" descriptionAjoutee="le bouton L'arbre et les saisons" />
+              </composant>
+            </composant>
+            <composant texte="" type="scroll bar" id="9737" description="">
+              <composant texte="" type="push button" id="9738" description="" typeAjoute="bouton" descriptionAjoutee="le bouton " />
+              <composant texte="" type="push button" id="9739" description="" typeAjoute="bouton" descriptionAjoutee="le bouton " />
+            </composant>
+            <composant texte="" type="scroll bar" id="9740" description="">
+              <composant texte="" type="push button" id="9741" description="" typeAjoute="bouton" descriptionAjoutee="le bouton " />
+              <composant texte="" type="push button" id="9742" description="" typeAjoute="bouton" descriptionAjoutee="le bouton " />
+            </composant>
+          </composant>
+          <composant texte="" type="panel" id="9743" description="" typeAjoute="panel" descriptionAjoutee="le panel ">
+            <composant texte="" type="separator" id="9744" description="" />
+            <composant texte="" type="push button" id="9745" description="" typeAjoute="bouton" descriptionAjoutee="le bouton " />
+          </composant>
+        </composant>
+      </composant>
+    </composant>
+  </fenetre>
+  <fenetre texte="Menu Principal" type="frame" id="12138" description="" typeAjoute="fenêtre" descriptionAjoutee="la fenetre Menu Principal">
+    <composant texte="" type="root pane" id="12139" description="" typeAjoute="panel" descriptionAjoutee="le panel ">
+      <composant texte="" type="panel" id="12140" description="" typeAjoute="panel" descriptionAjoutee="le panel " />
+      <composant texte="" type="layered pane" id="12141" description="" typeAjoute="panel" descriptionAjoutee="le panel ">
+        <composant texte="" type="panel" id="12142" description="" typeAjoute="panel" descriptionAjoutee="le panel ">
+          <composant texte="Suivant" type="push button" id="12143" description="" typeAjoute="bouton" descriptionAjoutee="le bouton Suivant" />
+          <composant texte="Un arbre est un Vegetal. Cela signifie qu'il est feuillu." type="" id="12144" description="" />
+          <composant texte="Les bases de l'arbre" type="label" id="12145" description="" typeAjoute="label" />
+        </composant>
+      </composant>
+    </composant>
+  </fenetre>
+  <fenetre texte="Menu Principal" type="frame" id="14538" description="" typeAjoute="fenêtre" descriptionAjoutee="la fenetre Menu Principal">
+    <composant texte="" type="root pane" id="14539" description="" typeAjoute="panel" descriptionAjoutee="le panel ">
+      <composant texte="" type="panel" id="14540" description="" typeAjoute="panel" descriptionAjoutee="le panel " />
+      <composant texte="" type="layered pane" id="14541" description="" typeAjoute="panel" descriptionAjoutee="le panel ">
+        <composant texte="" type="panel" id="14542" description="" typeAjoute="panel" descriptionAjoutee="le panel ">
+          <composant texte="Question sur le cour Les bases de l'arbre" type="label" id="14543" description="" typeAjoute="label" />
+          <composant texte="Valider" type="push button" id="14544" description="" typeAjoute="bouton" descriptionAjoutee="le bouton Valider" />
+          <composant texte="" type="panel" id="14545" description="" typeAjoute="panel" descriptionAjoutee="le panel ">
+            <composant texte="" type="scroll pane" id="14546" description="">
+              <composant texte="" type="viewport" id="14547" description="">
+                <composant texte="" type="panel" id="14548" description="" typeAjoute="panel" descriptionAjoutee="le panel ">
+                  <composant texte="0.De quel type est un arbre?" type="label" id="14549" description="" typeAjoute="label" />
+                  <composant texte="Vegetal" type="radio button" id="14550" description="" typeAjoute="bouton radio" descriptionAjoutee="le bouton radio Vegetal" />
+                  <composant texte="Animal" type="radio button" id="14551" description="" typeAjoute="bouton radio" descriptionAjoutee="le bouton radio Animal" />
+                  <composant texte="Mineral" type="radio button" id="14552" description="" typeAjoute="bouton radio" descriptionAjoutee="le bouton radio Mineral" />
+                </composant>
+              </composant>
+              <composant texte="" type="scroll bar" id="14553" description="">
+                <composant texte="" type="push button" id="14554" description="" typeAjoute="bouton" descriptionAjoutee="le bouton " />
+                <composant texte="" type="push button" id="14555" description="" typeAjoute="bouton" descriptionAjoutee="le bouton " />
+              </composant>
+              <composant texte="" type="scroll bar" id="14556" description="">
+                <composant texte="" type="push button" id="14557" description="" typeAjoute="bouton" descriptionAjoutee="le bouton " />
+                <composant texte="" type="push button" id="14558" description="" typeAjoute="bouton" descriptionAjoutee="le bouton " />
+              </composant>
+            </composant>
+          </composant>
+        </composant>
+      </composant>
+    </composant>
+  </fenetre>
+</Interface>
+

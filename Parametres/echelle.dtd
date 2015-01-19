@@ -1,0 +1,18 @@
+<!ELEMENT echelles (critere*)>
+
+<!ELEMENT critere (numerique|textuel)>
+<!ATTLIST critere id CDATA #REQUIRED> <!-- identifiant du critere -->
+<!ATTLIST critere affichage CDATA #REQUIRED> <!-- texte affiche pour le critere -->
+<!ATTLIST critere proprietaire CDATA #REQUIRED> <!-- proprietaire du critere : systeme ou utilisateur -->
+<!ATTLIST critere description CDATA #IMPLIED> <!-- description du critere -->
+
+<!ELEMENT numerique EMPTY>
+<!ATTLIST numerique borne_inf CDATA #REQUIRED> <!-- borne inferieure -->
+<!ATTLIST numerique borne_sup CDATA #REQUIRED> <!-- borne superieure -->
+<!ATTLIST numerique pas CDATA #REQUIRED> <!-- pas -->
+
+<!ELEMENT textuel (val+)>
+<!ATTLIST textuel gradue (oui|non) #REQUIRED>
+
+<!ELEMENT val (#PCDATA)> <!-- valeurs possibles (critere text) triees dans l'ordre decroissant -->
+<!ATTLIST val abrege CDATA #IMPLIED>

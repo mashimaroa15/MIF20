@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<action id="A11" type="ajout composant">
+  <composant id="" type="bouton" texte="Aide" infobulle="Aide" />
+  <coordonnees x="434" y="298" largeur="250" hauteur="80" />
+</action>
+

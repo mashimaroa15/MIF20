@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<action id="A9" type="message" sous-type="textuel_vocal" assistant="messager">
+      <textuel>
+        <texte>&lt;html&gt;&lt;head&gt;&lt;/head&gt;
+		&lt;body bgcolor="#ccccff"&gt;
+    Bonjour Lucas, Je vais t'aider &amp;#224; corriger les yeux rouges 
+    sur une photo.&lt;/body&gt;
+	&lt;/body&gt;&lt;/html&gt;</texte>
+        <options titre="Message Assistant">
+          <position type="ecran">
+            <ecran horizontal="centre" vertical="centre" />
+          </position>
+          <taille type="automatique" />
+        </options>
+      </textuel>
+      <vocal different="vrai">
+        <texte>Bonjour %prenom%</texte>
+      </vocal>
+    </action>
+

@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<description>
+  <metadonnees>
+    <assistance nom="Assistance_Baudin" logiciel="Logiciel_Arbre_Baudin" type="Application Java" interface="Description_logiciel_baudin.interface" statut="public" public="" />
+    <creation date_creation="22/05/2014" date_modification="23/05/2014" createur="" />
+    <personnalisation structure_profil_statique="" id_structure_profil_statique="" />
+    <commentaires />
+  </metadonnees>
+  <regles>
+    <regle id="R0">
+      <metadonnees />
+      <evenement_declencheur type="lancementAssistance_" idComp="" />
+      <alternatives condition="C0">
+        <alternative valeur="Oui, je veux de l'aide">
+          <action id="R1" />
+        </alternative>
+      </alternatives>
+    </regle>
+    <regle id="R1">
+      <metadonnees />
+      <evenement_declencheur type="lancementRegle" idComp="R1" />
+      <alternatives condition="">
+        <alternative>
+          <action id="A0" />
+          <action id="A1" />
+        </alternative>
+      </alternatives>
+      <evenement_de_fin idEve="E15" type="mouseClicked" idComp="4882" />
+    </regle>
+    <regle id="R2">
+      <metadonnees />
+      <evenement_declencheur idEve="E15" type="mouseClicked" idComp="4882" />
+	  <evenement_declencheur type="lancementAssistance" idComp="" />
+      <alternatives condition="">
+        <alternative>
+          <action id="A2" />
+          <action id="A3" />
+        </alternative>
+      </alternatives>
+      <evenement_de_fin idEve="E28" type="mouseClicked" idComp="4895" />
+    </regle>
+    <regle id="R4">
+      <metadonnees />
+      <evenement_declencheur idEve="E29" type="fin" idComp="A2" />
+      <alternatives condition="C1">
+        <alternative valeur="vrai">
+          <action id="A4" />
+        </alternative>
+        <alternative valeur="faux">
+          <action id="R6" />
+        </alternative>
+      </alternatives>
+    </regle>
+    <regle id="R6">
+      <metadonnees />
+      <evenement_declencheur type="lancementRegle" idComp="R6" />
+      <alternatives condition="C2">
+        <alternative valeur="Oui je veux de l'aide">
+          <action id="R7" />
+        </alternative>
+      </alternatives>
+    </regle>
+    <regle id="R7">
+      <metadonnees />
+      <evenement_declencheur type="lancementRegle" idComp="R7" />
+      <alternatives condition="">
+        <alternative>
+          <action id="A5" />
+          <action id="A6" />
+        </alternative>
+      </alternatives>
+      <evenement_de_fin idEve="E6" type="declenchement" idComp="R9" />
+    </regle>
+    <regle id="R9">
+      <metadonnees />
+      <evenement_declencheur type="lancementRegle" idComp="R9" />
+      <alternatives condition="">
+        <alternative>
+          <action id="A7" />
+          <action id="A8" />
+        </alternative>
+      </alternatives>
+      <evenement_de_fin idEve="E7" type="declenchement" idComp="R10" />
+    </regle>
+    <regle id="R10">
+      <metadonnees />
+      <evenement_declencheur type="lancementRegle" idComp="R10" />
+      <alternatives condition="">
+        <alternative>
+          <action id="A9" />
+          <action id="A10" />
+        </alternative>
+      </alternatives>
+      <evenement_de_fin idEve="E8" type="declenchement" idComp="R11" />
+    </regle>
+    <regle id="R11">
+      <metadonnees />
+      <evenement_declencheur type="lancementRegle" idComp="R11" />
+      <alternatives condition="C3">
+        <alternative valeur="Oui, je veux de l'aide.">
+          <action id="A11" />
+          <action id="A12" />
+        </alternative>
+      </alternatives>
+    </regle>
+    <regle id="R12">
+      <metadonnees />
+      <evenement_declencheur type="lancementRegle" idComp="R12" />
+      <alternatives condition="">
+        <alternative>
+          <action id="A13" />
+        </alternative>
+      </alternatives>
+      <evenement_de_fin idEve="E10" />
+    </regle>
+    <regle id="R13">
+      <metadonnees />
+      <evenement_declencheur idEve="E11" type="mouseClicked" idComp="17032" />
+      <alternatives condition="">
+        <alternative>
+          <action id="A14" />
+        </alternative>
+      </alternatives>
+      <evenement_de_fin idEve="E10" />
+    </regle>
+    <regle id="R14">
+      <metadonnees />
+      <evenement_declencheur idEve="E12" type="mouseClicked" idComp="17003" />
+      <alternatives condition="C4">
+        <alternative valeur="Oui, je n'ai pas tout compris">
+          <action id="R7" />
+        </alternative>
+      </alternatives>
+    </regle>
+    <regle id="R15">
+      <metadonnees />
+      <evenement_declencheur type="lancementRegle" idComp="R15" />
+      <alternatives condition="C5">
+        <alternative valeur="Oui">
+          <action id="R4" />
+        </alternative>
+      </alternatives>
+    </regle>
+  </regles>
+  <actions>
+    <action id="A0" type="mise en valeur">
+      <composant id="4882" type="entourer" />
+    </action>
+    <action id="A1" type="message" sous-type="textuel" assistant="">
+      <textuel>
+        <texte>Commence par selectionner ton prénom dans la liste, puis clique sur l'arbre pour commencer.</texte>
+      </textuel>
+    </action>
+    <action id="A2" type="mise en valeur" timer="4000">
+      <composant id="4895" type="entourer" couleur="java.awt.Color[r=51,g=51,b=255]" arrondi="0" eloignement="0" epaisseur="5" />
+    </action>
+    <action id="A3" type="message" sous-type="textuel" assistant="">
+      <textuel>
+        <texte>Clique maintenant sur l'arbre pour commencer!</texte>
+      </textuel>
+    </action>
+    <action id="A4" type="message" sous-type="textuel" assistant="">
+      <textuel>
+        <texte>Ton niveau n'est pas connu, tu dois essayer de répondre à ces questions et les valider avec le bouton en bas.</texte>
+      </textuel>
+    </action>
+    <action id="A5" type="mise en valeur">
+      <composant id="17011" type="entourer" />
+    </action>
+    <action id="A6" type="message" sous-type="textuel" assistant="">
+      <textuel>
+        <texte>Pour commencer, le menu de gauche représente ton niveau, plus tu progresses, plus l'arbre grandit!</texte>
+      </textuel>
+    </action>
+    <action id="A7" type="mise en valeur">
+      <composant id="17018" type="entourer" />
+    </action>
+    <action id="A8" type="message" sous-type="textuel" assistant="">
+      <textuel>
+        <texte>Tu peux aussi voir ton niveau ici</texte>
+      </textuel>
+    </action>
+    <action id="A9" type="mise en valeur">
+      <composant id="17028" type="entourer" />
+    </action>
+    <action id="A10" type="message" sous-type="textuel" assistant="">
+      <textuel>
+        <texte>Ici tu peux choisir quelles parties tu souhaite valider. Si l'ecriture est verte, c'est que tu as déjà réussi cette partie!</texte>
+      </textuel>
+    </action>
+    <action id="A11" type="mise en valeur" duree="3000">
+      <composant id="17020" type="entourer" />
+    </action>
+    <action id="A12" type="message" sous-type="textuel" assistant="">
+      <textuel>
+        <texte>Clique ici pour commencer</texte>
+      </textuel>
+    </action>
+    <action id="A13" type="message" sous-type="textuel" assistant="">
+      <textuel>
+        <texte>Voici un cours, lis attentivement pour pouvoir répondre aux questions</texte>
+      </textuel>
+    </action>
+    <action id="A14" type="message" sous-type="textuel" assistant="">
+      <textuel>
+        <texte>Tu dois maintenant répondre à ces questions, clique sur sur le bouton suivant quand tu as terminé!</texte>
+      </textuel>
+    </action>
+  </actions>
+  <conditions>
+    <condition id="C0" type="consultation">
+      <texte>Souhaitez-vous de l'aide pour manipuler ce logiciel?</texte>
+      <options>
+        <option label="Oui, je veux de l'aide" />
+        <option label="Non merci" />
+      </options>
+    </condition>
+    <condition id="C1" type="contexte" idComp="17004" propriete="a le focus" sous-type="booléen" />
+    <condition id="C2" type="consultation">
+      <texte>Souhaitye-tu de l'aide pour utiliser le menu principal?</texte>
+      <options>
+        <option label="Oui je veux de l'aide" />
+        <option label="Non merci" />
+      </options>
+    </condition>
+    <condition id="C3" type="consultation">
+      <texte>Le bouton "Continuer histoire" te permet directement d'acceder à une partie à laquelle tu n'as pas encore participé. 
+Souhaite-tu de l'aide pour la suite?</texte>
+      <options>
+        <option label="Oui, je veux de l'aide." />
+        <option label="Non merci." />
+      </options>
+    </condition>
+    <condition id="C4" type="consultation">
+      <texte>Tu as fini ce cours, si tu l'as validé il apparait en vert !
+Souhaites-tu recommencer l'aide?</texte>
+      <options>
+        <option label="Oui, je n'ai pas tout compris" />
+        <option label="Non merci" />
+      </options>
+    </condition>
+    <condition id="C5" type="consultation">
+      <texte>Avez-vous déjà cliqué sur l'arbre?</texte>
+      <options>
+        <option label="Oui" />
+        <option label="Non" />
+      </options>
+    </condition>
+  </conditions>
+  <evenements>
+    <evenement typeEve="action utilisateur" id="E0" type="mouseClicked" idComp="6" />
+    <evenement typeEve="action utilisateur" id="E1" type="focusGained" idComp="6" />
+    <evenement typeEve="evenement assistance" id="E2" type="declenchement" objet="R1" />
+    <evenement typeEve="evenement assistance" id="E3" type="declenchement" objet="R2" />
+    <evenement typeEve="evenement assistance" id="E4" type="declenchement" objet="R4" />
+    <evenement id="E5" typeEve="timer fixe" duree="10000" unite="secondes" />
+    <evenement typeEve="evenement assistance" id="E6" type="declenchement" objet="R9" />
+    <evenement typeEve="evenement assistance" id="E7" type="declenchement" objet="R10" />
+    <evenement typeEve="evenement assistance" id="E8" type="declenchement" objet="R11" />
+    <evenement typeEve="action utilisateur" id="E9" type="mouseClicked" idComp="17020" />
+    <evenement id="E10" typeEve="timer fixe" duree="10000" unite="secondes" />
+    <evenement typeEve="action utilisateur" id="E11" type="mouseClicked" idComp="17032" />
+    <evenement typeEve="action utilisateur" id="E12" type="mouseClicked" idComp="17003" />
+    <evenement typeEve="action utilisateur" id="E13" type="mouseClicked" idComp="16962" />
+    <evenement typeEve="action utilisateur" id="E14" type="mouseClicked" idComp="16962" />
+    <evenement typeEve="action utilisateur" id="E15" type="mouseClicked" idComp="4882" />
+    <evenement typeEve="action utilisateur" id="E16" type="mouseClicked" idComp="4895" />
+    <evenement typeEve="action utilisateur" id="E17" type="mouseClicked" idComp="4895" />
+    <evenement typeEve="action utilisateur" id="E18" type="mouseClicked" idComp="4870" />
+    <evenement typeEve="action utilisateur" id="E19" type="focusLost" idComp="4870" />
+    <evenement typeEve="evenement assistance" id="E20" type="declenchement" objet="R15" />
+    <evenement typeEve="action utilisateur" id="E21" type="mouseEntered" idComp="17004" />
+    <evenement typeEve="action utilisateur" id="E22" type="focusLost" idComp="4870" />
+    <evenement typeEve="action utilisateur" id="E23" type="mouseEntered" idComp="17020" />
+    <evenement typeEve="action utilisateur" id="E24" type="mouseClicked" idComp="17035" />
+    <evenement typeEve="evenement assistance" id="E25" type="fin" objet="R1" />
+    <evenement id="E26" typeEve="timer fixe" duree="5000" unite="secondes" />
+    <evenement typeEve="evenement assistance" id="E27" type="fin" objet="R16" />
+    <evenement typeEve="actionUtilisateur" id="E28" type="mouseClicked" idComp="4895" />
+    <evenement typeEve="evenement assistance" id="E29" type="fin" objet="A2" />
+  </evenements>
+  <sequences />
+</description>
+

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<description>
+  <metadonnees>
+    <assistance nom="Aide_CAF" logiciel="page_CAF" type="Application web" interface="caf.interface" statut="public" public="" />
+    <creation date_creation="27/01/2014" date_modification="07/03/2014" createur="" />
+    <personnalisation structure_profil_statique="AssistanceRegard.str" id_structure_profil_statique="136" />
+    <commentaires />
+  </metadonnees>
+  <regles>
+    <regle id="R0">
+      <metadonnees />
+      <evenement_declencheur idEve="E0" type="keyPressed" idComp="81" />
+      <alternatives condition="">
+        <alternative>
+          <action id="A3" />
+        </alternative>
+      </alternatives>
+    </regle>
+    <regle id="R1">
+      <metadonnees />
+      <evenement_declencheur type="lancementAssistance" idComp="" />
+      <alternatives condition="C0">
+        <alternative type="égal à" texte="toto">
+          <action id="A0" />
+        </alternative>
+        <alternative type="égal à" texte="">
+          <action id="A1" />
+        </alternative>
+      </alternatives>
+    </regle>
+    <regle id="R2">
+      <metadonnees />
+      <evenement_declencheur idEve="E1" type="mouseClicked" idComp="85" />
+      <alternatives condition="">
+        <alternative>
+          <action id="A4" />
+        </alternative>
+      </alternatives>
+    </regle>
+  </regles>
+  <actions>
+    <action id="A0" type="message" sous-type="textuel" assistant="">
+      <textuel>
+        <texte>Vous avez appuyé sur une touche</texte>
+      </textuel>
+    </action>
+    <action id="A1" type="mise en valeur">
+      <composant id="81" type="entourer" couleur="java.awt.Color[r=255,g=51,b=51]" arrondi="3" eloignement="3" epaisseur="5" />
+    </action>
+    <action id="A5" type="action sur l'interface" typeAuto="automatisé">
+      <evenement idComp="87" propriete="clic" />
+    </action>
+    <action id="A3" type="message" sous-type="textuel_vocal" assistant="agent animé">
+      <textuel>
+        <texte>voici une case à cocher</texte>
+        <options>
+          <position type="ecran">
+            <ecran horizontal="centre" vertical="centre" />
+          </position>
+          <agent personnage="Genie" />
+        </options>
+      </textuel>
+      <vocal different="faux">
+        <texte>&lt;p&gt;
+      voici une case &amp;#224; cocher
+    &lt;/p&gt;</texte>
+      </vocal>
+    </action>
+    <action id="A4" type="mise en valeur">
+      <composant id="85" type="agent animé" direction="par la gauche" personnage="Genie" />
+    </action>
+    <action id="A5" type="action sur l'interface" typeAuto="automatisé">
+      <evenement idComp="85" propriete="etat" valeur="On" />
+    </action>
+    <action id="A6" type="action sur l'interface" typeAuto="automatisé">
+      <evenement idComp="82" propriete="focus" />
+    </action>
+  </actions>
+  <conditions>
+    <condition id="C0" type="contexte" idComp="81" propriete="valeur textuelle" sous-type="texte" />
+  </conditions>
+  <evenements>
+    <evenement typeEve="action utilisateur" id="E0" type="keyPressed" idComp="81" />
+    <evenement typeEve="action utilisateur" id="E1" type="mouseClicked" idComp="85" />
+  </evenements>
+  <sequences />
+</description>
+

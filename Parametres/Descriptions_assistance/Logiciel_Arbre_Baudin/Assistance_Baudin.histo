@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<historique date_creation="22/05/2014" date_derniere_modif="22/05/2014" nom_assistance="Assistance_Baudin" logiciel="Logiciel_Arbre_Baudin">
+  <utilisateur nom="anonyme.xml">
+    <objet nom="C0">
+      <seance heure="1400757178548" date="22/05/2014">Non merci</seance>
+      <seance heure="1400776016146" date="22/05/2014">Oui, je veux de l'aide</seance>
+      <seance heure="1400836389388" date="23/05/2014">Oui, je veux de l'aide</seance>
+      <seance heure="1400836882930" date="23/05/2014">Oui, je veux de l'aide</seance>
+      <seance heure="1400837018266" date="23/05/2014">Oui, je veux de l'aide</seance>
+      <seance heure="1400837460571" date="23/05/2014">Oui, je veux de l'aide</seance>
+      <seance heure="1400842694685" date="23/05/2014">Oui, je veux de l'aide</seance>
+    </objet>
+    <objet nom="R0">
+      <seance dernier="1400776016146" date="22/05/2014">1</seance>
+      <seance dernier="1400836389388" date="23/05/2014">1</seance>
+      <seance dernier="1400836882930" date="23/05/2014">1</seance>
+      <seance dernier="1400837018266" date="23/05/2014">1</seance>
+      <seance dernier="1400837460571" date="23/05/2014">1</seance>
+      <seance dernier="1400842694685" date="23/05/2014">1</seance>
+    </objet>
+    <objet nom="R2">
+      <seance dernier="1400776016146" date="22/05/2014">1</seance>
+      <seance dernier="1400837466281" date="23/05/2014">2</seance>
+    </objet>
+    <objet nom="A2">
+      <seance dernier="1400776016146" date="22/05/2014">1</seance>
+      <seance dernier="1400837466281" date="23/05/2014">2</seance>
+      <seance dernier="1400842695511" date="23/05/2014">1</seance>
+    </objet>
+    <objet nom="A3">
+      <seance dernier="1400776035844" date="22/05/2014">1</seance>
+      <seance dernier="1400837466874" date="23/05/2014">2</seance>
+    </objet>
+    <objet nom="R1">
+      <seance dernier="1400836389388" date="23/05/2014">1</seance>
+      <seance dernier="1400836882930" date="23/05/2014">1</seance>
+      <seance dernier="1400837018266" date="23/05/2014">1</seance>
+      <seance dernier="1400837460571" date="23/05/2014">1</seance>
+      <seance dernier="1400842694685" date="23/05/2014">1</seance>
+    </objet>
+    <objet nom="A1">
+      <seance dernier="1400836390418" date="23/05/2014">1</seance>
+      <seance dernier="1400836883773" date="23/05/2014">1</seance>
+      <seance dernier="1400837019046" date="23/05/2014">1</seance>
+      <seance dernier="1400837461273" date="23/05/2014">1</seance>
+      <seance dernier="1400842695449" date="23/05/2014">1</seance>
+    </objet>
+    <objet nom="A0">
+      <seance dernier="1400836389388" date="23/05/2014">1</seance>
+      <seance dernier="1400836882930" date="23/05/2014">1</seance>
+      <seance dernier="1400837018266" date="23/05/2014">1</seance>
+      <seance dernier="1400837460571" date="23/05/2014">1</seance>
+      <seance dernier="1400842694685" date="23/05/2014">1</seance>
+    </objet>
+    <objet nom="R16">
+      <seance dernier="1400842696915" date="23/05/2014">1</seance>
+    </objet>
+  </utilisateur>
+</historique>
+

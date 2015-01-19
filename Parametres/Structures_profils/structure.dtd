@@ -1,0 +1,68 @@
+<!-- structure de profil -->
+<!ELEMENT structure (brique*)>
+<!ATTLIST structure id CDATA #REQUIRED>
+<!ATTLIST structure nom CDATA #REQUIRED>
+<!ATTLIST structure createur CDATA #REQUIRED>
+<!ATTLIST structure date_creation CDATA #REQUIRED>
+<!ATTLIST structure date_derniere_modif CDATA #REQUIRED>
+<!ATTLIST structure nom_eleve CDATA #REQUIRED>
+<!ATTLIST structure prenom_eleve CDATA #REQUIRED>
+
+<!-- brique -->
+<!ELEMENT brique (commentaires?,infos_echelle?,arbre_des_composantes?,liens?, texte?)>
+<!ATTLIST brique id CDATA #REQUIRED> <!-- identifiant unique -->
+<!ATTLIST brique type CDATA #REQUIRED> <!-- type de la brique (son identifiant) -->
+<!ATTLIST brique nom CDATA #IMPLIED>
+<!ATTLIST brique logiciel_externe CDATA #IMPLIED>
+<!ATTLIST brique nbquestions CDATA #IMPLIED> <!-- nombre total de questions -->
+<!ATTLIST brique indice CDATA #REQUIRED> <!-- position de la brique dans la structure -->
+
+<!-- commentaires (pour les commentaires...) -->
+<!ELEMENT commentaires (commentaire*)>
+
+<!ELEMENT commentaire (#PCDATA)>
+<!ATTLIST commentaire date CDATA #REQUIRED>
+<!ATTLIST commentaire source CDATA #REQUIRED>
+
+<!-- informations sur les echelles de valeur -->
+<!ELEMENT infos_echelle (echelle+)>
+<!ELEMENT echelle EMPTY>
+<!ATTLIST echelle id CDATA #REQUIRED> <!-- identifiant de l'echelle de valeur -->
+<!ATTLIST echelle unite CDATA #IMPLIED> <!-- unite de la (sous-)composante -->
+
+<!-- arbre des composantes -->
+<!ELEMENT arbre_des_composantes (composante+)>
+<!ATTLIST arbre_des_composantes niveaux (1|2|3) #REQUIRED>
+<!ATTLIST arbre_des_composantes cumul (vrai|faux) #IMPLIED>
+<!ATTLIST arbre_des_composantes ponderation (vrai|faux) #IMPLIED>
+
+<!-- composantes -->
+<!ELEMENT composante (valeur*|sous_composante*)>
+<!ATTLIST composante nom CDATA #REQUIRED> <!-- nom de la composante -->
+<!ATTLIST composante nomabrege CDATA #IMPLIED> <!-- nom abrege de la composante -->
+<!ATTLIST composante poids CDATA #IMPLIED> <!-- poids de la composante -->
+
+<!-- sous-composantes : memes attributs que composante -->
+<!ELEMENT sous_composante (valeur*|sous-composante*)> <!-- recursivite sur sous_composante -->
+<!ATTLIST sous_composante nom CDATA #REQUIRED>
+<!ATTLIST sous_composante nomabrege CDATA #IMPLIED>
+<!ATTLIST sous_composante poids CDATA #IMPLIED>
+
+<!-- liens entre les composantes -->
+<!ELEMENT liens (lien+)>
+
+<!-- lien effectif -->
+<!ELEMENT lien (valeur*)>
+<!ATTLIST lien de CDATA #REQUIRED>
+<!ATTLIST lien vers CDATA #REQUIRED>
+<!ATTLIST lien commentaire CDATA #IMPLIED>
+
+<!-- evaluation -->
+<!ELEMENT evaluation (#PCDATA)>
+<!ATTLIST evaluation date CDATA #REQUIRED>
+<!ATTLIST evaluation source CDATA #REQUIRED>
+
+<!ELEMENT valeur (evaluation*)>
+<!ATTLIST valeur id_echelle CDATA #REQUIRED>
+
+<!ELEMENT texte (evaluation*)>

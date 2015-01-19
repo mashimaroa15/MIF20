@@ -1,0 +1,34 @@
+<!ELEMENT action (textuel?, vocal?)>
+<!ATTLIST action type (textuel | vocal | video | textuel_vocal | sonore) "textuel">
+
+<!ELEMENT textuel (texte, fenetre)>
+<!ELEMENT texte (#PCDATA)>
+
+<!ELEMENT fenetre (position_fenetre, taille_fenetre)>
+<!ATTLIST fenetre titre CDATA #REQUIRED>
+<!ATTLIST fenetre style (motif | nimbus | windows | systeme) "systeme">
+<!ATTLIST fenetre logo CDATA #IMPLIED>
+
+<!ELEMENT position_fenetre (position_defini? | position_aleatoire?)>
+<!ATTLIST position_fenetre type (coordonnees | automatique | position_souris) "automatique">
+
+<!ELEMENT position_defini EMPTY>
+<!ATTLIST position_defini position_horizontale (gauche | centre | droite) "centre">
+<!ATTLIST position_defini position_verticale (haut | centre | bas) "centre">
+
+<!ELEMENT position_aleatoire EMPTY>
+<!ATTLIST position_aleatoire X CDATA #REQUIRED>
+<!ATTLIST position_aleatoire Y CDATA #REQUIRED>
+
+<!ELEMENT taille_fenetre EMPTY>
+<!ATTLIST taille_fenetre type (automatique | manuel) "automatique">
+<!ATTLIST taille_fenetre hauteur CDATA #IMPLIED>
+<!ATTLIST taille_fenetre largeur CDATA #IMPLIED>
+
+<!ELEMENT vocal (texte, parametre)>
+<!ELEMENT parametre (langue)>
+<!ELEMENT langue EMPTY>
+<!ATTLIST langue origine (francais | anglais) "francais">
+
+<!ELEMENT video (nom)>
+<!ELEMENT nom (#PCDATA)>

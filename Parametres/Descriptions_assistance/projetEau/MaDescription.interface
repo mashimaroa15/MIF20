@@ -1,0 +1,434 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Interface>
+  <fenetre texte="" type="frame" id="5307" description="" typeAjoute="fenêtre" descriptionAjoutee="la fenetre ">
+    <composant texte="" type="root pane" id="5308" description="" typeAjoute="panel" descriptionAjoutee="le panel ">
+      <composant texte="" type="panel" id="5309" description="" typeAjoute="panel" descriptionAjoutee="le panel " />
+      <composant texte="" type="layered pane" id="5310" description="" typeAjoute="panel" descriptionAjoutee="le panel ">
+        <composant texte="" type="panel" id="5311" description="" typeAjoute="panel" descriptionAjoutee="le panel ">
+          <composant texte="" type="panel" id="5312" description="" typeAjoute="panel" descriptionAjoutee="le panel ">
+            <composant texte="" type="push button" id="5313" description="" typeAjoute="bouton" descriptionAjoutee="le bouton langue1" commentaires="" />
+            <composant texte="" type="push button" id="5314" description="" typeAjoute="bouton" descriptionAjoutee="le bouton langue2" commentaires="" />
+            <composant texte="" type="push button" id="5315" description="" typeAjoute="bouton" descriptionAjoutee="le bouton langue 3" commentaires="" />
+          </composant>
+        </composant>
+      </composant>
+    </composant>
+  </fenetre>
+  <fenetre texte="Cycle de l'eau" type="frame" id="5417" description="" typeAjoute="fenêtre" descriptionAjoutee="la fenetre Cycle de l'eau">
+    <composant texte="" type="root pane" id="5418" description="" typeAjoute="panel" descriptionAjoutee="le panel ">
+      <composant texte="" type="panel" id="5419" description="" typeAjoute="panel" descriptionAjoutee="le panel " />
+      <composant texte="" type="layered pane" id="5420" description="" typeAjoute="panel" descriptionAjoutee="le panel ">
+        <composant texte="" type="panel" id="5421" description="" typeAjoute="panel" descriptionAjoutee="le panel ">
+          <composant texte="" type="panel" id="5422" description="" typeAjoute="panel" descriptionAjoutee="le panel ">
+            <composant texte="" type="layered pane" id="5423" description="" typeAjoute="panel" descriptionAjoutee="le panel ">
+              <composant texte="" type="panel" id="5424" description="" typeAjoute="panel" descriptionAjoutee="le panel ">
+                <composant texte="" type="push button" id="5425" description="" typeAjoute="bouton" descriptionAjoutee="le bouton " />
+                <composant texte="Exercices" type="push button" id="5426" description="" typeAjoute="bouton" descriptionAjoutee="le bouton Exercices" />
+                <composant texte="" type="push button" id="5427" description="" typeAjoute="bouton" descriptionAjoutee="le bouton " />
+              </composant>
+            </composant>
+          </composant>
+          <composant texte="" type="panel" id="5428" description="" typeAjoute="panel" descriptionAjoutee="le panel ">
+            <composant texte="" type="scroll pane" id="5429" description="">
+              <composant texte="" type="viewport" id="5430" description="">
+                <composant texte="" type="panel" id="5431" description="" typeAjoute="panel" descriptionAjoutee="le panel ">
+                  <composant texte="" type="push button" id="5432" description="" typeAjoute="bouton" descriptionAjoutee="le bouton " />
+                  <composant texte="&lt;html&gt;                &lt;body &gt;                &lt;div style=\&quot;width:700px;height:370px;overflow:auto;margin-left:20px;\&quot;&gt;                &lt;div style=\&quot;text-align:center;\&quot;&gt;&lt;h1&gt;Le cycle de l'eau&lt;/h1&gt;&lt;/div&gt;                &lt;div style=\&quot;text-align:justify;\&quot;&gt;                &lt;h3&gt;Le temps de voyage de l'eau : &lt;/h3&gt;                &lt;span style=\&quot;margin-left:30px;\&quot;&gt;&lt;/span&gt;Au cours de son cycle, l'eau passe Ã  travers diffÃ©rents rÃ©servoirs naturels oÃ¹                elle est prise au piÃ¨ge parfois trÃ¨s longtemps. Ainsi, elle peut se solidifier pour 8000 ans au sommet d'un glacier ou                ruisseler pendant 15 jours sous forme de cours d'eau. Dans l'ocÃ©an, une goutte d'eau y reste 3000 ans avant de s'Ã©vaporer                et 17 ans seulement si elle se retourve dans un lac d'eau douce. AprÃ¨s s'Ãªtre Ã©vaporÃ©e, elle reste 8 jours dans l'atmosphÃ¨re                puis elle ira grossir un nuage de pluie.                &lt;br&gt;               &lt;h3&gt;1. Evaporation&lt;/h3&gt;                Sous l'effet du soleil, l'ea" type="label" id="5433" description="" typeAjoute="label" />
+                  <composant texte="" type="label" id="5434" description="" typeAjoute="label" />
+                </composant>
+              </composant>
+              <composant texte="" type="scroll bar" id="5435" description="">
+                <composant texte="" type="push button" id="5436" description="" typeAjoute="bouton" descriptionAjoutee="le bouton " />
+                <composant texte="" type="push button" id="5437" description="" typeAjoute="bouton" descriptionAjoutee="le bouton " />
+              </composant>
+              <composant texte="" type="scroll bar" id="5438" description="">
+                <composant texte="" type="push button" id="5439" description="" typeAjoute="bouton" descriptionAjoutee="le bouton " />
+                <composant texte="" type="push button" id="5440" description="" typeAjoute="bouton" descriptionAjoutee="le bouton " />
+              </composant>
+            </composant>
+          </composant>
+        </composant>
+      </composant>
+    </composant>
+  </fenetre>
+  <fenetre texte="Mer et Océans" type="frame" id="5441" description="" typeAjoute="fenêtre" descriptionAjoutee="la fenetre Mer et Océans">
+    <composant texte="" type="root pane" id="5442" description="" typeAjoute="panel" descriptionAjoutee="le panel ">
+      <composant texte="" type="panel" id="5443" description="" typeAjoute="panel" descriptionAjoutee="le panel " />
+      <composant texte="" type="layered pane" id="5444" description="" typeAjoute="panel" descriptionAjoutee="le panel ">
+        <composant texte="" type="panel" id="5445" description="" typeAjoute="panel" descriptionAjoutee="le panel ">
+          <composant texte="" type="panel" id="5446" description="" typeAjoute="panel" descriptionAjoutee="le panel ">
+            <composant texte="" type="layered pane" id="5447" description="" typeAjoute="panel" descriptionAjoutee="le panel ">
+              <composant texte="" type="panel" id="5448" description="" typeAjoute="panel" descriptionAjoutee="le panel ">
+                <composant texte="" type="push button" id="5449" description="" typeAjoute="bouton" descriptionAjoutee="le bouton " />
+                <composant texte="Exercices" type="push button" id="5450" description="" typeAjoute="bouton" descriptionAjoutee="le bouton Exercices" />
+                <composant texte="" type="push button" id="5451" description="" typeAjoute="bouton" descriptionAjoutee="le bouton " />
+              </composant>
+            </composant>
+          </composant>
+          <composant texte="" type="panel" id="5452" description="" typeAjoute="panel" descriptionAjoutee="le panel ">
+            <composant texte="" type="scroll pane" id="5453" description="">
+              <composant texte="" type="viewport" id="5454" description="">
+                <composant texte="" type="panel" id="5455" description="" typeAjoute="panel" descriptionAjoutee="le panel ">
+                  <composant texte="&lt;html&gt;&lt;body &gt;     &lt;div style=\&quot;width:700px;height:370px;overflow:auto;margin-left:20px;\&quot;&gt;     &lt;div style=\&quot;text-align:center;\&quot;&gt;&lt;h1&gt;OcÃ©ans et Mers&lt;/h1&gt;&lt;/div&gt;     &lt;div style=\&quot;text-align:justify;\&quot;&gt;     &lt;span style=\&quot;margin-left:30px;\&quot;&gt;&lt;/span&gt;Les ocÃ©ans et les mers du monde couvrent ensemble presque &lt;b&gt;71%&lt;/b&gt; de la surface terrestre.                Puisque les ocÃ©ans sont une eau superficielle continue sur la surface terrestre, il n'est pas possible de clairement                dÃ©limitÃ© les frontiÃ¨res entre un ocÃ©an et un autre. NÃ©anmoins, pour                aider des ocÃ©anographes et pour d'autres buts pratiques, on identifie gÃ©nÃ©ralement que le corps Ã©norme de l'eau salÃ©e sur la                surface terrestre. De ce fait on peut divisÃ© la Terre en trois ocÃ©ans importants :                &lt;ul&gt;                  &lt;li&gt;l'ocÃ©an Pacifique&lt;/li&gt;                    &lt;li&gt;l'ocÃ©an Atlantique&lt;/li&gt;                    &lt;li&gt;l'ocÃ©an Indien&lt;/li&gt;                &lt;/ul&gt;                &lt;span style=\&quot;margin-le" type="label" id="5456" description="" typeAjoute="label" />
+                  <composant texte="" type="push button" id="5457" description="" typeAjoute="bouton" descriptionAjoutee="le bouton " />
+                </composant>
+              </composant>
+              <composant texte="" type="scroll bar" id="5458" description="">
+                <composant texte="" type="push button" id="5459" description="" typeAjoute="bouton" descriptionAjoutee="le bouton " />
+                <composant texte="" type="push button" id="5460" description="" typeAjoute="bouton" descriptionAjoutee="le bouton " />
+              </composant>
+              <composant texte="" type="scroll bar" id="5461" description="">
+                <composant texte="" type="push button" id="5462" description="" typeAjoute="bouton" descriptionAjoutee="le bouton " />
+                <composant texte="" type="push button" id="5463" description="" typeAjoute="bouton" descriptionAjoutee="le bouton " />
+              </composant>
+            </composant>
+          </composant>
+        </composant>
+      </composant>
+    </composant>
+  </fenetre>
+  <fenetre texte="Mer et Océans" type="frame" id="5464" description="" typeAjoute="fenêtre" descriptionAjoutee="la fenetre Mer et Océans">
+    <composant texte="" type="root pane" id="5465" description="" typeAjoute="panel" descriptionAjoutee="le panel ">
+      <composant texte="" type="panel" id="5466" description="" typeAjoute="panel" descriptionAjoutee="le panel " />
+      <composant texte="" type="layered pane" id="5467" description="" typeAjoute="panel" descriptionAjoutee="le panel ">
+        <composant texte="" type="panel" id="5468" description="" typeAjoute="panel" descriptionAjoutee="le panel ">
+          <composant texte="" type="panel" id="5469" description="" typeAjoute="panel" descriptionAjoutee="le panel ">
+            <composant texte="" type="layered pane" id="5470" description="" typeAjoute="panel" descriptionAjoutee="le panel ">
+              <composant texte="" type="panel" id="5471" description="" typeAjoute="panel" descriptionAjoutee="le panel ">
+                <composant texte="" type="push button" id="5472" description="" typeAjoute="bouton" descriptionAjoutee="le bouton " />
+                <composant texte="Exercices" type="push button" id="5473" description="" typeAjoute="bouton" descriptionAjoutee="le bouton Exercices" />
+                <composant texte="" type="push button" id="5474" description="" typeAjoute="bouton" descriptionAjoutee="le bouton " />
+              </composant>
+            </composant>
+          </composant>
+          <composant texte="" type="panel" id="5475" description="" typeAjoute="panel" descriptionAjoutee="le panel ">
+            <composant texte="" type="scroll pane" id="5476" description="">
+              <composant texte="" type="viewport" id="5477" description="">
+                <composant texte="" type="panel" id="5478" description="" typeAjoute="panel" descriptionAjoutee="le panel ">
+                  <composant texte="&lt;html&gt;&lt;body &gt;     &lt;div style=\&quot;width:700px;height:370px;overflow:auto;margin-left:20px;\&quot;&gt;     &lt;div style=\&quot;text-align:center;\&quot;&gt;&lt;h1&gt;OcÃ©ans et Mers&lt;/h1&gt;&lt;/div&gt;     &lt;div style=\&quot;text-align:justify;\&quot;&gt;     &lt;span style=\&quot;margin-left:30px;\&quot;&gt;&lt;/span&gt;Les ocÃ©ans et les mers du monde couvrent ensemble presque &lt;b&gt;71%&lt;/b&gt; de la surface terrestre.                Puisque les ocÃ©ans sont une eau superficielle continue sur la surface terrestre, il n'est pas possible de clairement                dÃ©limitÃ© les frontiÃ¨res entre un ocÃ©an et un autre. NÃ©anmoins, pour                aider des ocÃ©anographes et pour d'autres buts pratiques, on identifie gÃ©nÃ©ralement que le corps Ã©norme de l'eau salÃ©e sur la                surface terrestre. De ce fait on peut divisÃ© la Terre en trois ocÃ©ans importants :                &lt;ul&gt;                  &lt;li&gt;l'ocÃ©an Pacifique&lt;/li&gt;                    &lt;li&gt;l'ocÃ©an Atlantique&lt;/li&gt;                    &lt;li&gt;l'ocÃ©an Indien&lt;/li&gt;                &lt;/ul&gt;                &lt;span style=\&quot;margin-le" type="label" id="5479" description="" typeAjoute="label" />
+                  <composant texte="" type="push button" id="5480" description="" typeAjoute="bouton" descriptionAjoutee="le bouton " />
+                </composant>
+              </composant>
+              <composant texte="" type="scroll bar" id="5481" description="">
+                <composant texte="" type="push button" id="5482" description="" typeAjoute="bouton" descriptionAjoutee="le bouton " />
+                <composant texte="" type="push button" id="5483" description="" typeAjoute="bouton" descriptionAjoutee="le bouton " />
+              </composant>
+              <composant texte="" type="scroll bar" id="5484" description="">
+                <composant texte="" type="push button" id="5485" description="" typeAjoute="bouton" descriptionAjoutee="le bouton " />
+                <composant texte="" type="push button" id="5486" description="" typeAjoute="bouton" descriptionAjoutee="le bouton " />
+              </composant>
+            </composant>
+          </composant>
+        </composant>
+      </composant>
+    </composant>
+  </fenetre>
+  <fenetre texte="Les animaux marins" type="frame" id="5487" description="" typeAjoute="fenêtre" descriptionAjoutee="la fenetre Les animaux marins">
+    <composant texte="" type="root pane" id="5488" description="" typeAjoute="panel" descriptionAjoutee="le panel ">
+      <composant texte="" type="panel" id="5489" description="" typeAjoute="panel" descriptionAjoutee="le panel " />
+      <composant texte="" type="layered pane" id="5490" description="" typeAjoute="panel" descriptionAjoutee="le panel ">
+        <composant texte="" type="panel" id="5491" description="" typeAjoute="panel" descriptionAjoutee="le panel ">
+          <composant texte="" type="panel" id="5492" description="" typeAjoute="panel" descriptionAjoutee="le panel ">
+            <composant texte="" type="layered pane" id="5493" description="" typeAjoute="panel" descriptionAjoutee="le panel ">
+              <composant texte="" type="panel" id="5494" description="" typeAjoute="panel" descriptionAjoutee="le panel ">
+                <composant texte="" type="push button" id="5495" description="" typeAjoute="bouton" descriptionAjoutee="le bouton " />
+                <composant texte="Exercices" type="push button" id="5496" description="" typeAjoute="bouton" descriptionAjoutee="le bouton Exercices" />
+                <composant texte="" type="push button" id="5497" description="" typeAjoute="bouton" descriptionAjoutee="le bouton " />
+              </composant>
+            </composant>
+          </composant>
+          <composant texte="" type="panel" id="5498" description="" typeAjoute="panel" descriptionAjoutee="le panel ">
+            <composant texte="" type="scroll pane" id="5499" description="">
+              <composant texte="" type="viewport" id="5500" description="">
+                <composant texte="" type="panel" id="5501" description="" typeAjoute="panel" descriptionAjoutee="le panel ">
+                  <composant texte="" type="panel" id="5502" description="" typeAjoute="panel" descriptionAjoutee="le panel ">
+                    <composant texte="" type="panel" id="5503" description="" typeAjoute="panel" descriptionAjoutee="le panel ">
+                      <composant texte="" type="panel" id="5504" description="" typeAjoute="panel" descriptionAjoutee="le panel " />
+                      <composant texte="" type="label" id="5505" description="" typeAjoute="label" />
+                      <composant texte="" type="label" id="5506" description="" typeAjoute="label" />
+                      <composant texte="" type="label" id="5507" description="" typeAjoute="label" />
+                      <composant texte="" type="label" id="5508" description="" typeAjoute="label" />
+                      <composant texte="" type="label" id="5509" description="" typeAjoute="label" />
+                    </composant>
+                    <composant texte="&lt;html&gt;&lt;body &gt;&lt;div style=&quot;width:500px;height:370px;overflow:auto;margin-left:20px;&quot;&gt;    &lt;div style=&quot;text-align:center;&quot;&gt;&lt;h1&gt;Les animaux marins&lt;/h1&gt;&lt;/div&gt;    &lt;div style=&quot;text-align:justify;&quot;&gt;     Dans les ocÃ©ans, cohabitent des Ãªtres minuscules comme les larves de poissons et de crustacÃ©s et des gÃ©ants comme la baleine bleue.&lt;br&gt;     &lt;h2&gt;Les mammifÃ¨res&lt;/h2&gt;        La baleine bleue mesure entre 25 et 33 mÃ¨tres soit la hauteur d'un immeuble de 12 Ã©tages et pÃ¨se aussi lourd que 16 Ã©lÃ©phants rÃ©unis (soit 130 tonnes) : c'est le plus gros        animal vivant Ã  notre Ã©poque. Elle peut manger 40 millions de krill (petites crevettes) en une journÃ©e, soit 3 600 kg.     &lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;        L'orque a une apparence caractÃ©ristique avec un dos noir, un ventre blanc et une tache blanche derriÃ¨re et au-dessus de l'oeil. Elle mesure entre 7 et 9 mÃ¨tres        de long et pÃ¨se plus de 3 tonnes (jusqu'Ã  9 tonnes pour les mÃ¢les). PrÃ©dateur suprÃªme des ocÃ©ans, l'orque est au sommet de la" type="label" id="5510" description="" typeAjoute="label" />
+                  </composant>
+                </composant>
+              </composant>
+              <composant texte="" type="scroll bar" id="5511" description="">
+                <composant texte="" type="push button" id="5512" description="" typeAjoute="bouton" descriptionAjoutee="le bouton " />
+                <composant texte="" type="push button" id="5513" description="" typeAjoute="bouton" descriptionAjoutee="le bouton " />
+              </composant>
+              <composant texte="" type="scroll bar" id="5514" description="">
+                <composant texte="" type="push button" id="5515" description="" typeAjoute="bouton" descriptionAjoutee="le bouton " />
+                <composant texte="" type="push button" id="5516" description="" typeAjoute="bouton" descriptionAjoutee="le bouton " />
+              </composant>
+            </composant>
+          </composant>
+        </composant>
+      </composant>
+    </composant>
+  </fenetre>
+  <fenetre texte="Accueil" type="frame" id="5517" description="" typeAjoute="fenêtre" descriptionAjoutee="la fenetre Accueil">
+    <composant texte="" type="root pane" id="5518" description="" typeAjoute="panel" descriptionAjoutee="le panel ">
+      <composant texte="" type="panel" id="5519" description="" typeAjoute="panel" descriptionAjoutee="le panel " />
+      <composant texte="" type="layered pane" id="5520" description="" typeAjoute="panel" descriptionAjoutee="le panel ">
+        <composant texte="" type="panel" id="5521" description="" typeAjoute="panel" descriptionAjoutee="le panel ">
+          <composant texte="" type="panel" id="5522" description="" typeAjoute="panel" descriptionAjoutee="le panel ">
+            <composant texte="" type="panel" id="5523" description="" typeAjoute="panel" descriptionAjoutee="le panel ">
+              <composant texte="" type="push button" id="5524" description="" typeAjoute="bouton" descriptionAjoutee="le bouton " />
+              <composant texte="Cours" type="toggle button" id="5525" description="" typeAjoute="bouton radio" descriptionAjoutee="le bouton radio Cours" />
+              <composant texte="Exercices" type="toggle button" id="5526" description="" typeAjoute="bouton radio" descriptionAjoutee="le bouton radio Exercices" />
+              <composant texte="" type="push button" id="5527" description="" typeAjoute="bouton" descriptionAjoutee="le bouton " />
+            </composant>
+          </composant>
+          <composant texte="" type="panel" id="5528" description="" typeAjoute="panel" descriptionAjoutee="le panel ">
+            <composant texte="" type="panel" id="5529" description="" typeAjoute="panel" descriptionAjoutee="le panel ">
+              <composant texte="" type="push button" id="5530" description="" typeAjoute="bouton" descriptionAjoutee="le bouton " />
+            </composant>
+            <composant texte="" type="panel" id="5531" description="" typeAjoute="panel" descriptionAjoutee="le panel ">
+              <composant texte="" type="push button" id="5532" description="" typeAjoute="bouton" descriptionAjoutee="le bouton " />
+              <composant texte="" type="push button" id="5533" description="" typeAjoute="bouton" descriptionAjoutee="le bouton " />
+            </composant>
+          </composant>
+          <composant texte="" type="panel" id="5534" description="" typeAjoute="panel" descriptionAjoutee="le panel ">
+            <composant texte="" type="panel" id="5535" description="" typeAjoute="panel" descriptionAjoutee="le panel ">
+              <composant texte="" type="push button" id="5536" description="" typeAjoute="bouton" descriptionAjoutee="le bouton " />
+            </composant>
+            <composant texte="" type="panel" id="5537" description="" typeAjoute="panel" descriptionAjoutee="le panel ">
+              <composant texte="" type="push button" id="5538" description="" typeAjoute="bouton" descriptionAjoutee="le bouton " />
+            </composant>
+          </composant>
+        </composant>
+      </composant>
+    </composant>
+  </fenetre>
+  <fenetre texte="Faune et Flore" type="frame" id="7824" description="" typeAjoute="fenêtre" descriptionAjoutee="la fenetre Faune et Flore">
+    <composant texte="" type="root pane" id="7825" description="" typeAjoute="panel" descriptionAjoutee="le panel ">
+      <composant texte="" type="panel" id="7826" description="" typeAjoute="panel" descriptionAjoutee="le panel " />
+      <composant texte="" type="layered pane" id="7827" description="" typeAjoute="panel" descriptionAjoutee="le panel ">
+        <composant texte="" type="panel" id="7828" description="" typeAjoute="panel" descriptionAjoutee="le panel ">
+          <composant texte="" type="panel" id="7829" description="" typeAjoute="panel" descriptionAjoutee="le panel ">
+            <composant texte="" type="layered pane" id="7830" description="" typeAjoute="panel" descriptionAjoutee="le panel ">
+              <composant texte="" type="panel" id="7831" description="" typeAjoute="panel" descriptionAjoutee="le panel ">
+                <composant texte="" type="push button" id="7832" description="" typeAjoute="bouton" descriptionAjoutee="le bouton " />
+                <composant texte="Cours" type="push button" id="7833" description="" typeAjoute="bouton" descriptionAjoutee="le bouton Cours" />
+                <composant texte="" type="push button" id="7834" description="" typeAjoute="bouton" descriptionAjoutee="le bouton " />
+              </composant>
+            </composant>
+          </composant>
+          <composant texte="" type="panel" id="7835" description="" typeAjoute="panel" descriptionAjoutee="le panel ">
+            <composant texte="" type="panel" id="7836" description="" typeAjoute="panel" descriptionAjoutee="le panel ">
+              <composant texte="" type="panel" id="7837" description="" typeAjoute="panel" descriptionAjoutee="le panel ">
+                <composant texte="Choisis l'animal !  " type="label" id="7838" description="" typeAjoute="label" />
+                <composant texte="" type="combo box" id="7839" description="" typeAjoute="liste déroulante" descriptionAjoutee="la liste déroulante ">
+                  <composant texte="" type="popup menu" id="7840" description="" typeAjoute="menu" descriptionAjoutee="le menu ">
+                    <composant texte="" type="scroll pane" id="7841" description="">
+                      <composant texte="" type="viewport" id="7842" description="">
+                        <composant texte="" type="list" id="7843" description="" typeAjoute="liste">
+                          <composant texte="Dauphin" type="label" id="7844" description="" typeAjoute="label" />
+                          <composant texte="Phoque" type="label" id="7845" description="" typeAjoute="label" />
+                          <composant texte="Otarie" type="label" id="7846" description="" typeAjoute="label" />
+                          <composant texte="Grand requin blanc" type="label" id="7847" description="" typeAjoute="label" />
+                        </composant>
+                      </composant>
+                      <composant texte="" type="scroll bar" id="7848" description="">
+                        <composant texte="" type="push button" id="7849" description="" typeAjoute="bouton" descriptionAjoutee="le bouton " />
+                        <composant texte="" type="push button" id="7850" description="" typeAjoute="bouton" descriptionAjoutee="le bouton " />
+                      </composant>
+                    </composant>
+                  </composant>
+                </composant>
+                <composant texte="Valider." type="push button" id="7851" description="" typeAjoute="bouton" descriptionAjoutee="le bouton Valider." />
+              </composant>
+            </composant>
+          </composant>
+        </composant>
+      </composant>
+    </composant>
+  </fenetre>
+  <fenetre texte="Océans et mers" type="frame" id="7852" description="" typeAjoute="fenêtre" descriptionAjoutee="la fenetre Océans et mers">
+    <composant texte="" type="root pane" id="7853" description="" typeAjoute="panel" descriptionAjoutee="le panel ">
+      <composant texte="" type="panel" id="7854" description="" typeAjoute="panel" descriptionAjoutee="le panel " />
+      <composant texte="" type="layered pane" id="7855" description="" typeAjoute="panel" descriptionAjoutee="le panel ">
+        <composant texte="" type="panel" id="7856" description="" typeAjoute="panel" descriptionAjoutee="le panel ">
+          <composant texte="" type="panel" id="7857" description="" typeAjoute="panel" descriptionAjoutee="le panel ">
+            <composant texte="" type="layered pane" id="7858" description="" typeAjoute="panel" descriptionAjoutee="le panel ">
+              <composant texte="" type="panel" id="7859" description="" typeAjoute="panel" descriptionAjoutee="le panel ">
+                <composant texte="" type="push button" id="7860" description="" typeAjoute="bouton" descriptionAjoutee="le bouton " />
+                <composant texte="Cours" type="push button" id="7861" description="" typeAjoute="bouton" descriptionAjoutee="le bouton Cours" />
+                <composant texte="" type="push button" id="7862" description="" typeAjoute="bouton" descriptionAjoutee="le bouton " />
+              </composant>
+            </composant>
+          </composant>
+          <composant texte="" type="panel" id="7863" description="" typeAjoute="panel" descriptionAjoutee="le panel ">
+            <composant texte="" type="panel" id="7864" description="" typeAjoute="panel" descriptionAjoutee="le panel ">
+              <composant texte="" type="panel" id="7865" description="" typeAjoute="panel" descriptionAjoutee="le panel ">
+                <composant texte="Clique sur le lieu correspondant à  Mediterranée" type="label" id="7866" description="" typeAjoute="label" />
+              </composant>
+            </composant>
+          </composant>
+        </composant>
+      </composant>
+    </composant>
+  </fenetre>
+  <fenetre texte="Océans et mers" type="frame" id="7867" description="" typeAjoute="fenêtre" descriptionAjoutee="la fenetre Océans et mers">
+    <composant texte="" type="root pane" id="7868" description="" typeAjoute="panel" descriptionAjoutee="le panel ">
+      <composant texte="" type="panel" id="7869" description="" typeAjoute="panel" descriptionAjoutee="le panel " />
+      <composant texte="" type="layered pane" id="7870" description="" typeAjoute="panel" descriptionAjoutee="le panel ">
+        <composant texte="" type="panel" id="7871" description="" typeAjoute="panel" descriptionAjoutee="le panel ">
+          <composant texte="" type="panel" id="7872" description="" typeAjoute="panel" descriptionAjoutee="le panel ">
+            <composant texte="" type="layered pane" id="7873" description="" typeAjoute="panel" descriptionAjoutee="le panel ">
+              <composant texte="" type="panel" id="7874" description="" typeAjoute="panel" descriptionAjoutee="le panel ">
+                <composant texte="" type="push button" id="7875" description="" typeAjoute="bouton" descriptionAjoutee="le bouton " />
+                <composant texte="Cours" type="push button" id="7876" description="" typeAjoute="bouton" descriptionAjoutee="le bouton Cours" />
+                <composant texte="" type="push button" id="7877" description="" typeAjoute="bouton" descriptionAjoutee="le bouton " />
+              </composant>
+            </composant>
+          </composant>
+          <composant texte="" type="panel" id="7878" description="" typeAjoute="panel" descriptionAjoutee="le panel ">
+            <composant texte="" type="panel" id="7879" description="" typeAjoute="panel" descriptionAjoutee="le panel ">
+              <composant texte="" type="panel" id="7880" description="" typeAjoute="panel" descriptionAjoutee="le panel ">
+                <composant texte="Choisis la mer ou l'ocean correspondant !  " type="label" id="7881" description="" typeAjoute="label" />
+                <composant texte="" type="combo box" id="7882" description="" typeAjoute="liste déroulante" descriptionAjoutee="la liste déroulante ">
+                  <composant texte="" type="popup menu" id="7883" description="" typeAjoute="menu" descriptionAjoutee="le menu ">
+                    <composant texte="" type="scroll pane" id="7884" description="">
+                      <composant texte="" type="viewport" id="7885" description="">
+                        <composant texte="" type="list" id="7886" description="" typeAjoute="liste">
+                          <composant texte="Mer celtique" type="label" id="7887" description="" typeAjoute="label" />
+                          <composant texte="Ocean Indien" type="label" id="7888" description="" typeAjoute="label" />
+                          <composant texte="Océan Pacifique" type="label" id="7889" description="" typeAjoute="label" />
+                          <composant texte="Baie du saint laurent" type="label" id="7890" description="" typeAjoute="label" />
+                        </composant>
+                      </composant>
+                      <composant texte="" type="scroll bar" id="7891" description="">
+                        <composant texte="" type="push button" id="7892" description="" typeAjoute="bouton" descriptionAjoutee="le bouton " />
+                        <composant texte="" type="push button" id="7893" description="" typeAjoute="bouton" descriptionAjoutee="le bouton " />
+                      </composant>
+                    </composant>
+                  </composant>
+                </composant>
+                <composant texte="Valider." type="push button" id="7894" description="" typeAjoute="bouton" descriptionAjoutee="le bouton Valider." />
+              </composant>
+            </composant>
+          </composant>
+        </composant>
+      </composant>
+    </composant>
+  </fenetre>
+  <fenetre texte="Cycle de l'eau" type="frame" id="7895" description="" typeAjoute="fenêtre" descriptionAjoutee="la fenetre Cycle de l'eau">
+    <composant texte="" type="root pane" id="7896" description="" typeAjoute="panel" descriptionAjoutee="le panel ">
+      <composant texte="" type="panel" id="7897" description="" typeAjoute="panel" descriptionAjoutee="le panel " />
+      <composant texte="" type="layered pane" id="7898" description="" typeAjoute="panel" descriptionAjoutee="le panel ">
+        <composant texte="" type="panel" id="7899" description="" typeAjoute="panel" descriptionAjoutee="le panel ">
+          <composant texte="" type="panel" id="7900" description="" typeAjoute="panel" descriptionAjoutee="le panel ">
+            <composant texte="" type="layered pane" id="7901" description="" typeAjoute="panel" descriptionAjoutee="le panel ">
+              <composant texte="" type="panel" id="7902" description="" typeAjoute="panel" descriptionAjoutee="le panel ">
+                <composant texte="" type="push button" id="7903" description="" typeAjoute="bouton" descriptionAjoutee="le bouton " />
+                <composant texte="Cours" type="push button" id="7904" description="" typeAjoute="bouton" descriptionAjoutee="le bouton Cours" />
+                <composant texte="" type="push button" id="7905" description="" typeAjoute="bouton" descriptionAjoutee="le bouton " />
+              </composant>
+            </composant>
+          </composant>
+          <composant texte="" type="panel" id="7906" description="" typeAjoute="panel" descriptionAjoutee="le panel ">
+            <composant texte="" type="panel" id="7907" description="" typeAjoute="panel" descriptionAjoutee="le panel ">
+              <composant texte="" type="panel" id="7908" description="" typeAjoute="panel" descriptionAjoutee="le panel ">
+                <composant texte="Quelles sont les étapes demandés ?" type="label" id="7909" description="" typeAjoute="label" />
+                <composant texte="" type="combo box" id="7910" description="" typeAjoute="liste déroulante" descriptionAjoutee="la liste déroulante ">
+                  <composant texte="" type="popup menu" id="7911" description="" typeAjoute="menu" descriptionAjoutee="le menu ">
+                    <composant texte="" type="scroll pane" id="7912" description="">
+                      <composant texte="" type="viewport" id="7913" description="">
+                        <composant texte="" type="list" id="7914" description="" typeAjoute="liste">
+                          <composant texte="Evaporation, transpiration" type="label" id="7915" description="" typeAjoute="label" />
+                          <composant texte="Liquéfaction" type="label" id="7916" description="" typeAjoute="label" />
+                          <composant texte="Evaporation" type="label" id="7917" description="" typeAjoute="label" />
+                          <composant texte="Condensation" type="label" id="7918" description="" typeAjoute="label" />
+                          <composant texte="Fusion" type="label" id="7919" description="" typeAjoute="label" />
+                        </composant>
+                      </composant>
+                      <composant texte="" type="scroll bar" id="7920" description="">
+                        <composant texte="" type="push button" id="7921" description="" typeAjoute="bouton" descriptionAjoutee="le bouton " />
+                        <composant texte="" type="push button" id="7922" description="" typeAjoute="bouton" descriptionAjoutee="le bouton " />
+                      </composant>
+                    </composant>
+                  </composant>
+                </composant>
+                <composant texte="Valider." type="push button" id="7923" description="" typeAjoute="bouton" descriptionAjoutee="le bouton Valider." />
+              </composant>
+            </composant>
+          </composant>
+        </composant>
+      </composant>
+    </composant>
+  </fenetre>
+  <fenetre texte="img/cours/navigationFR.jpeg" type="frame" id="7924" description="" typeAjoute="fenêtre" descriptionAjoutee="la fenetre img/cours/navigationFR.jpeg">
+    <composant texte="" type="root pane" id="7925" description="" typeAjoute="panel" descriptionAjoutee="le panel ">
+      <composant texte="" type="panel" id="7926" description="" typeAjoute="panel" descriptionAjoutee="le panel " />
+      <composant texte="" type="layered pane" id="7927" description="" typeAjoute="panel" descriptionAjoutee="le panel ">
+        <composant texte="" type="panel" id="7928" description="" typeAjoute="panel" descriptionAjoutee="le panel ">
+          <composant texte="" type="panel" id="7929" description="" typeAjoute="panel" descriptionAjoutee="le panel ">
+            <composant texte="" type="layered pane" id="7930" description="" typeAjoute="panel" descriptionAjoutee="le panel ">
+              <composant texte="" type="panel" id="7931" description="" typeAjoute="panel" descriptionAjoutee="le panel ">
+                <composant texte="" type="push button" id="7932" description="" typeAjoute="bouton" descriptionAjoutee="le bouton " />
+                <composant texte="Exercices" type="push button" id="7933" description="" typeAjoute="bouton" descriptionAjoutee="le bouton Exercices" />
+                <composant texte="" type="push button" id="7934" description="" typeAjoute="bouton" descriptionAjoutee="le bouton " />
+              </composant>
+            </composant>
+          </composant>
+          <composant texte="" type="panel" id="7935" description="" typeAjoute="panel" descriptionAjoutee="le panel ">
+            <composant texte="" type="scroll pane" id="7936" description="">
+              <composant texte="" type="viewport" id="7937" description="">
+                <composant texte="" type="panel" id="7938" description="" typeAjoute="panel" descriptionAjoutee="le panel ">
+                  <composant texte="&lt;html&gt;&lt;body &gt;     &lt;div style=\&quot;width:700px;height:370px;overflow:auto;margin-left:20px;\&quot;&gt;     &lt;div style=\&quot;text-align:center;\&quot;&gt;&lt;h1&gt;Navigation&lt;/h1&gt;&lt;/div&gt;     &lt;div style=\&quot;text-align:justify;\&quot;&gt;La navigation maritime concerne toutes les activitÃ©s humaines de circulation sur les mers et ocÃ©ans. On parle de navigation hauturiÃ¨re lorsque le navire navigue en haute mer (hors de vue de terre) et de navigation cÃ´tiÃ¨re (ou cabotage, mais ce terme est restreint Ã  l'activitÃ© exercÃ©e) lorsqu'il navigue en vue des cÃ´tes.         &lt;br&gt;Il existe diffÃ©rentes sortes de bateaux et donc diffÃ©rents moyens de se dÃ©placer et de naviger sur l'eau.&lt;h3&gt;Transport maritime&lt;/h3&gt;Le transport maritime est le mode de transport le plus important pour le transport demarchandises (marine marchande). Le transport de personnes par voie maritime a perdu beaucoupd'importance du fait de l'essor de l'aviation commerciale ; il subsiste de maniÃ¨re significativedans seulement deux crÃ©neaux importants : les traversÃ©es courtes et les c" type="label" id="7939" description="" typeAjoute="label" />
+                </composant>
+              </composant>
+              <composant texte="" type="scroll bar" id="7940" description="">
+                <composant texte="" type="push button" id="7941" description="" typeAjoute="bouton" descriptionAjoutee="le bouton " />
+                <composant texte="" type="push button" id="7942" description="" typeAjoute="bouton" descriptionAjoutee="le bouton " />
+              </composant>
+              <composant texte="" type="scroll bar" id="7943" description="">
+                <composant texte="" type="push button" id="7944" description="" typeAjoute="bouton" descriptionAjoutee="le bouton " />
+                <composant texte="" type="push button" id="7945" description="" typeAjoute="bouton" descriptionAjoutee="le bouton " />
+              </composant>
+            </composant>
+          </composant>
+        </composant>
+      </composant>
+    </composant>
+  </fenetre>
+  <fenetre texte="Navigation" type="frame" id="7946" description="" typeAjoute="fenêtre" descriptionAjoutee="la fenetre Navigation">
+    <composant texte="" type="root pane" id="7947" description="" typeAjoute="panel" descriptionAjoutee="le panel ">
+      <composant texte="" type="panel" id="7948" description="" typeAjoute="panel" descriptionAjoutee="le panel " />
+      <composant texte="" type="layered pane" id="7949" description="" typeAjoute="panel" descriptionAjoutee="le panel ">
+        <composant texte="" type="panel" id="7950" description="" typeAjoute="panel" descriptionAjoutee="le panel ">
+          <composant texte="" type="panel" id="7951" description="" typeAjoute="panel" descriptionAjoutee="le panel ">
+            <composant texte="" type="layered pane" id="7952" description="" typeAjoute="panel" descriptionAjoutee="le panel ">
+              <composant texte="" type="panel" id="7953" description="" typeAjoute="panel" descriptionAjoutee="le panel ">
+                <composant texte="" type="push button" id="7954" description="" typeAjoute="bouton" descriptionAjoutee="le bouton " />
+                <composant texte="Cours" type="push button" id="7955" description="" typeAjoute="bouton" descriptionAjoutee="le bouton Cours" />
+                <composant texte="" type="push button" id="7956" description="" typeAjoute="bouton" descriptionAjoutee="le bouton " />
+              </composant>
+            </composant>
+          </composant>
+          <composant texte="" type="panel" id="7957" description="" typeAjoute="panel" descriptionAjoutee="le panel ">
+            <composant texte="" type="panel" id="7958" description="" typeAjoute="panel" descriptionAjoutee="le panel ">
+              <composant texte="" type="panel" id="7959" description="" typeAjoute="panel" descriptionAjoutee="le panel ">
+                <composant texte="" type="panel" id="7960" description="" typeAjoute="panel" descriptionAjoutee="le panel ">
+                  <composant texte="Bateaux passés" type="label" id="7961" description="" typeAjoute="label" />
+                  <composant texte="Essayes de faire avancer le navire au travers de l'écluse." type="label" id="7962" description="" typeAjoute="label" />
+                </composant>
+                <composant texte="" type="panel" id="7963" description="" typeAjoute="panel" descriptionAjoutee="le panel ">
+                  <composant texte="Ouvrir la vanne en aval." type="push button" id="7964" description="" typeAjoute="bouton" descriptionAjoutee="le bouton Ouvrir la vanne en aval." />
+                  <composant texte="Ouvrir la porte en aval." type="push button" id="7965" description="" typeAjoute="bouton" descriptionAjoutee="le bouton Ouvrir la porte en aval." />
+                  <composant texte="En avant capitaine ^^" type="push button" id="7966" description="" typeAjoute="bouton" descriptionAjoutee="le bouton En avant capitaine ^^" />
+                  <composant texte="Ouvrir la vanne en amont." type="push button" id="7967" description="" typeAjoute="bouton" descriptionAjoutee="le bouton Ouvrir la vanne en amont." />
+                  <composant texte="Ouvrir la porte en amont." type="push button" id="7968" description="" typeAjoute="bouton" descriptionAjoutee="le bouton Ouvrir la porte en amont." />
+                </composant>
+              </composant>
+            </composant>
+          </composant>
+        </composant>
+      </composant>
+    </composant>
+  </fenetre>
+</Interface>
+

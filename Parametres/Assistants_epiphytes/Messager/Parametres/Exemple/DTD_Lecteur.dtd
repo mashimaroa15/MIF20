@@ -1,0 +1,7 @@
+<!ELEMENT systemes (windows, linux, mac)>
+<!ELEMENT windows (lecteur*)>
+<!ELEMENT linux (lecteur*)>
+<!ELEMENT mac (lecteur*)>
+<!ELEMENT lecteur (nom, chemin)>
+<!ELEMENT nom (#PCDATA)>
+<!ELEMENT chemin (#PCDATA)>

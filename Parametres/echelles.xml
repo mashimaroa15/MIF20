@@ -1,0 +1,179 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE echelles SYSTEM "echelle.dtd">
+<echelles>
+	<critere id="0" affichage="0...20" type="numerique" proprietaire="systeme">
+		<numerique borne_inf="0" borne_sup="20" pas="0.01"/>
+	</critere>
+	<critere id="1" affichage="0...10" type="numerique" proprietaire="systeme">
+		<numerique borne_inf="0" borne_sup="10" pas="0.01"/>
+	</critere>
+	<critere id="2" affichage="ABCDEF" type="textuel" proprietaire="systeme">
+		<textuel gradue="oui">
+			<val>A</val>
+			<val>B</val>
+			<val>C</val>
+			<val>D</val>
+			<val>E</val>
+			<val>F</val>
+		</textuel>
+	</critere>
+	<critere id="3" affichage="maîtrise (3 niveaux)" type="textuel" proprietaire="systeme">
+		<textuel gradue="oui">
+			<val>maîtrisé</val>
+			<val>partiellement maîtrisé</val>
+			<val>non maîtrisé</val>
+		</textuel>
+	</critere>
+	<critere id="4" affichage="acquis (2 niveaux)" type="textuel" proprietaire="systeme">
+		<textuel gradue="oui">
+			<val>acquis</val>
+			<val>non acquis</val>
+		</textuel>
+	</critere>
+	<critere id="5" affichage="acquis (4 niveaux)" type="textuel" proprietaire="systeme">
+		<textuel gradue="oui">
+			<val>acquis</val>
+			<val>à confirmer</val>
+			<val>en cours d'acquisition</val>
+			<val>non acquis</val>
+		</textuel>
+	</critere>
+	<critere id="7" affichage="Comportement" type="textuel" proprietaire="utilisateur">
+		<textuel gradue="non">
+			<val abrege="Att">Attentif</val>
+			<val abrege="Pass">Passif</val>
+			<val abrege="Bav">Bavard</val>
+		</textuel>
+	</critere>
+	<critere id="8" affichage="Oui/Non/Satisfaisant/Insuffisant" type="textuel" proprietaire="utilisateur">
+		<textuel gradue="non">
+			<val>oui</val>
+			<val>non</val>
+			<val abrege="sat">satisfaisant</val>
+			<val abrege="ins">insuffisant</val>
+		</textuel>
+	</critere>
+	<critere id="9" affichage="Frequence d utilisation" type="textuel" proprietaire="utilisateur">
+		<textuel gradue="oui">
+			<val abrege="tjr">systematiquement</val>
+			<val abrege="svt">souvent</val>
+			<val abrege="rar">rarement</val>
+			<val abrege="js">jamais</val>
+		</textuel>
+	</critere>
+	<critere id="10" affichage="maîtrise (2 niveaux)" type="textuel" proprietaire="utilisateur">
+		<textuel gradue="oui">
+			<val abrege="m">maîtrisé</val>
+			<val abrege="nm">non maîtrisé</val>
+		</textuel>
+	</critere>
+	<critere id="17" affichage="Pourcentage" type="numerique" proprietaire="utilisateur">
+		<numerique borne_inf="0" borne_sup="100" pas="0,01"/>
+	</critere>
+	<critere id="18" affichage="Nombres" type="numerique" proprietaire="utilisateur">
+		<numerique borne_inf="0" borne_sup="10000" pas="1"/>
+	</critere>
+	<critere id="19" affichage="Booleen" type="textuel" proprietaire="utilisateur">
+		<textuel gradue="oui">
+			<val>oui</val>
+			<val>non</val>
+		</textuel>
+	</critere>
+	<critere id="20" affichage="Frequence d apparition" type="textuel" proprietaire="utilisateur">
+		<textuel gradue="oui">
+			<val abrege="syst">Systematiquement</val>
+			<val abrege="svt">Souvent</val>
+			<val abrege="rare">Rarememt</val>
+			<val abrege="js">Jamais</val>
+		</textuel>
+	</critere>
+	<critere id="21" affichage="allemagne" type="numerique" proprietaire="utilisateur">
+		<numerique borne_inf="5" borne_sup="1" pas="-0,1"/>
+	</critere>
+	<critere id="22" affichage="Mastery (3 levels)" type="textuel" proprietaire="utilisateur">
+		<textuel gradue="oui">
+			<val abrege="m">Mastered</val>
+			<val abrege="pm">Partially mastered</val>
+			<val abrege="nm">Not mastered</val>
+		</textuel>
+	</critere>
+	<critere id="23" affichage="satifait (5 niveaux)" type="textuel" proprietaire="systeme">
+		<textuel gradue="oui">
+			<val>Très satisfait</val>
+			<val>Satisfait</val>
+			<val>Indifférent</val>
+			<val>Insatisfait</val>
+			<val>Très insatisfait</val>
+		</textuel>
+	</critere>
+	<critere id="24" affichage="ABCDEFG" type="textuel" proprietaire="systeme">
+		<textuel gradue="oui">
+			<val>A</val>
+			<val>B</val>
+			<val>C</val>
+			<val>D</val>
+			<val>E</val>
+			<val>F</val>
+			<val>G</val>
+		</textuel>
+	</critere>
+	<critere id="25" affichage="0...18" type="numerique" proprietaire="utilisateur">
+		<numerique borne_inf="0" borne_sup="18" pas="0,5"/>
+	</critere>
+	<critere id="26" affichage="0...6" type="numerique" proprietaire="utilisateur">
+		<numerique borne_inf="0" borne_sup="6" pas="0,5"/>
+	</critere>
+	<critere id="27" affichage="Oui/Non" type="textuel" proprietaire="utilisateur">
+		<textuel gradue="oui">
+			<val>Oui</val>
+			<val>Non</val>
+		</textuel>
+	</critere>
+	<critere id="28" affichage="Sévérité" type="textuel" proprietaire="utilisateur">
+		<textuel gradue="oui">
+			<val>Non</val>
+			<val>Légèrement</val>
+			<val>Sévèrement</val>
+		</textuel>
+	</critere>
+	<critere id="29" affichage="Appréciation" type="textuel" proprietaire="utilisateur">
+		<textuel gradue="oui">
+			<val>pas du tout apprécié</val>
+			<val>peu apprécié</val>
+			<val>apprécié</val>
+			<val>très apprécié</val>
+		</textuel>
+	</critere>
+	<critere id="30" affichage="Appréciation" type="autre" proprietaire="utilisateur">
+		<autre type="couleur"/>
+	</critere>
+	<critere id="31" affichage="Appréciation" type="autre" proprietaire="utilisateur">
+		<autre type="police"/>
+	</critere>
+	<critere id="32" affichage="ABC+" type="textuel" proprietaire="utilisateur">
+		<textuel gradue="oui">
+			<val>A+</val><val>A</val><val>A-</val><val>B+</val><val>B</val><val>B-</val><val>C+</val><val>C</val><val>C-</val><val>D+</val><val>D</val><val>D-</val><val>E+</val><val>E</val><val>E-</val><val>F</val>
+		</textuel>
+	</critere>
+	<critere id="33" affichage="ABCD" type="textuel" proprietaire="utilisateur">
+		<textuel gradue="oui">
+			<val>A</val><val>B</val><val>C</val><val>D</val>
+		</textuel>
+	</critere>
+	<critere id="34" affichage="A1-&gt;C2" type="textuel" proprietaire="utilisateur">
+		<textuel gradue="oui">
+			<val>A1</val><val>A2</val><val>B1</val><val>B2</val><val>C1</val><val>C2</val>
+		</textuel>
+	</critere>
+	<critere id="35" affichage="Lu/Non lu" type="textuel" proprietaire="utilisateur">
+		<textuel gradue="oui">
+			<val>Lu</val><val>Non lu</val>
+		</textuel>
+	</critere>
+	<critere id="36" affichage="Like/Dislike" type="textuel" proprietaire="utilisateur">
+		<textuel gradue="oui">
+			<val>Like</val>
+			<val>Dislike</val>
+		</textuel>
+	</critere>
+</echelles>

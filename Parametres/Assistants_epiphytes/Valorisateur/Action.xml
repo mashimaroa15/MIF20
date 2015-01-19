@@ -1,0 +1,6 @@
+<action id="A2" type="mise en valeur" assistant="surligneur">
+	<composant id="36 " type="entourer" couleur="java.awt.Color[r=0,g=51,b=255]" arrondi="15" eloignement="5" epaisseur="10" />
+	<composant_ id="47 " type="colorer" couleur="java.awt.Color[r=255,g=0,b=0]" transparence="100" />
+	<composant_ id="46 " type="symbole" symbole="D:/These/Editeur_assistance/Parametres/Assistants_epiphytes/Valorisateur/Symboles/attention3.png" />
+	<coordonnees x="271" y="137" largeur="56" hauteur="26"/>
+</action>

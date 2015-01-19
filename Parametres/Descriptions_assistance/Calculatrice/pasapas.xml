@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<description>
+  <metadonnees>
+    <assistance nom="pasapas" logiciel="Calculatrice" type="Exécutable Windows" interface="interfaceCalculatrice.interface" statut="public" public="gez" />
+    <creation date_creation="03/03/2014" date_modification="05/03/2014" createur="nyuhr" />
+    <personnalisation structure_profil_statique="" id_structure_profil_statique="" />
+    <commentaires />
+  </metadonnees>
+  <regles />
+  <actions>
+    <action id="A0" type="pas à pas" typeAuto="automatisé" >
+      <message type="avant" demande="oui">
+        <texte>Veux-tu que je saisisse la formule pour toi?</texte>
+        <titre>Aide</titre>
+        <options>
+          <option label="oui" />
+          <option label="non" />
+        </options>
+      </message>
+      <etapes timer="3000" miseEnValeur="oui" listeEtapes="S0" >
+		<evenement idComp="34" propriete="clic" />
+		<evenement idComp="37" propriete="clic" />
+		<evenement idComp="44" propriete="clic" />
+		<evenement idComp="53" propriete="clic" />
+		<evenement idComp="48" propriete="clic" />
+	  </etapes>
+    </action>
+  </actions>
+  <conditions />
+  <evenements />
+  <sequences>
+    <sequence id="S0" nom="Saisie de 42 / 6" type="PasAPas">
+      <evenement idComp="34" propriete="clic" />
+      <evenement idComp="37" propriete="clic" />
+      <evenement idComp="44" propriete="clic" />
+      <evenement idComp="53" propriete="clic" />
+      <evenement idComp="48" propriete="clic" />
+    </sequence>
+  </sequences>
+</description>
+

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<description>
+  <metadonnees>
+    <assistance nom="blandine" logiciel="PhotoScape" type="Exécutable Windows" interface="photoscape.interface" statut="public" public="" />
+    <creation date_creation="10/05/2014" date_modification="18/05/2014" createur="" />
+    <personnalisation structure_profil_statique="" id_structure_profil_statique="" />
+    <commentaires />
+  </metadonnees>
+  <regles>
+    <regle id="R0">
+      <metadonnees />
+      <evenement_declencheur type="lancementAssistance" idComp="" />
+      <alternatives condition="">
+        <alternative>
+          <action id="A0" />
+        </alternative>
+      </alternatives>
+    </regle>
+  </regles>
+  <actions>
+    <action id="A0" type="message" sous-type="textuel" assistant="messager">
+      <textuel>
+        <texte>&lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body bgcolor="#ffccff"&gt;
+    &lt;font face="Forte"&gt;bonjour!&lt;/font&gt;&lt;/html&gt;</texte>
+        <options titre="Message Assistant">
+          <position type="ecran">
+            <ecran horizontal="centre" vertical="centre" />
+          </position>
+          <taille type="automatique" />
+        </options>
+      </textuel>
+    </action>
+    <action id="A1" type="mise en valeur">
+      <composant id="190" type="" />
+    </action>
+  </actions>
+  <conditions />
+  <evenements />
+  <sequences />
+</description>
+

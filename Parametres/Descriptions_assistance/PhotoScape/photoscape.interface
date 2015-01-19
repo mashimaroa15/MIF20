@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Interface>
+  <fenetre id="128" type="#32770" texte="PhotoScape" typeAjoute="fenêtre" descriptionAjoutee="la fenetre PhotoScape">
+    <composant id="129" type="mooii.FlatTabCtrl" texte="mooii.FlatTabCtrl" />
+    <composant id="130" type="SysTreeView32" texte="Tree1">
+      <composant id="131" type="" texte="Barre de défilement horizontale">
+        <composant id="132" type="" texte="Revenir en arrière de peu" />
+        <composant id="133" type="" texte="Revenir en arrière de beaucoup" />
+        <composant id="134" type="" texte="Curseur de défilement" />
+        <composant id="135" type="" texte="Avancer de beaucoup" />
+        <composant id="136" type="" texte="Avancer de peu" />
+      </composant>
+      <composant id="137" type="" texte="Bureau">
+        <composant id="138" type="" texte="Bibliothèques" />
+        <composant id="139" type="" texte="Blandine" />
+        <composant id="140" type="" texte="Ordinateur">
+          <composant id="141" type="" texte="OS (C:)" />
+          <composant id="142" type="" texte="Liris (D:)">
+            <composant id="143" type="" texte="Administratif" />
+            <composant id="144" type="" texte="Divers" />
+            <composant id="145" type="" texte="Enseignement" />
+            <composant id="146" type="" texte="Eprofilea_2011_05_06" />
+            <composant id="147" type="" texte="Publications">
+              <composant id="148" type="" texte="2010-acceptés" />
+              <composant id="149" type="" texte="2011-acceptés" />
+              <composant id="150" type="" texte="2012-acceptés" />
+              <composant id="151" type="" texte="2012-rejetés" />
+              <composant id="152" type="" texte="2013-acceptés" />
+              <composant id="153" type="" texte="2013-rejetés" />
+              <composant id="154" type="" texte="Bibliographie" />
+              <composant id="155" type="" texte="En-cours">
+                <composant id="156" type="" texte="2013_IJAIED" />
+                <composant id="157" type="" texte="2014_IC">
+                  <composant id="158" type="" texte="images" />
+                </composant>
+              </composant>
+              <composant id="159" type="" texte="Soumis" />
+            </composant>
+            <composant id="160" type="" texte="Sauv" />
+            <composant id="161" type="" texte="Stage_M2R" />
+            <composant id="162" type="" texte="These" />
+          </composant>
+          <composant id="163" type="" texte="Data (E:)" />
+          <composant id="164" type="" texte="Lecteur DVD RW (F:)" />
+          <composant id="165" type="" texte="Microsoft Office Démarrer en un clic 2010 (Protégé) (Q:)" />
+          <composant id="166" type="" texte="blandine.ginon (\\tera\homepers) (Z:)" />
+        </composant>
+        <composant id="167" type="" texte="Réseau" />
+        <composant id="168" type="" texte="InterfaceTestJava" />
+        <composant id="169" type="" texte="MySyncUPFiles" />
+      </composant>
+    </composant>
+    <composant id="170" type="mooii.ThumbListCtrl" texte="thumnail">
+      <composant id="171" type="" texte="Barre de défilement verticale">
+        <composant id="172" type="" texte="Revenir en arrière de peu" />
+        <composant id="173" type="" texte="Revenir en arrière de beaucoup" />
+        <composant id="174" type="" texte="Curseur de défilement" />
+        <composant id="175" type="" texte="Avancer de beaucoup" />
+        <composant id="176" type="" texte="Avancer de peu" />
+      </composant>
+    </composant>
+    <composant id="177" type="Button" texte="Favorites" typeAjoute="bouton" descriptionAjoutee="le bouton Favorites" />
+    <composant id="178" type="Button" texte="????" typeAjoute="bouton" descriptionAjoutee="le bouton ????" />
+    <composant id="179" type="Button" texte="Explorer" typeAjoute="bouton" descriptionAjoutee="le bouton Explorer" />
+    <composant id="180" type="msctls_trackbar32" texte="Slider1">
+      <composant id="181" type="" texte="Revenir en arrière de beaucoup" />
+      <composant id="182" type="" texte="Curseur de défilement" />
+      <composant id="183" type="" texte="Avancer de beaucoup" />
+    </composant>
+    <composant id="184" type="Button" texte="" typeAjoute="bouton" descriptionAjoutee="le bouton " />
+    <composant id="185" type="Button" texte="&lt;" typeAjoute="bouton" descriptionAjoutee="le bouton &lt;" />
+    <composant id="186" type="Button" texte="&gt;" typeAjoute="bouton" descriptionAjoutee="le bouton &gt;" />
+    <composant id="187" type="mooii.SplitterCtrl" texte="mooii.SplitterCtrl" />
+    <composant id="188" type="mooii.SplitterCtrl" texte="mooii.SplitterCtrl" />
+    <composant id="189" type="Static" texte="" typeAjoute="label" />
+    <composant id="190" type="Static" texte="Photo 0 x 0" typeAjoute="label" />
+    <composant id="191" type="Static" texte="Photo 0 x 0" typeAjoute="label" />
+    <composant id="192" type="Static" texte="" typeAjoute="label" />
+    <composant id="193" type="Static" texte="" typeAjoute="label" />
+    <composant id="194" type="Static" texte="" typeAjoute="label" />
+    <composant id="195" type="Button" texte="" typeAjoute="bouton" descriptionAjoutee="le bouton " />
+    <composant id="196" type="Button" texte="" typeAjoute="bouton" descriptionAjoutee="le bouton " />
+    <composant id="197" type="Button" texte="" typeAjoute="bouton" descriptionAjoutee="le bouton " />
+    <composant id="198" type="Static" texte="100%" typeAjoute="label" />
+    <composant id="199" type="Button" texte="100%" typeAjoute="bouton" descriptionAjoutee="le bouton 100%" />
+    <composant id="200" type="Button" texte="" typeAjoute="bouton" descriptionAjoutee="le bouton " />
+    <composant id="201" type="Button" texte="" typeAjoute="bouton" descriptionAjoutee="le bouton " />
+    <composant id="202" type="Button" texte="" typeAjoute="bouton" descriptionAjoutee="le bouton " />
+    <composant id="203" type="Button" texte="Menu" typeAjoute="bouton" descriptionAjoutee="le bouton Menu" />
+    <composant id="204" type="Button" texte="Annuler" typeAjoute="bouton" descriptionAjoutee="le bouton Annuler" />
+    <composant id="205" type="Button" texte="Refaire" typeAjoute="bouton" descriptionAjoutee="le bouton Refaire" />
+    <composant id="206" type="Button" texte="Annuler Tout" typeAjoute="bouton" descriptionAjoutee="le bouton Annuler Tout" />
+    <composant id="207" type="Button" texte="Enregistrer" typeAjoute="bouton" descriptionAjoutee="le bouton Enregistrer" />
+    <composant id="208" type="mooii.PhotoEditCtrl" texte="photoCtrl" />
+    <composant id="209" type="Button" texte="Défilement d'écran" typeAjoute="bouton" descriptionAjoutee="le bouton Défilement d'écran" />
+    <composant id="210" type="Button" texte="Yeux rouges" typeAjoute="bouton" descriptionAjoutee="le bouton Yeux rouges" commentaires="Permet de sélectionner une zone de correction sur la photo" />
+    <composant id="211" type="Button" texte="Tache" typeAjoute="bouton" descriptionAjoutee="le bouton Tache" />
+    <composant id="212" type="Button" texte="Mosaïque" typeAjoute="bouton" descriptionAjoutee="le bouton Mosaïque" />
+    <composant id="213" type="Button" texte="Pinceau" typeAjoute="bouton" descriptionAjoutee="le bouton Pinceau" />
+    <composant id="214" type="Button" texte="Tampon" typeAjoute="bouton" descriptionAjoutee="le bouton Tampon" />
+    <composant id="215" type="Button" texte="Effect Brush" typeAjoute="bouton" descriptionAjoutee="le bouton Effect Brush" />
+    <composant id="216" type="Button" texte="1" typeAjoute="bouton" descriptionAjoutee="le bouton 1" />
+    <composant id="217" type="Button" texte="2" typeAjoute="bouton" descriptionAjoutee="le bouton 2" />
+    <composant id="218" type="Button" texte="3" typeAjoute="bouton" descriptionAjoutee="le bouton 3" />
+    <composant id="219" type="Button" texte="??" typeAjoute="bouton" descriptionAjoutee="le bouton ??" />
+    <composant id="220" type="Button" texte="Spuit" typeAjoute="bouton" descriptionAjoutee="le bouton Spuit" />
+    <composant id="221" type="Static" texte="" typeAjoute="label" />
+    <composant id="222" type="Static" texte="" typeAjoute="label" />
+    <composant id="223" type="Static" texte="" typeAjoute="label" />
+    <composant id="224" type="SysTabControl32" texte="Tab1">
+      <composant id="225" type="" texte="Général" typeAjoute="bouton" descriptionAjoutee="L'onglet Général" commentaires="" />
+      <composant id="226" type="" texte="Objet" typeAjoute="bouton" descriptionAjoutee="L'onglet Objet" commentaires="" />
+      <composant id="227" type="" texte="Découper" typeAjoute="bouton" descriptionAjoutee="L'onglet Découper" commentaires="" />
+      <composant id="228" type="" texte="0utils" typeAjoute="bouton" descriptionAjoutee="L'onglet Outils" commentaires="" />
+    </composant>
+    <composant id="229" type="" texte="PhotoScape">
+      <composant id="230" type="" texte="Barre de menus système">
+        <composant id="231" type="" texte="Système" />
+      </composant>
+      <composant id="232" type="" texte="Réduire" />
+      <composant id="233" type="" texte="Restaurer" />
+      <composant id="234" type="" texte="Fermer" />
+    </composant>
+  </fenetre>
+</Interface>
+

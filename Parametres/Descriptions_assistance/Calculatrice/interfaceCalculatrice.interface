@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Interface>
+  <fenetre id="27" type="CalcFrame" texte="Calculatrice" typeAjoute="fenêtre" descriptionAjoutee="la fenêtre Calculatrice">
+    <composant id="28" type="CalcFrame" texte="">
+      <composant id="29" type="Static" texte="" typeAjoute="label" descriptionAjoutee="le label " />
+      <composant id="30" type="Static" texte="Historique en cours" typeAjoute="label" descriptionAjoutee="le label Historique en cours" />
+      <composant id="31" type="Static" texte="Mémoire" typeAjoute="label" descriptionAjoutee="le label Mémoire" />
+      <composant id="32" type="Static" texte="0" typeAjoute="label" descriptionAjoutee="le label 0" commentaires="Ne peut pas être modifié directement" />
+      <composant id="33" type="Static" texte="0" typeAjoute="label" descriptionAjoutee="le label 0" />
+      <composant id="34" type="Button" texte="Effacer la mémoire" typeAjoute="bouton" descriptionAjoutee="le bouton Effacer la mémoire" />
+      <composant id="35" type="Button" texte="Retour arrière" typeAjoute="bouton" descriptionAjoutee="le bouton Retour arrière" commentaires="Efface le denier caractère de la formule" />
+      <composant id="36" type="Button" texte="7" typeAjoute="bouton" descriptionAjoutee="le bouton 7" commentaires="" />
+      <composant id="37" type="Button" texte="4" typeAjoute="bouton" descriptionAjoutee="le bouton 4" />
+      <composant id="38" type="Button" texte="1" typeAjoute="zone de saisie" descriptionAjoutee="le bouton 1" commentaires="" />
+      <composant id="39" type="Button" texte="0" typeAjoute="bouton" descriptionAjoutee="le bouton 0" />
+      <composant id="40" type="Button" texte="Rappel mémoire" typeAjoute="bouton" descriptionAjoutee="le bouton Rappel mémoire" />
+      <composant id="41" type="Button" texte="Effacer l’entrée" typeAjoute="bouton" descriptionAjoutee="le bouton Effacer l’entrée" />
+      <composant id="42" type="Button" texte="8" typeAjoute="bouton" descriptionAjoutee="le bouton 8" />
+      <composant id="43" type="Button" texte="5" typeAjoute="bouton" descriptionAjoutee="le bouton 5" />
+      <composant id="44" type="Button" texte="2" typeAjoute="bouton" descriptionAjoutee="le bouton 2" />
+      <composant id="45" type="Button" texte="Stockage mémoire" typeAjoute="bouton" descriptionAjoutee="le bouton Stockage mémoire" />
+      <composant id="46" type="Button" texte="Effacer" typeAjoute="bouton" descriptionAjoutee="le bouton Effacer" />
+      <composant id="47" type="Button" texte="9" typeAjoute="bouton" descriptionAjoutee="le bouton 9" />
+      <composant id="48" type="Button" texte="6" typeAjoute="bouton" descriptionAjoutee="le bouton 6" />
+      <composant id="49" type="Button" texte="3" typeAjoute="bouton" descriptionAjoutee="le bouton 3" />
+      <composant id="50" type="Button" texte="Séparateur décimal" typeAjoute="bouton" descriptionAjoutee="le bouton Séparateur décimal" />
+      <composant id="51" type="Button" texte="Ajout mémoire" typeAjoute="bouton" descriptionAjoutee="le bouton Ajout mémoire" />
+      <composant id="52" type="Button" texte="Négation" typeAjoute="bouton" descriptionAjoutee="le bouton Négation" />
+      <composant id="53" type="Button" texte="Diviser" typeAjoute="bouton" descriptionAjoutee="le bouton Diviser" />
+      <composant id="54" type="Button" texte="Multiplier" typeAjoute="bouton" descriptionAjoutee="le bouton Multiplier" />
+      <composant id="55" type="Button" texte="Soustraire" typeAjoute="bouton" descriptionAjoutee="le bouton Soustraire" />
+      <composant id="56" type="Button" texte="Additionner" typeAjoute="bouton" descriptionAjoutee="le bouton Additionner" />
+      <composant id="57" type="Button" texte="Soustraction mémoire" typeAjoute="bouton" descriptionAjoutee="le bouton Soustraction mémoire" />
+      <composant id="58" type="Button" texte="Racine carrée" typeAjoute="bouton" descriptionAjoutee="le bouton Racine carrée" />
+      <composant id="59" type="Button" texte="Pourcentage" typeAjoute="bouton" descriptionAjoutee="le bouton Pourcentage" />
+      <composant id="60" type="Button" texte="Réciproque" typeAjoute="bouton" descriptionAjoutee="le bouton Réciproque" />
+      <composant id="61" type="Button" texte="Est égal à" typeAjoute="bouton" descriptionAjoutee="le bouton Est égal à" />
+    </composant>
+    <composant id="62" type="" texte="Calculatrice">
+      <composant id="63" type="" texte="Barre de menus système">
+        <composant id="64" type="" texte="Système" />
+      </composant>
+      <composant id="65" type="" texte="Réduire" />
+      <composant id="66" type="" texte="Agrandir" />
+      <composant id="67" type="" texte="Fermer" />
+    </composant>
+    <composant id="68" type="" texte="Application">
+      <composant id="69" type="" texte="Affichage" />
+      <composant id="70" type="" texte="Edition" />
+      <composant id="71" type="" texte="?" />
+    </composant>
+  </fenetre>
+</Interface>
+

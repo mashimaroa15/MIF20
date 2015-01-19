@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<condition id="C4" type="consultation">
+  <texte>Le pas à pas est maintenant terminé.</texte>
+  <titre>Information</titre>
+  <policeMessage nom="Calibri" style="0" taille="36" />
+  <policeOptions nom="Calibri" style="0" taille="20" />
+  <couleur police="java.awt.Color[r=20,g=100,b=20]" fond="java.awt.Color[r=227,g=247,b=227]" />
+  <options>
+    <option label="ok" />
+  </options>
+</condition>

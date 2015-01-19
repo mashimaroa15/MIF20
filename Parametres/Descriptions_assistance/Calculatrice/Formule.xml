@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<description>
+  <metadonnees>
+    <assistance nom="Formule" logiciel="Calculatrice" type="Exécutable Windows" interface="interfaceCalculatrice.interface" statut="public" public="" />
+    <creation date_creation="15/07/2013" date_modification="23/05/2014" createur="Blandine" />
+    <personnalisation structure_profil_statique="" id_structure_profil_statique="" />
+    <commentaires>C'est une assistance bidon pour faire des tests avec une appli simple</commentaires>
+  </metadonnees>
+  <regles>
+    <regle id="R0">
+      <metadonnees />
+      <evenement_declencheur idEve="E0" type="mouseClicked" idComp="36" />
+      <alternatives condition="C0">
+        <alternative valeur="Oui">
+          <action id="A1" />
+          <action id="A0" />
+        </alternative>
+        <alternative valeur="Non">
+          <action id="A3" />
+        </alternative>
+      </alternatives>
+    </regle>
+    <regle id="R1">
+      <metadonnees />
+      <evenement_declencheur type="lancementRegle" idComp="R1" />
+      <alternatives condition="">
+        <alternative>
+          <action id="A2" />
+          <action id="A0" />
+        </alternative>
+      </alternatives>
+    </regle>
+    <regle id="R2">
+      <metadonnees />
+      <evenement_declencheur idEve="E0" type="mouseClicked" idComp="36" />
+      <alternatives condition="">
+        <alternative>
+          <action id="A2" />
+          <action id="A1" />
+        </alternative>
+      </alternatives>
+      <evenement_de_fin idEve="E0" type="mouseClicked" idComp="36" />
+    </regle>
+    <regle id="R3">
+      <metadonnees />
+      <evenement_declencheur type="lancementAssistance" idComp="" />
+      <alternatives condition="C1">
+        <alternative borne_inf="0" borne_sup="1" />
+      </alternatives>
+    </regle>
+  </regles>
+  <actions>
+    <action id="A0" type="mise en valeur">
+      <composant id="36" type="" />
+    </action>
+    <action id="A1" type="pas à pas" typeAuto="automatisé" listeEtapes="S0_76/2">
+      <etapes />
+      <evenement idComp="41" propriete="clic" />
+      <evenement idComp="36" propriete="clic" />
+      <evenement idComp="48" propriete="clic" />
+      <evenement idComp="53" propriete="clic" />
+      <evenement idComp="44" propriete="clic" />
+    </action>
+    <action id="A2" type="animation" agent="DoubleAgent.Control" personnage="Merlin">
+      <sousaction type="deplacement" position_x="0600" position_y="0400" vitesse="" />
+      <sousaction type="parole" vitesse="100">
+        <texte>salut</texte>
+      </sousaction>
+    </action>
+    <action id="A3" type="mise en valeur">
+      <composant id="31" type="agent animé" direction="par la gauche" personnage="Genie" />
+    </action>
+    <action id="A4" type="masquage">
+      <composant id="30" type="occulter" couleur="pere" />
+    </action>
+    <action id="A5" type="message" sous-type="textuel" assistant="agent animé">
+      <textuel>
+        <texte>bonjour à tous! Bienvenue</texte>
+      </textuel>
+    </action>
+    <action id="A6" type="message" sous-type="textuel" assistant="messager">
+      <textuel>
+        <texte>&lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body bgcolor="#6666ff"&gt;
+    k;^ko&lt;/html&gt;</texte>
+        <options titre="Aide">
+          <position type="ecran">
+            <ecran horizontal="centre" vertical="centre" />
+          </position>
+          <taille type="automatique" />
+        </options>
+      </textuel>
+    </action>
+  </actions>
+  <conditions>
+    <condition id="C0" type="consultation">
+      <texte>Veux-tu que je t'aide à saisir la formule ?</texte>
+      <options>
+        <option label="Oui" />
+        <option label="Non" />
+      </options>
+    </condition>
+    <condition id="C1" type="historique" objet="A6" sous-type="nombre de déclenchements" portee="seance" />
+  </conditions>
+  <evenements>
+    <evenement typeEve="action utilisateur" id="E0" type="mouseClicked" idComp="36" />
+  </evenements>
+  <sequences>
+    <sequence id="S0" nom="76/2" type="actions">
+      <evenement idComp="41" propriete="clic" />
+      <evenement idComp="36" propriete="clic" />
+      <evenement idComp="48" propriete="clic" />
+      <evenement idComp="53" propriete="clic" />
+      <evenement idComp="44" propriete="clic" />
+    </sequence>
+  </sequences>
+</description>
+

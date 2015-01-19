@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Interface>
+  <fenetre texte="Accueil" type="frame" id="1" description="" typeAjoute="fenêtre" descriptionAjoutee="la fenetre Accueil">
+    <composant texte="" type="root pane" id="2" description="" typeAjoute="panel" descriptionAjoutee="le panel ">
+      <composant texte="" type="panel" id="3" description="" typeAjoute="panel" descriptionAjoutee="le panel " />
+      <composant texte="" type="layered pane" id="4" description="" typeAjoute="panel" descriptionAjoutee="le panel ">
+        <composant texte="" type="panel" id="5" description="" typeAjoute="panel" descriptionAjoutee="le panel ">
+          <composant texte="Panel" type="panel" id="6" description="" typeAjoute="panel" descriptionAjoutee="le panel Panel" />
+          <composant texte="" type="spinbox" id="7" description="">
+            <composant texte="" type="panel" id="8" description="" typeAjoute="panel" descriptionAjoutee="le panel ">
+              <composant texte="" type="text" id="9" description="" typeAjoute="zone de saisie" descriptionAjoutee="la zone de saisie " />
+            </composant>
+          </composant>
+          <composant texte="Bouton" type="push button" id="10" description="" typeAjoute="bouton" descriptionAjoutee="le bouton Bouton" />
+          <composant texte="" type="slider" id="11" description="" />
+          <composant texte="CheckBox" type="check box" id="12" description="" typeAjoute="case à cocher" descriptionAjoutee="la case à cocher CheckBox" />
+          <composant texte="" type="combo box" id="13" description="" typeAjoute="liste déroulante" descriptionAjoutee="la liste déroulante ">
+            <composant texte="" type="popup menu" id="14" description="" typeAjoute="menu" descriptionAjoutee="le menu ">
+              <composant texte="" type="scroll pane" id="15" description="">
+                <composant texte="" type="viewport" id="16" description="">
+                  <composant texte="" type="list" id="17" description="" typeAjoute="liste">
+                    <composant texte="Item 1" type="label" id="18" description="" typeAjoute="label" />
+                    <composant texte="Item 2" type="label" id="19" description="" typeAjoute="label" />
+                    <composant texte="Item 3" type="label" id="20" description="" typeAjoute="label" />
+                    <composant texte="Item 4" type="label" id="21" description="" typeAjoute="label" />
+                  </composant>
+                </composant>
+                <composant texte="" type="scroll bar" id="22" description="">
+                  <composant texte="" type="push button" id="23" description="" typeAjoute="bouton" descriptionAjoutee="le bouton " />
+                  <composant texte="" type="push button" id="24" description="" typeAjoute="bouton" descriptionAjoutee="le bouton " />
+                </composant>
+              </composant>
+            </composant>
+          </composant>
+          <composant texte="Bouton radio 1" type="radio button" id="25" description="" typeAjoute="bouton radio" descriptionAjoutee="le bouton radio Bouton radio 1" />
+          <composant texte="Bouton radio 2" type="radio button" id="26" description="" typeAjoute="bouton radio" descriptionAjoutee="le bouton radio Bouton radio 2" />
+          <composant texte="" type="scroll pane" id="27" description="">
+            <composant texte="" type="viewport" id="28" description="">
+              <composant texte="" type="list" id="29" description="" typeAjoute="liste">
+                <composant texte="Item 1" type="label" id="30" description="" typeAjoute="label" />
+                <composant texte="Item 2" type="label" id="31" description="" typeAjoute="label" />
+                <composant texte="Item 3" type="label" id="32" description="" typeAjoute="label" />
+                <composant texte="Item 4" type="label" id="33" description="" typeAjoute="label" />
+                <composant texte="Item 5" type="label" id="34" description="" typeAjoute="label" />
+              </composant>
+            </composant>
+            <composant texte="" type="scroll bar" id="35" description="">
+              <composant texte="" type="push button" id="36" description="" typeAjoute="bouton" descriptionAjoutee="le bouton " />
+              <composant texte="" type="push button" id="37" description="" typeAjoute="bouton" descriptionAjoutee="le bouton " />
+            </composant>
+            <composant texte="" type="scroll bar" id="38" description="">
+              <composant texte="" type="push button" id="39" description="" typeAjoute="bouton" descriptionAjoutee="le bouton " />
+              <composant texte="" type="push button" id="40" description="" typeAjoute="bouton" descriptionAjoutee="le bouton " />
+            </composant>
+          </composant>
+          <composant texte="" type="scroll pane" id="41" description="">
+            <composant texte="" type="viewport" id="42" description="">
+              <composant texte="" type="text" id="43" description="" typeAjoute="zone de saisie" descriptionAjoutee="la zone de saisie " />
+            </composant>
+            <composant texte="" type="scroll bar" id="44" description="">
+              <composant texte="" type="push button" id="45" description="" typeAjoute="bouton" descriptionAjoutee="le bouton " />
+              <composant texte="" type="push button" id="46" description="" typeAjoute="bouton" descriptionAjoutee="le bouton " />
+            </composant>
+            <composant texte="" type="scroll bar" id="47" description="">
+              <composant texte="" type="push button" id="48" description="" typeAjoute="bouton" descriptionAjoutee="le bouton " />
+              <composant texte="" type="push button" id="49" description="" typeAjoute="bouton" descriptionAjoutee="le bouton " />
+            </composant>
+          </composant>
+          <composant texte="" type="text" id="50" description="" typeAjoute="zone de saisie" descriptionAjoutee="la zone de saisie " />
+          <composant texte="" type="scroll pane" id="51" description="">
+            <composant texte="" type="viewport" id="52" description="">
+              <composant texte="" type="tree" id="53" description="" typeAjoute="arbre" descriptionAjoutee="l'arbre ">
+                <composant texte="JTree" type="label" id="54" description="" typeAjoute="label">
+                  <composant texte="colors" type="label" id="55" description="" typeAjoute="label">
+                    <composant texte="" type="unknown" id="56" description="" />
+                    <composant texte="" type="unknown" id="57" description="" />
+                    <composant texte="" type="unknown" id="58" description="" />
+                    <composant texte="" type="unknown" id="59" description="" />
+                  </composant>
+                  <composant texte="sports" type="label" id="60" description="" typeAjoute="label">
+                    <composant texte="" type="unknown" id="61" description="" />
+                    <composant texte="" type="unknown" id="62" description="" />
+                    <composant texte="" type="unknown" id="63" description="" />
+                    <composant texte="" type="unknown" id="64" description="" />
+                  </composant>
+                  <composant texte="food" type="label" id="65" description="" typeAjoute="label">
+                    <composant texte="" type="unknown" id="66" description="" />
+                    <composant texte="" type="unknown" id="67" description="" />
+                    <composant texte="" type="unknown" id="68" description="" />
+                    <composant texte="" type="unknown" id="69" description="" />
+                  </composant>
+                </composant>
+              </composant>
+            </composant>
+            <composant texte="" type="scroll bar" id="70" description="">
+              <composant texte="" type="push button" id="71" description="" typeAjoute="bouton" descriptionAjoutee="le bouton " />
+              <composant texte="" type="push button" id="72" description="" typeAjoute="bouton" descriptionAjoutee="le bouton " />
+            </composant>
+            <composant texte="" type="scroll bar" id="73" description="">
+              <composant texte="" type="push button" id="74" description="" typeAjoute="bouton" descriptionAjoutee="le bouton " />
+              <composant texte="" type="push button" id="75" description="" typeAjoute="bouton" descriptionAjoutee="le bouton " />
+            </composant>
+          </composant>
+        </composant>
+      </composant>
+    </composant>
+  </fenetre>
+  <fenetre texte="Saisie" type="frame" id="76" description="" typeAjoute="fenêtre" descriptionAjoutee="la fenetre Saisie">
+    <composant texte="" type="root pane" id="77" description="" typeAjoute="panel" descriptionAjoutee="le panel ">
+      <composant texte="" type="panel" id="78" description="" typeAjoute="panel" descriptionAjoutee="le panel " />
+      <composant texte="" type="layered pane" id="79" description="" typeAjoute="panel" descriptionAjoutee="le panel ">
+        <composant texte="" type="panel" id="80" description="" typeAjoute="panel" descriptionAjoutee="le panel ">
+          <composant texte="" type="combo box" id="82" description="" typeAjoute="liste déroulante" descriptionAjoutee="la liste déroulante ">
+            <composant texte="" type="popup menu" id="83" description="" typeAjoute="menu" descriptionAjoutee="le menu ">
+              <composant texte="" type="scroll pane" id="84" description="">
+                <composant texte="" type="viewport" id="85" description="">
+                  <composant texte="" type="list" id="86" description="" typeAjoute="liste">
+                    <composant texte="Item 1" type="label" id="87" description="" typeAjoute="label" />
+                    <composant texte="Item 2" type="label" id="88" description="" typeAjoute="label" />
+                    <composant texte="Item 3" type="label" id="89" description="" typeAjoute="label" />
+                    <composant texte="Item 4" type="label" id="90" description="" typeAjoute="label" />
+                  </composant>
+                </composant>
+                <composant texte="" type="scroll bar" id="91" description="">
+                  <composant texte="" type="push button" id="92" description="" typeAjoute="bouton" descriptionAjoutee="le bouton " />
+                  <composant texte="" type="push button" id="93" description="" typeAjoute="bouton" descriptionAjoutee="le bouton " />
+                </composant>
+              </composant>
+            </composant>
+          </composant>
+          <composant texte="" type="text" id="98" description="" typeAjoute="zone de saisie" descriptionAjoutee="la zone de saisie " />
+        </composant>
+      </composant>
+    </composant>
+  </fenetre>
+</Interface>
+
